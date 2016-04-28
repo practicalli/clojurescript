@@ -1,0 +1,63 @@
+* Introduction to Clojurescript
+- By: Jon Pither, JUXT
+- Twiiter: @jonpither
+
+
+** Why clojurescript 
+We want to build a rich experience with our apps that give a rewarding user experience
+
+Lots of languages compile to Javascript now, wo why not Clojure 
+
+
+
+
+** The project 
+
+Clojurescript is compiled into `public/index.html`
+
+<div id="container">Where Clojurescript fills in the blanks</div>
+
+in app.cljs
+
+route function 
+
+** dommy 
+wraps the dom so you can play around with it
+
+* Reagent 
+- Malcom Sparks
+
+** Reagent atom
+
+** Reframe 
+An idiom on top of reagent
+- single app state (single map)
+- state flows through your application
+- event dispatch facility is a back channel to update your app state
+
+** Modularity 
+
+* Clojurescript project ideas 
+
+** Clojure Trivia
+Build a game that has a series of cards, each with a question hidden on the reverse side of the question.  
+
+When you click on a card the question is revealed.  Then the audience has a chance to answer the question.
+
+When the card is clicked again, the card shows the answer.
+
+When the card is clicked for a third time the card is marked as answered and the card is shaded.
+
+Additional aspects
+- add a timer to answer the question
+- mark if the card was answered correctly 
+- group cards by topic & show the topic in one column
+- assign values to each card, eg, 50, 100, 200, 500, 1000
+-- the higher the card value the harder the question should be
+- total points earned by a player is recorded and shown
+- add players to the game
+- players take turns answering questions
+-- if a player answers a question correctly they have another turn
+
+*** Example projects to help
+- Parens of the dead - a tile matching game
