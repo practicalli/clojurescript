@@ -2,7 +2,7 @@
 
 ![Chestnut](/images/chestnut.png)
 
-[Chestnut](https://github.com/plexus/chestnut) is a Leiningen template for a Clojure/ClojureScript app based on Om, featuring a great dev setup, and easy deployment.
+[Chestnut](https://github.com/plexus/chestnut) is a Leiningen template for a ClojureScript app based on Om, featuring a great dev setup, and easy deployment.
 
 For smooth development you get instant reloading of Clojure, ClojureScript, and CSS. A browser-connected REPL is also included.
 
