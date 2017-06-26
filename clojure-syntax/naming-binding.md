@@ -13,7 +13,7 @@ You can also use `def` to name functions, however it is more common to use `defn
 
 (def ^:private name data)
 
-> TODO: check if there is anything new around this or other common practices
+> #### Note:: Check if there is anything new around this or other common practices
 
 
 ## Misc - writing a private def macro

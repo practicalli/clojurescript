@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="295.78445mm"
+   height="94.796715mm"
+   viewBox="0 0 295.78445 94.796715"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="react-basics.svg"
+   inkscape:export-filename="/home/jr0cket/projects/practicalli/clojurescript-content/images/react-basics.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="612.66148"
+     inkscape:cy="58.081145"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="8"
+     fit-margin-left="8"
+     fit-margin-right="8"
+     fit-margin-bottom="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1176"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.0271282,-123.69832)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff6600;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4485"
+       width="35.546848"
+       height="54.255714"
+       x="73.499115"
+       y="133.69832" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.61458302px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="91.258385"
+       y="197.843"
+       id="text4489"><tspan
+         sodipodi:role="line"
+         id="tspan4487"
+         x="91.258385"
+         y="197.843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332px">New</tspan><tspan
+         sodipodi:role="line"
+         x="91.258385"
+         y="206.99643"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan6433">Virtual DOM</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4491"
+       width="46.237629"
+       height="27.79603"
+       x="12.027128"
+       y="144.12184" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.61458349px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.22841"
+       y="186.63202"
+       id="text4489-7"><tspan
+         sodipodi:role="line"
+         id="tspan4487-1"
+         x="14.22841"
+         y="186.63202"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.26458332px">New Data</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff6600;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4485-6"
+       width="35.546848"
+       height="54.255714"
+       x="140.48242"
+       y="134.63376" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#800000;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4485-5"
+       width="35.546848"
+       height="54.255714"
+       x="182.71101"
+       y="134.90103" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.61458349px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="179.88724"
+       y="199.19366"
+       id="text4489-5"><tspan
+         sodipodi:role="line"
+         id="tspan4487-0"
+         x="180.86288"
+         y="199.19366"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332px">React compares </tspan><tspan
+         sodipodi:role="line"
+         x="179.88724"
+         y="208.34709"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan5694">Virtual DOM &amp; DOM</tspan></text>
+    <path
+       style="stroke-width:0.14913529"
+       inkscape:connector-curvature="0"
+       d="m 80.579526,158.95625 c -4.336107,-1.19853 -8.68131,-2.33027 -13.020015,-3.50482 -0.0012,0.68315 0,1.36802 -0.0025,2.0546 -6.524946,0.005 -13.051192,0.002 -19.577439,0 -0.0039,0.96738 -0.0013,1.93305 -0.0013,2.90042 6.526246,0.004 13.052493,-0.004 19.580042,0.004 0.0012,0.68145 0,1.3646 0,2.04947 4.339974,-1.17452 8.685173,-2.30969 13.02128,-3.50307 z"
+       id="path4257" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#800000;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4485-5-2"
+       width="35.546848"
+       height="54.255714"
+       x="248.69429"
+       y="134.63376" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.61458349px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="263.23068"
+       y="201.21461"
+       id="text4489-0"><tspan
+         sodipodi:role="line"
+         x="263.23068"
+         y="201.21461"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan6433-8">React Updates</tspan><tspan
+         sodipodi:role="line"
+         x="263.23068"
+         y="210.36804"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan6473">DOM</tspan></text>
+  </g>
+</svg>

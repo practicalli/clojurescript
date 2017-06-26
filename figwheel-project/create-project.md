@@ -1,6 +1,6 @@
 # Create Project
 
-> **TODO** Create a simple ClojureScript project called `hello_figwheel`.
+> #### Note::Create a simple ClojureScript project called `hello_figwheel`.
 
 Create the following directory structure
 

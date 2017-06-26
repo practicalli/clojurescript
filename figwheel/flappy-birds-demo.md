@@ -1,6 +1,6 @@
 # Figwheel Demo
 
-> **TODO** Discover the basic concept of Figwheel by experimenting with the flappy birds demo project
+> #### Note::Discover the basic concept of Figwheel by experimenting with the flappy birds demo project
 
 ![Figwheel Flappy Birds](https://camo.githubusercontent.com/b667870d8c1820794e361866908ae7930acb9c77/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f626861756d616e2d626c6f672d696d616765732f666967776865656c5f696d6167652e706e67)
 
