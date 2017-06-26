@@ -1,5 +1,5 @@
 {
-    "gitbook": ">=2.0.0",
+    "gitbook": ">=3.0.0",
     "title": "Clojurescript Practicalli",
     "styles": {
         "website": "styles/website.css",
@@ -11,17 +11,48 @@
     "plugins": [
         "toggle-chapters",
         "codeblock-disable-glossary",
-        "richquotes",
         "disqus",
-        "exercises",
-        "quizzes"
+        "ga",
+        "toolbar",
+        "callouts",
+        "sectionx"
     ],
     "pluginsConfig": {
-        "richquotes": {
-            "todos": true
+        "callouts": {
+            "showTypeInHeader": false,
+            "star": {
+                "alert": "warning",
+                "picto": "fa-star"
+            }
+        },
+        "sectionx": {
+            "tag": "b"
         },
         "disqus": {
             "shortName": "clojurescript-practicalli"
+        },
+        "ga": {
+            "token": "UA-28030709-10"
+        },
+        "toolbar": {
+            "buttons":
+            [
+                {
+                    "label": "Gitter Chat",
+                    "icon": "fa fa-comments-o",
+                    "url": "https://gitter.im/practicalli/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"
+                },
+                {
+                    "label": "GitHub",
+                    "icon": "fa fa-github",
+                    "url": "https://github.com/practicalli"
+                },
+                {
+                    "label": "Search page title on StackOverflow",
+                    "icon": "fa fa-stack-overflow",
+                    "url": "http://stackoverflow.com/search?q={{title}}"
+                }
+            ]
         }
     }
 }
