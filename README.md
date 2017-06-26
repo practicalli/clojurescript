@@ -1,44 +1,24 @@
 # ClojureScript, Practical.li
 
-![Clojure logo](images/clojure-practicalli-banner.png)
+![Clojure logo](images/clojurescript-react.png)
 
 This workshop is aimed at those new to writing client-side web applications using the ClojureScript programming language, a functional programming language based on Lisp and compiled to JavaScript.
 
 ClojureScript and client side development are covered in a highly practical way, so you can evaluate where ClojureScript is useful in your own projects.
 
-ClojureScript is a relatively new approach to development and whilst it has a great many advantages it also can require more tolerance to change, specifically in the tooling and libraries.  And we all have experienced the frequent change in the JavaScript world itself.
+This workshop guides you through the basics of client-side web development and functional programming in ClojureScript.  Design approaches common to ClojureScript & React will be covered along the way.
 
-  This workshop guides you through the basics of client-side web development and helps you understand the modular approach to using ClojureScript effectively.  Along the way the relevant functions and design approaches common to ClojureScript will be highlighted.
+> **Hint** Please help the development of this workshop by leaving comments on anything that does not work, does not make sense or any ideas and topics that you think are missing.  
 
-> **Hint** This workshop is under heavy development and so please feel free to leave comments on anything that does not work, does not make sense or any ideas and topics that you think are missing.  The contents of this book has been written with markdown and is available via a [Github repository](https://github.com/practicalli/clojurescript-content) and of course pull requests are welcome.
+> The contents of this book has been written with markdown and is available via a [Github repository](https://github.com/practicalli/clojurescript-content) and of course pull requests are welcome.
 
-## Requirements 
-
-  * A working **Java 8** runtime environment (JRE) - test with `java -version` in a command line window
-  * [Leiningen](http://leiningen.org/) version 2.5.3 - test with `lein version` in a command line window
-  * A Clojure aware editor with REPL
-    - [LightTable](http://lighttable.com/)
-    - [Emacs](http://www.gnu.org/software/emacs/) with [Spacemacs](https://github.com/syl20bnr/spacemacs) or [CIDER](https://github.com/clojure-emacs/cider)
-  * A [Git client](http://git-scm.com/)
-
+## Requirements
 
   See the [setup](/setup/) section for details on how to get your environment ready
 
 ## Code for the workshop
 
-> **Fixme** The code for this workshop has not yet been made public, sorry.
-
-The code for this workshop is contained in the Github repository [ClojureScript example](https://github.com/practicalli/clojure-webapps-example), the code for each section is in a specific branch.
-
-To get a copy of the repository, use the following git clone command which creates a new directory called clojure-webapps-example that contains the cloned code. 
-
-`git clone https://github.com/practicalli/clojurescript-example.git`
-
-Once you have the repository, use `git checkout branch-name` to get the code for each section.  Each branch is a working application with all the features covered in that section
-
-Use `git branch` to show all the branches available, they should match the names of the sections in this workshop.
-
-Enjoy.
+> **Fixme** The code for this workshop has not been made public yet , sorry.
 
 ## Additional Resources
 
@@ -82,8 +62,8 @@ Enjoy.
 
 **Books & Tutorials**
 * [ClojureScript Unraveled](http://funcool.github.io/clojurescript-unraveled/)
+* [Introduction to ClojureScript](https://e-string.com/articles/introduction-clojurescript-open-source-bridge-talk/)
 * [Clojure cookbook](https://github.com/clojure-cookbook/clojure-cookbook)
-* [Living Clojure]()
 * [Lighttable Koans](https://github.com/practicalli/lighttable-koans) - exercises to help you discover Clojure 
 * [ClojureBridge curiculum](https://github.com/ClojureBridge/curriculum)
 * [Clojure for the brave and the true](http://www.braveclojure.com/) - a Clojure tutorial (using Emacs)
