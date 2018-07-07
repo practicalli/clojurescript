@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="292.7789mm"
+   height="142.68483mm"
+   viewBox="0 0 292.7789 142.68483"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="clojurescript-platforms.svg"
+   inkscape:export-filename="/home/jr0cket/projects/practicalli/clojurescript-content/images/clojurescript-platforms.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="509.21151"
+     inkscape:cy="-151.88794"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1720"
+     inkscape:window-height="1388"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     fit-margin-top="8"
+     fit-margin-left="8"
+     fit-margin-right="8"
+     fit-margin-bottom="8" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.0672512,-106.21696)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:8;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8067"
+       width="79.752975"
+       height="44.979168"
+       x="18.067251"
+       y="191.92262"
+       ry="14.363095" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="56.167557"
+       y="207.4131"
+       id="text8071"><tspan
+         sodipodi:role="line"
+         id="tspan8069"
+         x="56.167557"
+         y="207.4131"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.28888893px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px">Nashorn</tspan><tspan
+         sodipodi:role="line"
+         x="56.167557"
+         y="217.99643"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8143">JVM JavaScript</tspan><tspan
+         sodipodi:role="line"
+         x="56.167557"
+         y="228.57977"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8147">Engine</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#008000;stroke-width:8;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8067-3"
+       width="79.752975"
+       height="44.979168"
+       x="113.12827"
+       y="191.92262"
+       ry="14.363095" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="151.22871"
+       y="207.4131"
+       id="text8071-6"><tspan
+         sodipodi:role="line"
+         x="151.22871"
+         y="207.4131"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.28888893px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8073-5">Nodejs</tspan><tspan
+         sodipodi:role="line"
+         x="151.22871"
+         y="217.99643"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8123">V8 JavaScript</tspan><tspan
+         sodipodi:role="line"
+         x="151.22871"
+         y="228.57977"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8125">Engine</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#00ccff;stroke-width:8;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8067-35"
+       width="79.752975"
+       height="44.979168"
+       x="207.09319"
+       y="191.92262"
+       ry="14.363095" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="245.72264"
+       y="206.98412"
+       id="text8071-62"><tspan
+         sodipodi:role="line"
+         x="245.72264"
+         y="206.98412"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.28888893px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8073-1">Browser</tspan><tspan
+         sodipodi:role="line"
+         x="245.72264"
+         y="217.56744"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8115">JavaScript</tspan><tspan
+         sodipodi:role="line"
+         x="245.72264"
+         y="228.15079"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8117">Engine</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8127"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,0,87)"><flowRegion
+         id="flowRegion8129"><rect
+           id="rect8131"
+           width="1997.1428"
+           height="1464.2858"
+           x="-590"
+           y="110.84367" /></flowRegion><flowPara
+         id="flowPara8133"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8135"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,0,87)"><flowRegion
+         id="flowRegion8137"><rect
+           id="rect8139"
+           width="1372.8572"
+           height="1031.4286"
+           x="-340"
+           y="15.129376" /></flowRegion><flowPara
+         id="flowPara8141"></flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#9955ff;stroke-width:8.8362236;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8149"
+       width="197.4063"
+       height="27.792784"
+       x="49.652496"
+       y="118.63507"
+       ry="1.2083796" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="146.33592"
+       y="136.54256"
+       id="text8071-2"><tspan
+         sodipodi:role="line"
+         x="146.33592"
+         y="136.54256"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.28888893px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan8147-9">ClojureScript</tspan></text>
+    <path
+       style="stroke-width:0.14913531"
+       inkscape:connector-curvature="0"
+       d="m 53.971403,184.02075 c 2.917166,-3.42469 5.777626,-6.88581 8.67415,-10.32297 -0.618772,-0.28952 -1.240116,-0.57758 -1.861448,-0.86972 2.750283,-5.917 5.508366,-11.8318 8.265543,-17.74702 -0.875287,-0.41196 -1.751769,-0.81731 -2.628693,-1.22573 -2.75899,5.91438 -5.507102,11.83382 -8.270268,17.7477 -0.618244,-0.28662 -1.237015,-0.57614 -1.857853,-0.86529 -0.767618,4.43009 -1.573114,8.84829 -2.322004,13.28284 z"
+       id="path4257" />
+    <path
+       style="stroke-width:0.14913531"
+       inkscape:connector-curvature="0"
+       d="m 238.95822,185.32813 c -1.08834,-4.36507 -2.2393,-8.70522 -3.3498,-13.06076 -0.59536,0.33502 -1.19124,0.67263 -1.79008,1.00847 -3.21255,-5.6793 -6.41877,-11.36367 -9.62587,-17.04754 -0.84434,0.47216 -1.68375,0.94957 -2.52611,1.42521 3.20536,5.68486 6.42117,11.36382 9.62368,17.05178 -0.5929,0.33593 -1.18826,0.67095 -1.78463,1.00769 3.15663,3.20164 6.28156,6.42719 9.45272,9.6162 z"
+       id="path4257-3" />
+    <path
+       style="stroke-width:0.14913531"
+       inkscape:connector-curvature="0"
+       d="m 146.43594,187.05481 c 1.25666,-4.31962 2.44666,-8.64923 3.67938,-12.97177 -0.68307,-0.0102 -1.3679,-0.0184 -2.05439,-0.0296 0.0826,-6.52442 0.1733,-13.05004 0.26295,-19.57567 -0.96724,-0.017 -1.93286,-0.027 -2.90014,-0.04 -0.0917,6.52561 -0.17131,13.05138 -0.26699,19.57823 -0.6814,-0.008 -1.36447,-0.0183 -2.04928,-0.0275 1.11612,4.35536 2.19283,8.71541 3.32786,13.06716 z"
+       id="path4257-6" />
+  </g>
+</svg>
