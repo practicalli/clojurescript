@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](introduction.md)
 * [ClojureScript Overview](overview/index.md)
     * [Single Page Apps](overview/single-page-apps.md)
     * [Compiling to JavaScript](overview/compiling-to-javascript.md)
