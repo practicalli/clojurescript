@@ -1,6 +1,10 @@
 {
     "gitbook": ">=3.0.0",
-    "title": "Clojurescript Practicalli",
+    "title": "Clojurescript, Practicalli",
+    "description": "Building Immutable data driven web applications",
+    "structure": {
+        "readme": "introduction.md"
+    },
     "styles": {
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",
@@ -9,13 +13,16 @@
         "epub": "styles/epub.css"
     },
     "plugins": [
-        "toggle-chapters",
+        "callouts",
         "codeblock-disable-glossary",
         "disqus",
         "ga",
+        "gist",
+        "klipse",
+        "sectionx",
+        "toggle-chapters",
         "toolbar",
-        "callouts",
-        "sectionx"
+        "youtube"
     ],
     "pluginsConfig": {
         "callouts": {

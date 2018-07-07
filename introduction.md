@@ -2,13 +2,15 @@
 
 ![Clojure logo](images/clojurescript-react.png)
 
+> #### Warning:: Requires major development and will undergo a re-write in the later part of 2018
+
 This workshop is aimed at those new to writing client-side web applications using the ClojureScript programming language, a functional programming language based on Lisp and compiled to JavaScript.
 
 ClojureScript and client side development are covered in a highly practical way, so you can evaluate where ClojureScript is useful in your own projects.
 
 This workshop guides you through the basics of client-side web development and functional programming in ClojureScript.  Design approaches common to ClojureScript & React will be covered along the way.
 
-> **Hint** Please help the development of this workshop by leaving comments on anything that does not work, does not make sense or any ideas and topics that you think are missing.  
+> #### Hint:: Please help the development of this workshop by leaving comments on anything that does not work, does not make sense or any ideas and topics that you think are missing.
 
 > The contents of this book has been written with markdown and is available via a [Github repository](https://github.com/practicalli/clojurescript-content) and of course pull requests are welcome.
 
@@ -16,17 +18,13 @@ This workshop guides you through the basics of client-side web development and f
 
   See the [setup](/setup/) section for details on how to get your environment ready
 
-## Code for the workshop
-
-> **Fixme** The code for this workshop has not been made public yet , sorry.
-
 ## Additional Resources
 
 **Workshop**
 * [ClojureScript Unraveled](http://funcool.github.io/clojurescript-unraveled/)
 * [The case for React.js & ClojureScript](http://www.slideshare.net/murilasso/the-case-for-reactjs-and-clojurescript)
 * [Getting started with Clojure](http://jr0cket.co.uk/slides/getting-started-with-clojure.html) - a general guide to Clojure (work in progress)
-* [Clojure through code](https://github.com/practicalli/clojure-through-code/tree/drafts) - many examples of basic Clojure code 
+* [Clojure through code](https://github.com/practicalli/clojure-through-code/tree/drafts) - many examples of basic Clojure code
 
 
 **Clojure**
@@ -50,7 +48,7 @@ This workshop guides you through the basics of client-side web development and f
 
 
 **Community**
-* [Clojure-docs](http://clojure-doc.org/) - community docs 
+* [Clojure-docs](http://clojure-doc.org/) - community docs
 * [CrossCLJ](http://crossclj.info/) - cross-referencing the Clojure ecosystem
 * [4Clojure](https://www.4clojure.com/) exercises & [4Clojure Google group](https://groups.google.com/forum/#!forum/4clojure)
 * [London Clojurians](http://londonclojurians.org) and their [Google group](https://groups.google.com/forum/#!forum/london-clojurians)
@@ -64,7 +62,7 @@ This workshop guides you through the basics of client-side web development and f
 * [ClojureScript Unraveled](http://funcool.github.io/clojurescript-unraveled/)
 * [Introduction to ClojureScript](https://e-string.com/articles/introduction-clojurescript-open-source-bridge-talk/)
 * [Clojure cookbook](https://github.com/clojure-cookbook/clojure-cookbook)
-* [Lighttable Koans](https://github.com/practicalli/lighttable-koans) - exercises to help you discover Clojure 
+* [Lighttable Koans](https://github.com/practicalli/lighttable-koans) - exercises to help you discover Clojure
 * [ClojureBridge curiculum](https://github.com/ClojureBridge/curriculum)
 * [Clojure for the brave and the true](http://www.braveclojure.com/) - a Clojure tutorial (using Emacs)
 * [Modern Clojurescript](https://github.com/magomimmo/modern-cljs) - 2nd edition moving to boot for build management (wip)
