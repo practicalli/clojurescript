@@ -11,7 +11,7 @@ This has been achieved by porting the JVM-based code in the ClojureScript compil
 > Install Lumo 1.2.0 on Homebrew master with `brew install --HEAD lumo`
 
 
-## Optomised builds with Google Clojure compiler
+## Optimized builds with Google Clojure compiler
 
 Using `google-closure-compiler-js` the generated JavaScript can be minified and highly optimised via dead-code elimination, ensuring only the code you actually use is included in the final javascript file.
 
