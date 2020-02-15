@@ -1,11 +1,20 @@
+# CSS
+## SVG
+### z-index experiements
+https://codepen.io/GarySiu/pen/YBqxjL
+## Flexbox layout
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/
 
 
 
+
+# Github
 ## Github code for the workshop
 
 The code for this workshop is contained in the Github repository [ClojureScript example](https://github.com/practicalli/clojure-webapps-example), the code for each section is in a specific branch.
 
-To get a copy of the repository, use the following git clone command which creates a new directory called clojure-webapps-example that contains the cloned code. 
+To get a copy of the repository, use the following git clone command which creates a new directory called clojure-webapps-example that contains the cloned code.
 
 `git clone https://github.com/practicalli/clojurescript-example.git`
 
