@@ -1,12 +1,22 @@
 # Re-frame
 
-[re-frame](https://github.com/Day8/re-frame) is a pattern for writing [SPAs] in ClojureScript, using [Reagent].
+[re-frame](https://github.com/Day8/re-frame) is an application framework for creating more complex single page applications [SPAs] in ClojureScript, using [Reagent]() and [hiccup] style description for generating content.
 
-This repo contains both a **description of this pattern** and a **reference implementation**.
+![ClojureScript re-frame stack conceptual view](/images/clojurescript-reframe-stack-concept.png)
 
-To quote McCoy: "It's MVC, Jim, but not as we know it".
+[![PurelyFunctional.tv Reframe Stack Overview](/images/purelyfunctional-tv-reframe-overview.png)](https://purelyfunctional.tv/lesson/re-frame-overview/)
 
-re-frame does have M, V, and C parts but they aren't objects, they are pure functions (or pure data), and they are wired together via reactive data flows. It is sufficiently different in nature from traditional MVC that calling it MVC would be confusing
+
+## Why use re-frame?
+
+1.  You are developing [Single Page Applications (SPA)] in ClojureScript, and you are looking for a framework and guidelines on how to organise the parts of that application effectively.
+
+2.  `reactive programming`, `functional programming` and `immutable data` is the right approach for your application.
+
+
+## Functional Model View Controller design
+
+re-frame has Model, View, and Components in its design, created with pure functions (or pure data).  An application is wired together via reactive data flows.
 
 To build a re-frame app, you:
  - design your app's data structure (data layer)
@@ -15,16 +25,7 @@ To build a re-frame app, you:
  - write and register event handler functions  (control layer and/or state transition layer)
 
 
-## Why Should You Care About re-frame?
 
-Either:
-
-1.  You want to develop an [SPA] in ClojureScript, and you are looking for a framework; or
-2.  You believe that, by early 2015, ReactJS had won the JavaScript framework wars and
-    you are curious about the bigger implications. Is the combination of
-    `reactive programming`, `functional programming` and `immutable data` going to
-    **completely change everything**?  And, if so, what would that look like in a language
-    that embraces those paradigms?
 
 ## Tutorials
 
@@ -52,4 +53,3 @@ Either:
    It also has a charming xkcd reference (soon)
    and a hilarious, insiders-joke T-shirt, ideal for conferences (in design).
    What could possibly go wrong?
-
