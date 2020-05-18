@@ -1,6 +1,7 @@
-# ClojureScript, Practical.li
+# Practicalli ClojureScript
 
-![Clojure logo](images/clojurescript-react.png)
+![Practicalli ClojureScript](/images/practicalli-clojurescript-book-banner.png)
+<!-- ![Clojure logo](images/clojurescript-react.png) -->
 
 > #### Warning:: Requires major update
 > Requires a major update to catch up with changes in Clojure and ClojureScript, especially around shadown-cljs which is not yet covered.
