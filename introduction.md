@@ -2,8 +2,10 @@
 
 ![Clojure logo](images/clojurescript-react.png)
 
-> #### Warning:: Requires major development and will undergo a re-write in the later part of 2018
-> See how to build a [TicTacToe game with ClojureScript, Reagent and Scalable Vector Graphics (SVG)](/reagent-projects/tic-tac-toe/index.html)
+> #### Warning:: Requires major update
+> Requires a major update to catch up with changes in Clojure and ClojureScript, especially around shadown-cljs which is not yet covered.
+>
+> An example that is still relevant is the [TicTacToe game with ClojureScript, Reagent and Scalable Vector Graphics (SVG)](/reagent-projects/tic-tac-toe/index.html)
 
 This workshop is aimed at those new to writing client-side web applications using the ClojureScript programming language, a functional programming language based on Lisp and compiled to JavaScript.
 
