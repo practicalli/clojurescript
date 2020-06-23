@@ -21,7 +21,7 @@ While the full variety of FRP material is much larger than I cite here, these ma
 
 ---
 
-## [Conal Elliott on FRP](http://www.haskellcast.com/episode/009-conal-elliott-on-frp-and-denotational-design/) Audio Interview
+## [Conal Elliott on FRP](http://www.haskellcast.com/episode/009-conal-elliott-on-frp-and-denotational-design) Audio Interview
 
 If you're looking for an explanation of the Functional Reactive Programming from the man who invented it, along with an idea of the intriguing process he used to invent it, this HaskellCast episode is for you.
 
@@ -51,6 +51,6 @@ The main breakthrough of this paper is to model the notion of a future value for
 
 ## [Elm Thesis](https://www.seas.harvard.edu/sites/default/files/files/archived/Czaplicki.pdf) - PDF
 
-Elm is a different take on FRP (and it is potentially not FRP, according to some). Instead of behaviors (functions of time to a value), Elm uses discreet signals which are transformed to other signals using functional map-like operations. It also solves a real issue with computationally expensive operations blocking the propagation of signals by making some signals asynchronous.
+Elm is a different take on FRP (and it is potentially not FRP, according to some). Instead of behaviors (functions of time to a value), Elm uses discreet signals which are transformed to other signals using functional map-like operations. Elm solves computationally expensive operations blocking the propagation of signals by making some signals asynchronous.
 
-All-in-all, the thesis is a pleasure to read. It is very clear and a decent introduction to the myriad implementations of FRP out there. See the bibliography.
+* [Elm: Concurrent FRP for Functional GUIs](https://elm-lang.org/assets/papers/concurrent-frp.pdf)
