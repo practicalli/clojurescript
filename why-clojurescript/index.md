@@ -1,6 +1,6 @@
 # Why ClojureScript
 
-Clojurescript is a well designed, general purpose programming language that generates highly optomised Javascript output.
+Clojurescript is a well designed, general purpose programming language that generates highly optimised Javascript output.
 
 The Clojurescript syntax is small and simple to learn, although becoming used to thinking functionally will take a little more effort.  Functional programming will make your applications simpler to understand and therefore easier to maintain and extend.
 
