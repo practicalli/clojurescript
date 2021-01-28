@@ -3,7 +3,7 @@
 ## What is Om
 
 * V in MVC
-* Imediate mode rendering
+* Immediate mode rendering
 * Components
 
 ## Updating the DOM

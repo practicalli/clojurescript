@@ -1,10 +1,10 @@
 # Basic Syntax
 
-Clojure has a really small syntax, probably the smallest readable syntax ever create.  The core primatives that make up the language are:
+Clojure has a really small syntax, probably the smallest readable syntax ever create.  The core primitives that make up the language are:
 
-![Clojure primatives](/images/clojure-primatives-common.png)
+![Clojure primitives](/images/clojure-primitives-common.png)
 
-There are a few primatives added for host language interop too.  Everything else is either a function or occasionally a [macro](http://clojure.org/reference/macros).
+There are a few primitives added for host language interop too.  Everything else is either a function or occasionally a [macro](http://clojure.org/reference/macros).
 
 
 # Clojure syntax - brackets everywhere
