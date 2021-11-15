@@ -5,7 +5,7 @@ The ClojureScript compiler supports incremental compilation. It's
 convenient to have the ClojureScript compiler watch a directory
 and recompile as needed. Let's make a new helper script `watch.clj`:
 
-```clj
+```clojure
 (require 'cljs.build.api)
 
 (cljs.build.api/watch "src"

@@ -14,7 +14,7 @@ Lets quickly explore the key parts of this project
 
 > Open the `om-clojurex/project.clj` file to review the dependencies already added to the project.
 
-```clj
+```clojure
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.89" :scope "provided"]
                  [com.cognitect/transit-clj "0.8.285"]
@@ -42,7 +42,7 @@ Lets quickly explore the key parts of this project
 
 The Om libraries are included in the namespace with `:require`, giving the libraries aliases.
 
-```clj
+```clojure
 (ns om-clojurex.core
   (:require [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]))
@@ -58,13 +58,13 @@ The Om libraries are included in the namespace with `:require`, giving the libra
 
 * Enable printing of messages to the browsers javascript console log
 
-```clj
+```clojure
 (enable-console-print!)
 ```
 
 * Define the application state (the model) for the application.  This is a map (hash map with key value pairs) that contains a single key called `:text` and a string as its value.
 
-```clj
+```clojure
 (defonce app-state (atom {:text "Hello Chestnut!"}))
 ```
 
@@ -74,7 +74,7 @@ The Om libraries are included in the namespace with `:require`, giving the libra
 
 * Define a component that returns a div element, containing an h1 element which contains a string taken from the `:text` part of the application state.
 
-```clj
+```clojure
 (defn root-component [app owner]
   (reify
     om/IRender
@@ -85,7 +85,7 @@ The Om libraries are included in the namespace with `:require`, giving the libra
 
 * Define the root of the Clojurescript project and define where it will be included in the main html page.  The root contains one component, to which is passed the app-state
 
-```clj
+```clojure
 (om/root
  root-component
  app-state
@@ -103,7 +103,7 @@ The Om libraries are included in the namespace with `:require`, giving the libra
 
 * In the body of the HTML file is a `div` tag which defines where the generated Javascript code is to be included on the page.
 
-```clj
+```clojure
   <body>
     <div id="app"></div>
     <script src="js/compiled/om_clojurex.js" type="text/javascript"></script>

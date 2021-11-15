@@ -14,7 +14,7 @@ Whenever data changes, the built component will be rerendered. So if you call om
 
 <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
-```clj
+```clojure
 (defn session-details [session owner]
   (reify
     om/IRender

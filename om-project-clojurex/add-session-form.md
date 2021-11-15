@@ -6,7 +6,7 @@
 
 <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
-```clj
+```clojure
 (defn session-add [session component]
   (reify
     om/IRender

@@ -4,7 +4,7 @@ Now we can display multiple sessions, lets define some more sessions so we have 
 
 Here is the full set of sample session data, with each session 
 
-```clj
+```clojure
 (def john {:title "My Spacemacs Obsession"
            :description "Feel the power of Emacs, without the RSI"
            :speaker-name "John Stevenson"

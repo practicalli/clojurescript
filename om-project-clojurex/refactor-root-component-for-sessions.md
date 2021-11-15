@@ -15,7 +15,7 @@ There are now multiple sessions in the data model, so lets refactor  that holds 
 After the h1 for conference name, add a `div` element.  Inside this `div` the `for` function is used to iterate over the vector of sessions.  Each session creates a `h1` for `:title` and `p` for `:description` and `:twitter-handle`
 
 
-```clj
+```clojure
 (defn root-component [app owner]
   (reify
     om/IRender

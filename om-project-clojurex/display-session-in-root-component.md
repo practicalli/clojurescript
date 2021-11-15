@@ -2,7 +2,7 @@
 
 The `root-component` currently displays the title from the `app-state` via the `render` function.
 
-```clj
+```clojure
 (defn root-component [app owner]
   (reify
     om/IRender
@@ -20,7 +20,7 @@ We have a data model for our sessions and sample data, so lets add some of that 
 
 Add a `div` element inside the first `div`, after the `h1` element.  In the new `div` add a paragraph element that will display the string extracted via `:session` `:title` from the app-state
 
-```clj
+```clojure
 (defn root-component [app owner]
   (reify
     om/IRender
@@ -32,12 +32,12 @@ Add a `div` element inside the first `div`, after the `h1` element.  In the new 
 
 Saving the file with the code above show no additional information on the web page.  So now add a session to the state using the `swap!` function
 
-```clj
+```clojure
 (swap! app-state assoc :session {:title "Opening Keynote"})
 ```
 Or using the `john` name we bound to our session previously, adding the full session information to the app-state
 
-```clj
+```clojure
 (swap! app-state assoc :session john)
 ```
 

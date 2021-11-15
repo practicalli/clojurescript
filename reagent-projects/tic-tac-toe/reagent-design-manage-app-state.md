@@ -30,7 +30,7 @@ We are using `defonce` rather than def to stop the value of the atom being reloa
 
 Using `def` instead, then every time we saved our code our app-state would be reset back to the initial values.
 
-```cljs
+```clojure
 (defonce app-state (atom {:text "Hello world!"}))
 ```
 

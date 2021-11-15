@@ -12,13 +12,13 @@ To make our conference name standout, we are going to add a style.  In Bootstrap
 
 The `jumbotron` style can be added to the `h1` element that displays the conference name:
 
-```clj
+```clojure
 (dom/h1 #js {:className "jumbotron"} (:conference-name app))
 ```
 
 If the heading is going to contain more than one dom element, then you would introduce a new `div` element with the `jumbotron` style.  This new `div` element would contain the `h1` element and any others for the heading.
 
-```clj
+```clojure
 (dom/div #js {:className "jumbotron"}
   (dom/h1 (:conference-name app)))
 ```

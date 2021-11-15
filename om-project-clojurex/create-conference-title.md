@@ -2,7 +2,7 @@
 
 Our project already has application state, bound to the name `app-state`.
 
-```clj
+```clojure
 (defonce app-state (atom {:text "Hello Chestnut"}))
 ```
 
@@ -15,7 +15,7 @@ Our project already has application state, bound to the name `app-state`.
 
 <!--sec data-title="Reveal answer..." data-id="answer00" data-collapse=true ces-->
 
-```clj
+```clojure
 (defonce app-state (atom {:conference-name "ClojureX"}))
 ```
 

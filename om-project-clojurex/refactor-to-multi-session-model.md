@@ -11,13 +11,13 @@ A parent map is added to the model with a key called `:sessions` pointing to a v
 
 Modelling an empty collection of sessions
 
-```clj
+```clojure
 {:sessions []}
 ```
 
 Modelling a collection with one session
 
-```clj
+```clojure
 {:sessions [{:title "Opening Keynote"
              :description "Something very inspirational"
              :speaker-name "John Stevenson"
@@ -29,7 +29,7 @@ Modelling a collection with one session
 
 Refactor the example session to give it a name
 
-```clj
+```clojure
 (def john {:title "Opening Keynote"
            :description "Something very inspirational"
            :speaker-name "John Stevenson"
@@ -41,7 +41,7 @@ Refactor the example session to give it a name
 
 Now use that name inside the collection of sessions to make the example data easier to work with
 
-```clj
+```clojure
 {:sessions [john]}
 ```
 

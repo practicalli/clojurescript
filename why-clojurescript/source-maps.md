@@ -16,8 +16,8 @@ ClojureScript now supports HTML source maps so that you can debug ClojureScript 
 
 If you are building using leiningen, the Clojurescript build section in `project.clj` would look like:
 
-```
- :cljsbuild { 
+```clojure
+ :cljsbuild {
     :builds [{:id "main"
               :source-paths ["src"]
               :compiler {

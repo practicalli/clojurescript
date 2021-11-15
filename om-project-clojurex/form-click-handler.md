@@ -11,7 +11,7 @@ Our form doesn’t do anything, but because we know about cursors, we can now ad
 
 <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
-```clj
+```clojure
 (defn session-add [cursor component]
   (reify
     om/IRender

@@ -12,7 +12,7 @@ Only one Om render loop is ever allowed on a particular DOM target.  You can of 
 
 `om.core/root` takes the following form:
 
-```clj
+```clojure
 (defn root
   ([f value options] ...))
 ```
@@ -36,7 +36,7 @@ the root cursor.
 * :instrument a function of three arguments that if provided will intercept all calls to om.core/build. The function arguments correspond exactly to the three argument arity of om.core/build
 
 
-```clj
+```clojure
 (om.core/root
   (fn [app-state owner]
     (reify

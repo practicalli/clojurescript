@@ -15,7 +15,7 @@ Quickly experiment with your app by entering Clojurescript code into the repl.
 
 > Enter the following lines of code in the REPL:
 
-```
+```clojure
 (in-ns conference-reagent.core)
 
 (swap! app-state assoc :text "I feel the power of the REPL")
@@ -42,7 +42,7 @@ Make more permanent changes by editing the file and saving the changes.
 2. Open `src/cljs/conference-reagent/core.cljs`, and change `dom/h1` to `dom/h2`. As soon as you save the file, your browser is updated.
 
 3. Open `src/cljs/conference-reagent/core.cljs` and add the following code:
-```
+```clojure
 (swap! app-state assoc :text "Updates from the Editor")
 ```
 Evaluate this line of code and again to see how the browser updates.

@@ -3,7 +3,7 @@
 
 Create a new file called `src/hello_world/core.cljs` and add the following code:
 
-```clj
+```clojure
 (ns hello-world.core)
 
 (enable-console-print!)

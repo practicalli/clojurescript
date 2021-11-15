@@ -22,7 +22,7 @@ A conference has the following pieces of information
 
 A map can be used to model a single schedule as follows:
 
-```clj
+```clojure
 {:title "Opening Keynote"
  :description "Something very inspirational"
  :speaker-name "John Stevenson"

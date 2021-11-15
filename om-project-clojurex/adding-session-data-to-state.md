@@ -11,7 +11,7 @@ Use the sessions defined for `john`, `kris` and `bug` and add them to the state.
 
 <!--sec data-title="Reveal answer..." data-id="answer00" data-collapse=true ces-->
 
-```clj
+```clojure
 (swap! app-state update :sessions conj john)
 
 (swap! app-state update :sessions conj kris)

@@ -6,7 +6,7 @@ First install Node.js. For instructions on installing Node.js, see the
 the current stable versions of Node.js (>= `0.12.X`) are supported at
 this time. Your `src/hello_world/core.cljs` should look like the following:
 
-```clj
+```clojure
 (ns hello-world.core
   (:require [cljs.nodejs :as nodejs]))
 
@@ -20,7 +20,7 @@ this time. Your `src/hello_world/core.cljs` should look like the following:
 
 Make a build helper file called `node.clj`:
 
-```clj
+```clojure
 (require 'cljs.build.api)
 
 (cljs.build.api/build "src"
@@ -62,7 +62,7 @@ Running a Node.js REPL is much simpler than running a browser
 REPL. Create a helper build file called `node_repl.clj` that looks
 like the following:
 
-```clj
+```clojure
 (require 'cljs.repl)
 (require 'cljs.build.api)
 (require 'cljs.repl.node)

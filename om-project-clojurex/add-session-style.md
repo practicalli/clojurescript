@@ -9,7 +9,7 @@ To make it easier to read the individual sessions, add a style called [panel](ht
 <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
 
-```clj
+```clojure
 (defn root-component [app owner]
   (reify
     om/IRender

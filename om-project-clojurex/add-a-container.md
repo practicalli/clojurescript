@@ -10,14 +10,14 @@ You may have noticed that the text on the web page is right up against the left 
 
 Add the container style to the top-most `div` element as follows:
 
-```clj
+```clojure
 (dom/div #js {:className "container"} 
   ,,,)
 ```
 
 The most suitable div is the first one in the `render` function call of the `root-component` function.  This `div` effectively wraps the whole page.
 
-```clj
+```clojure
 (defn root-component [app owner]
   (reify
     om/IRender

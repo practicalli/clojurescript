@@ -5,7 +5,7 @@ As ClojureScript is a Clojure library, a simple build tool can be easily scripte
 
 Create a file called `build.clj` in the `cljs_compiler` directory and add the following Clojure code:
 
-```clj
+```clojure
 (require 'cljs.build.api)
 
 (cljs.build.api/build "src" {:output-to "out/main.js"})

@@ -3,7 +3,7 @@
 Using javascript interop you can display alert messages
 
 
-```cljs
+```clojure
 (js/alert "Alert message")
 ```
 

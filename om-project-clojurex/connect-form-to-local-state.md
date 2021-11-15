@@ -8,7 +8,7 @@
 
 <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
-```clj
+```clojure
 (defn session-add [cursor component]
   (reify
     om/IInitState

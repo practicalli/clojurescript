@@ -15,7 +15,7 @@ Open the `conference-reagent/project.clj` file to review the dependencies alread
 
 The only difference in dependencies is `[reagent "0.6.0-rc"]` instead of `omcljs/om`.
 
-```clj
+```clojure
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.89" :scope "provided"]
                  [com.cognitect/transit-clj "0.8.285"]

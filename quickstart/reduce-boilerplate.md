@@ -4,7 +4,7 @@
 The previous section explained some important fundamental concepts around the Google Closure Library. However it also involved a
 substantial amount of boilerplate. We can eliminate this boilerplate by specifying a `:main` entry point in the options that we pass to `cljs.build.api/build`. Let's do that now:
 
-```clj
+```clojure
 (require 'cljs.build.api)
 
 (cljs.build.api/build "src"

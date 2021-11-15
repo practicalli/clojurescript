@@ -12,7 +12,7 @@ I have taken examples from a number of sources to give you a basic introduction 
 ClojureScript defines special js namespace to allow accessing JavaScript types/functions/methods/objects defined in global scope (i.e. window object for browser).
 
 
-```cljs
+```clojure
 (def text js/globalName) ;; JS output: namespace.text = globalName;
 ```
 

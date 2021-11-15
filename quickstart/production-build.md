@@ -10,7 +10,7 @@ clients are minification and dead code elimination.
 Let's make a new helper build script `release.clj`, it should
 look like the following:
 
-```clj
+```clojure
 (require 'cljs.build.api)
 
 (cljs.build.api/build "src"
@@ -27,7 +27,7 @@ that isn't shutdown - we know we're done we can just exit.
 
 Let's remove the dev time REPL bits from `src/hello_world/core.cljs`:
 
-```clj
+```clojure
 (ns hello-world.core)
 
 (enable-console-print!)
@@ -37,7 +37,7 @@ Let's remove the dev time REPL bits from `src/hello_world/core.cljs`:
 
 Let's create a release build:
 
-```clj
+```clojure
 java -cp cljs.jar:src clojure.main release.clj
 ```
 

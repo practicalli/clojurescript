@@ -10,7 +10,7 @@ So the `conference-reagent.core` namespace is defined in a file `src/cljs/confer
 
 As we are using functions from the reagent library, we include that library using the alias `reagent`.  Using `:refer` we replace the clojurescript atom with the reagent atom.
 
-```clj
+```clojure
 (ns conference-reagent.core
   (:require [reagent.core :as reagent :refer [atom]]))
 ```
@@ -19,7 +19,7 @@ As we are using functions from the reagent library, we include that library usin
 
 Show the log and error messages in the browser console.
 
-```clj
+```clojure
 
 (enable-console-print!)
 ```
@@ -32,7 +32,7 @@ The inital `app-state` is a map (hash map) that is an immutable data structure. 
 
 An atom is a mutable container.  As the clojurescript atom has been replaced by the reagent atom, then reagent can track any changes to the contents and decide when to update components based on that change.
 
-```clj
+```clojure
 
 (defonce app-state (atom {:text "Hello Chestnut!"}))
 ```
@@ -43,7 +43,7 @@ The `greeting` function uses a [hiccup](https://github.com/weavejester/hiccup) l
 
 In this example a `h1` heading is generated which contains the value pointed to by the key called `:text` from our `app-state` map.
 
-```clj
+```clojure
 (defn greeting []
   [:h1 (:text @app-state)])
 ```
@@ -56,7 +56,7 @@ The components to render are passed as a vector (array) to the render function, 
 
 The components are rendered to a placeholder in the `resources/public/index.html` file, which contains a div with the class name `app`.
 
-```clj
+```clojure
 (reagent/render [greeting] (js/document.getElementById "app"))
 ```
 

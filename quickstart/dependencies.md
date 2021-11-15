@@ -13,7 +13,7 @@ curl -O https://clojars.org/repo/cljsjs/react/0.12.2-8/react-0.12.2-8.jar
 
 Let's edit our simple program to look like the following so that React is properly required:
 
-```clj
+```clojure
 (ns hello-world.core
   (:require cljsjs.react))
 
