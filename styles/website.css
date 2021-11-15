@@ -1,12 +1,116 @@
-/* @import url(https://fonts.googleapis.com/css?family=Raleway); */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
-/* Use Ubuntu font instead of the default Raleway font */
+/* Use Ubuntu font as default font for all content */
 body {
     font-family: Ubuntu;
-    font-size: 2rem;
+    /* font-size: 1.8rem; */
 }
+
+.book-body h1,.book-body h2,.book-body h3,.book-body h4,.book-body h5,.book-body h6 {
+    font-family : "Ubuntu", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book-body p, .book-body div, .book-body span, .summary, .book-body li, .summary li a  {
+    font-family : "Ubuntu", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-size: 1.8rem; */
+}
+
+/* .book .book-body .page-wrapper .page-inner section.normal code { */
+/* } */
+
+/* Center images and tables */
+img, div, table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Over-ride the wide-page plugin  */
+.book .book-body .page-wrapper .page-inner {
+    max-width: 84%;
+}
+
+
+/* Style code blocks  */
+.markdown-section pre>code {
+    font-family: "Ubuntu Mono", Consolas, Menlo, Courier, monospace;
+    background-color: #fdf6e4;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0.1em 0.1em;
+ }
+
+/* Style pre-formatted section - surrounding code blocks */
+.markdown-section pre {
+    background-color: #fdf6e4;
+}
+
+
+/* Style inline blocks  */
+.markdown-section p>code {
+    font-family: "Ubuntu Mono", Consolas, Menlo, Courier, monospace;
+    /* background-color: #f7f7f7; */
+    /* /\* background-color: #fdf6e4; *\/ */
+    /* color: #702b70;            /\* Spacemacs purple*\/ */
+    /* font-size: 1.1em; */
+    /* margin: 0; */
+    /* padding: 0.1em 0.1em; */
+}
+
+.CodeMirror pre {
+    font-family: "Ubuntu Mono";
+}
+
+
+/* Klipse styles */
+/* ------------- */
+/* Examples: https://github.com/viebel/klipse/blob/master/demos/styling/theme.css */
+
+/* Hide div's that create large grey border
+   on the bottom of each Klipse box */
+
+div.klipse-container {
+    font-size: 0.1em;
+    /* Hiding the container prevents reagent elements displaying */
+    /* display: none; */
+}
+
+div.klipse-separator {
+    display: none;
+}
+
+/* Embedding YouTube videos as IFrames */
+/* The tab block does not allow nested youtube blocks */
+.iframe-container{
+    margin: 0 auto;
+    max-width:100%;
+    width:840px;
+    height:520px;
+}
+@media only screen and (max-width: 992px) {
+    .iframe-container{
+        width: 92%;
+        height:400px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .iframe-container{
+        width: 100%;
+        height:500px;
+    }
+}
+
+
+/* Deprecated styles */
+
+/* Add a border around a code block, but not inline code */
+/* .book .book-body .page-wrapper .page-inner section.normal .highlight pre, .book .book-body .page-wrapper .page-inner section.normal pre { */
+/*     border: 1px solid #7030a0; */
+/*     border-radius: 3px; */
+/*     overflow: auto; */
+/*     padding: 1em; */
+/* } */
 
 /* Show keybindings to look like keys on a keyboard */
 kbd {
@@ -18,54 +122,4 @@ kbd {
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
     color: #000000;
     background-color: #f7f7f7;
-}
-
-/* Over-ride maximum page width - default 800px */
-/*  - if over-ridden then paging arrows can appear over text */
-
-.page-inner {
-    max-width: 1000px;
-}
-
-
-.book-body h1,.book-body h2,.book-body h3,.book-body h4,.book-body h5,.book-body h6 {
-    font-family : "Ubuntu", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.book-body p, .book-body div, .book-body span, .summary, .book-body li, .summary li a  {
-    font-family : "Ubuntu", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 2rem;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal code {
-    font-family: "Ubuntu Mono", Consolas, Menlo, Courier, monospace;
-}
-
-img, div, table {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Code blocks: boarder & increased font size from 85% to 108% */
-.book .book-body .page-wrapper .page-inner section.normal .highlight pre, .book .book-body .page-wrapper .page-inner section.normal pre {
-    background-color: #f7f7f7;
-    border: 5px solid #D9EDF7;
-    border-radius: 3px;
-    font-size: 108%;
-    line-height: 1.45;
-    overflow: auto;
-    padding: 16px;
-}
-
-/* Inline code:
- - highlight colour and background
- - increased font size to 108% */
-.book .book-body .page-wrapper .page-inner section.normal code {
-    background-color: #f7f7f7;
-    color: #ba6ec5;             /* Spacemacs purple*/
-    border-radius: 3px;
-    font-size: 108%;
-    margin: 0;
-    padding: 0.2em 0;
 }
