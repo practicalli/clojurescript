@@ -8,7 +8,6 @@ https://flexboxfroggy.com/
 
 
 
-
 # Github
 ## Github code for the workshop
 
@@ -26,7 +25,6 @@ Enjoy.
 
 
 
-
 ## Deploying to Heroku
 
 This assumes you have a
@@ -34,7 +32,7 @@ This assumes you have a
 [Heroku toolbelt](https://toolbelt.heroku.com/), and have done a
 `heroku login` before.
 
-``` sh
+```bash
 git init
 git add -A
 git commit
@@ -51,19 +49,9 @@ server command to run. Heroku also compiles and runs your code with a
 Leiningen "production" profile, instead of "dev". To locally simulate
 what Heroku does you can do:
 
-``` sh
+```bash
 lein with-profile -dev,+production uberjar && foreman start
 ```
 
 Now your app is running at
 [http://localhost:5000](http://localhost:5000) in production mode.
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
-
-## Chestnut
-
-Created with [Chestnut](http://plexus.github.io/chestnut/) 0.14.0 (66af6f40).
