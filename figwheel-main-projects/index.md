@@ -7,17 +7,18 @@ figwheel-main provides additional tooling for REPL driven development, including
 Use the [`figwheel-main` template](https://github.com/bhauman/figwheel-main-template) to generate a working ClojureScript project with Figwheel-main, optionally including [reagent](https://reagent-project.github.io/) and other react.js style libraries.
 
 
-
 ## Figwheel-main
-Figwheel Main builds your ClojureScript code and automatically loads saved changes as you are coding!
+
+Figwheel Main compiles the project when first run and creates a JavaScript application that is launched in the browser.
+
+On every save of ClojureScript code figwheel-main automatically compiles the changes and injects them into the JavaScript application running in the browser, providing instant feedback as the project developers.
 
 {% youtube %}
 https://youtu.be/j-kj2qwJa_E
 {% endyoutube %}
 
-
-
-> figwheel is the older version of figwheel-main.  The configuration between the two versions is incompatible, however, the ClojureScript code should work when migrated to a figwheel-main project configuration.
+> #### Hint::figwheel and figwheel-main
+> figwheel is the original tool that has been replaced by figwheel-main.  The configuration between the two tools is incompatible, however, the ClojureScript code should work when migrated to a figwheel-main project configuration.
 
 
 ## Figwheel template & options
@@ -36,12 +37,13 @@ Most [Clojure aware editors](https://practicalli.github.io/clojure/clojure-edito
 > Running a ClojureScript project on the command line is a quick way to ensure everything is working before considering running the project via an editor.
 
 
-
-
 ## Reference
 
 * [Interactive programming Flappy Birds in ClojureScript](https://www.youtube.com/watch?v=KZjFVdU8VLI)
 * [Clojure West 2015 - Developing ClojureScript with Figwheel](https://www.youtube.com/watch?v=j-kj2qwJa_E)
 
 
-> **Hint** ClojureScript uses the Google Closure compiler and build tools that require a Java Virtual machine.  However, work is in progress to make ClojureScript self hosting.  See articles such as [ClojureScript Next](http://swannodette.github.io/2015/07/29/clojurescript-17/) and [Bootstrapped ClojureScript FAQ](https://github.com/clojure/clojurescript/wiki/Bootstrapped-ClojureScript-FAQ) for pro's and con's of this approach.
+> #### Hint::Google Closure Compiler
+> ClojureScript uses the Google Closure compiler and build tools that require a Java Virtual machine.  The Google Clojure tools provide highly optimal JavaScript code and eliminates and code not called from the final build.
+>
+> Self-hosted options include Plank and Lumo.  [ClojureScript Next](http://swannodette.github.io/2015/07/29/clojurescript-17/) and [Bootstrapped ClojureScript FAQ](https://github.com/clojure/clojurescript/wiki/Bootstrapped-ClojureScript-FAQ) elaborate on the advantages and challenges for self-hosted ClojureScript.

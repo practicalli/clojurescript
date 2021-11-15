@@ -27,6 +27,7 @@
         "newtabs",
         "prism",
         "sectionx",
+        "simpletabs",
         "-sharing",
         "splitter",
         "terminull-light",
@@ -48,9 +49,6 @@
             "ignore": [
                 "eval-clojure"
             ]
-        },
-        "sectionx": {
-            "tag": "b"
         },
         "disqus": {
             "shortName": "clojurescript-practicalli"
@@ -75,15 +73,16 @@
         }
     },
     "links": {
-    "sidebar": {
-    "Practicalli": "https://practical.li/"
+        "sidebar": {
+            "Practicalli": "https://practical.li/"
         }
     },
     "variables": {
-        "website": "https://practical.li/clojure",
+        "website": "https://practical.li/clojurescript",
         "P9IDeveloperGuides": "https://github.com/practicallli-john/developer-guides/raw/master/",
         "P9IClojureDepsEdn": "https://github.com/practicalli/clojure-deps-edn",
         "P9IClojureDepsEdnInstall": "/clojure-tools/install/community-tools.md",
+        "P9IGraphicDesign": "https://github.com/practicalli/graphic-design",
         "P9IFourClojure": "https://github.com/practicalli/four-clojure",
         "P9IClojureThroughCode": "https://github.com/practicalli/clojure-through-code",
         "P9IIssuesUrl": "https://github.com/practicalli/clojurescript/issues",
