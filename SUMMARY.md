@@ -1,41 +1,33 @@
 # Summary
 
 * [Introduction](introduction.md)
-* [ClojureScript Overview](overview/index.md)
-    * [Single Page Apps](overview/single-page-apps.md)
-    * [Compiling to JavaScript](overview/compiling-to-javascript.md)
-    * [ClojureScript platforms](overview/clojurescript-platforms.md)
-    * [Functional Programming](overview/functional-programming.md)
-    * [Reactive apps](overview/reactive-apps.md)
-        * [Facebook React](overview/react-facebook.md)
-        * [Om and Om Next](overview/react-om-and-om-next.md)
-        * [Reagent](overview/react-reagent.md)
-        * [Re-frame](overview/react-re-frame.md)
-        * [React Native](why-clojurescript/react-native.md)
-    * [Why ClojureScript](why-clojurescript/index.md)
-        * [Community](why-clojurescript/community.md)
-        * [Lightweight](why-clojurescript/lightweight.md)
-        * [Google Closure](why-clojurescript/google-clojure.md)
-        * [Tooling](why-clojurescript/build-tools.md)
-        * [Interactive workflow](why-clojurescript/interactive-workflow.md)
-        * [Source Maps](why-clojurescript/source-maps.md)
-        * [Interoperability](why-clojurescript/interoperability.md)
-        * [Immutability](why-clojurescript/immutability.md)
-        * [Why not JavaScript](why-clojurescript/why-not-javascript.md)
-        * [Who uses ClojureScript](why-clojurescript/who-uses-clojurescript.md)
 
-* [Web Design basics](web-design-basics/index.md)
-    * [Bootstrap](web-design-basics/bootstrap.md)
-        * [Container](web-design-basics/bootstrap-container.md)
-        * [Jumbotron](web-design-basics/bootstrap-jumbotron.md)
-    * [Bootstrap website](web-design-basics/clojurebridge-london-bootstrap-website.md)
+## Getting Started
+* [Install Clojure](install/index.md)
+* [Browser DevTools](install/browser-devtools.md)
+* [ClojureScript Project](figwheel-main-projects/index.md)
+    * [Simple project](figwheel-main-projects/simple.md)
+    * [Reagent project](figwheel-main-projects/reagent.md)
+* [Reagent Overview](reagent/index.md)
+* [Hiccup style syntax](hiccup-style-syntax.md)
+* [Bulma CSS](css/bulma.md)
+* [Deploy ClojureScript](deploy/index.md)
+    * [GitHub Pages](deploy/github-pages.md)
+    * [GitLab Pages](deploy/gitlab-pages.md)
+    <!-- * [Java](install/java.md) -->
+    <!-- * [Leiningen](install/leiningen.md) -->
+    <!-- * [Figwheel](install/figwheel.md) -->
+    <!-- * [Chestnut](install/chestnut.md) -->
+    <!-- * [CIDER](install/cider.md) -->
+## ClojureScript Projects
+
 * [Reagent: ClojureBridge website](web-design-basics/clojurebridge-london-website/index.md)
     * [Create project](web-design-basics/clojurebridge-london-website/create-project.md)
     * [Add Bulma CSS](web-design-basics/clojurebridge-london-website/add-bluma-css.md)
     * [Run the project](web-design-basics/clojurebridge-london-website/run-the-project.md)
     * [Live reloading](web-design-basics/clojurebridge-london-website/live-reloading.md)
     * [Hiccup for HTML](web-design-basics/clojurebridge-london-website/hiccup-for-html.md)
-    * [mount lifecycle management](web-design-basics/clojurebridge-london-website/mount-lifecycle-management.md)
+    * [REPL workflow](web-design-basics/clojurebridge-london-website/repl-workflow.md)
     * [Organising the code](web-design-basics/clojurebridge-london-website/organising-the-code.md)
     * [Add welcome message](web-design-basics/clojurebridge-london-website/add-welcome-message.md)
     * [Add welcome section](web-design-basics/clojurebridge-london-website/add-welcome-section.md)
@@ -88,19 +80,62 @@
         * [Victory function](reagent-projects/tic-tac-toe/detecting-victory-function.md)
 
 
+<!-- ## Full Stack projects -->
+
+
+<!-- ## Isomorphic projects -->
+<!-- ClojureScript on backend and frontend -->
+
+## Reference
+* [ClojureScript Overview](overview/index.md)
+    * [Single Page Apps](overview/single-page-apps.md)
+    * [Compiling to JavaScript](overview/compiling-to-javascript.md)
+    * [ClojureScript platforms](overview/clojurescript-platforms.md)
+    * [Functional Programming](overview/functional-programming.md)
+    * [Reactive apps](overview/reactive-apps.md)
+        * [Facebook React](overview/react-facebook.md)
+        * [Om and Om Next](overview/react-om-and-om-next.md)
+        * [Reagent](overview/react-reagent.md)
+        * [Re-frame](overview/react-re-frame.md)
+        * [React Native](why-clojurescript/react-native.md)
+* [Why ClojureScript](why-clojurescript/index.md)
+    * [Community](why-clojurescript/community.md)
+    * [Lightweight](why-clojurescript/lightweight.md)
+    * [Google Closure](why-clojurescript/google-clojure.md)
+    * [Tooling](why-clojurescript/build-tools.md)
+    * [Interactive workflow](why-clojurescript/interactive-workflow.md)
+    * [Source Maps](why-clojurescript/source-maps.md)
+    * [Interoperability](why-clojurescript/interoperability.md)
+    * [Immutability](why-clojurescript/immutability.md)
+    * [Why not JavaScript](why-clojurescript/why-not-javascript.md)
+    * [Who uses ClojureScript](why-clojurescript/who-uses-clojurescript.md)
+
+* [Self-hosted ClojureScript](self-hosted-clojurescript/index.md)
+    <!-- * [Lumo](install/lumo.md) -->
+    <!-- * [Plank](install/plank.md) -->
+* [JavaScript libraries](javascript-libraries/index.md)
+    <!-- * [Lein-NPM](install/lein-npm.md) -->
+
+
+
+* [Web Design basics](web-design-basics/index.md)
+    * [Bootstrap](web-design-basics/bootstrap.md)
+        <!-- * [Container](web-design-basics/bootstrap-container.md) -->
+        * [Jumbotron](web-design-basics/bootstrap-jumbotron.md)
+    * [Bootstrap website](web-design-basics/clojurebridge-london-bootstrap-website.md)
+
+
+<!-- ## TODO -->
+
+<!-- * [cloud data stores](cloud-datastores/index.md) -->
+<!--     * [Firebase](cloud-datastores/firebase/index.md) -->
+<!--     * [Heroku Postgres](cloud-datastores/heroku-postgres/index.md) -->
+<!--     * [Heroku Redis](cloud-datastores/heroku-postgres/index.md) -->
+<!--     * [Amazon AWS](cloud-datastores/amazon-aws/index.md) -->
+
+
 
 ## Old Material - under review
-
-* [Setup](setup/index.md)
-    * [Java](setup/java.md)
-    * [Leiningen](setup/leiningen.md)
-    * [Browser DevTools](setup/browser-devtools.md)
-    <!-- * [Figwheel](setup/figwheel.md) -->
-    <!-- * [Chestnut](setup/chestnut.md) -->
-    <!-- * [CIDER](setup/cider.md) -->
-    <!-- * [Lumo](setup/lumo.md) -->
-    <!-- * [Plank](setup/plank.md) -->
-    <!-- * [Lein-NPM](setup/lein-npm.md) -->
 
 
 * [Clojurescript Quickstart](quickstart/index.md)

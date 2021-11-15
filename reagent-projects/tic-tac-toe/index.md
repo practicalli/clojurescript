@@ -1,20 +1,16 @@
 # Reagent Projects: Tic-tac-toe game
 
-The classic **tic-tac-toe** game where you have to create a line of three consecutive `X` or `0` marks on the game board before your opponent does.
+A classic **tic-tac-toe** game where you have to create a line of three consecutive `X` or `0` marks on the game board before your computer opponent does.
 
-## Requirements
-
-* Java
-* Leiningen
-* A Clojure aware editor
-
+The game uses ClojureScript, reagent and Scalable Vector Graphics (SVG) for the game.  Bulma CSS framework is used to create a professionally looking web page for the game.
 
 ![tictactoe in ClojureScript - with reagent and Scalable Vector Graphics (SVg)](/images/reagent-tictactoe-game-example.png)
 
 
+
 # Example code
 
-The source code for this project can be found on Github at [jr0cket/tictactoe-reagent](https://github.com/jr0cket/tictactoe-reagent)
+The source code for this project can be found on Github at [practicalli/tictactoe-reagent](https://github.com/practicalli/tictactoe-reagent)
 
 
 ## Credits
