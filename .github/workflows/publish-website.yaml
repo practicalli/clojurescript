@@ -7,21 +7,22 @@ on:
   # Run work flow conditional on linter workflow success
   workflow_run:
     workflows:
-      - "Linter"
+      - "MegaLinter"
     paths-ignore:
       - README.md
       - CHANGELOG.md
       - .gitignore
       - '_book/**'
     branches:
-      - master
+      - main
     types:
       - completed
 
 jobs:
-  build:
-    name: Build Gitbook
+  on-success:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    name: Build Gitbook
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
