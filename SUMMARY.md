@@ -6,7 +6,6 @@
 
 * [Install](install/index.md)
 * [Browser DevTools](install/browser-devtools.md)
-* [Reagent Overview](reagent/index.md)
     <!-- * [Java](install/java.md) -->
     <!-- * [Leiningen](install/leiningen.md) -->
     <!-- * [Figwheel](install/figwheel.md) -->
@@ -51,6 +50,7 @@
 
 ## Reagent Projects
 
+* [Reagent Overview](reagent/index.md)
 * [ClojureBridge website](web-design-basics/clojurebridge-london-website/index.md)
     * [Create project](web-design-basics/clojurebridge-london-website/create-project.md)
     * [Add Bulma CSS](web-design-basics/clojurebridge-london-website/add-bluma-css.md)
@@ -117,6 +117,7 @@
 <!-- ClojureScript on backend and frontend -->
 
 ## Reference
+
 * [ClojureScript Overview](overview/index.md)
     * [Single Page Apps](overview/single-page-apps.md)
     * [Compiling to JavaScript](overview/compiling-to-javascript.md)
@@ -128,25 +129,14 @@
         * [Reagent](overview/react-reagent.md)
         * [Re-frame](overview/react-re-frame.md)
         * [React Native](why-clojurescript/react-native.md)
+
 * [Why ClojureScript](why-clojurescript/index.md)
-    * [Community](why-clojurescript/community.md)
     * [Lightweight](why-clojurescript/lightweight.md)
     * [Google Closure](why-clojurescript/google-clojure.md)
-    * [Tooling](why-clojurescript/build-tools.md)
-    * [Interactive workflow](why-clojurescript/interactive-workflow.md)
     * [Source Maps](why-clojurescript/source-maps.md)
     * [Interoperability](why-clojurescript/interoperability.md)
-    * [Immutability](why-clojurescript/immutability.md)
     * [Why not JavaScript](why-clojurescript/why-not-javascript.md)
     * [Who uses ClojureScript](why-clojurescript/who-uses-clojurescript.md)
-
-* [Self-hosted ClojureScript](self-hosted-clojurescript/index.md)
-    <!-- * [Lumo](install/lumo.md) -->
-    <!-- * [Plank](install/plank.md) -->
-* [JavaScript libraries](javascript-libraries/index.md)
-    <!-- * [Lein-NPM](install/lein-npm.md) -->
-
-
 
 * [Web Design basics](web-design-basics/index.md)
     * [Bootstrap](web-design-basics/bootstrap.md)
@@ -181,11 +171,10 @@
     * [Production Build](quickstart/production-build.md)
     * [Dependencies](quickstart/dependencies.md)
     * [node.js](quickstart/nodejs.md)
-    * [Java Nashorn](quickstart/nashorn.md)
     * [Lumo](quickstart/lumo.md)
         * [Self Hosted Clojurescript](quickstart/self-hosted-clojurescript.md)
 
-* [Figwheel](figwheel/index.md)
+* [Figwheel Classic](figwheel/index.md)
     * [Features](figwheel/features.md)
     * [Flappy Birds demo](figwheel/flappy-birds-demo.md)
     * [Using Figwheel](figwheel/using-figwheel.md)
