@@ -3,28 +3,55 @@
 * [Introduction](introduction.md)
 
 ## Getting Started
-* [Install Clojure](install/index.md)
+
+* [Install](install/index.md)
 * [Browser DevTools](install/browser-devtools.md)
-* [ClojureScript Project](figwheel-main-projects/index.md)
-    * [Simple project](figwheel-main-projects/simple.md)
-    * [Reagent project](figwheel-main-projects/reagent.md)
 * [Reagent Overview](reagent/index.md)
-* [Hiccup style syntax](hiccup-style-syntax.md)
-* [Deploy ClojureScript](deploy/index.md)
-    * [GitHub Pages](deploy/github-pages.md)
-    * [GitLab Pages](deploy/gitlab-pages.md)
     <!-- * [Java](install/java.md) -->
     <!-- * [Leiningen](install/leiningen.md) -->
     <!-- * [Figwheel](install/figwheel.md) -->
     <!-- * [Chestnut](install/chestnut.md) -->
     <!-- * [CIDER](install/cider.md) -->
-## ClojureScript Projects
 
-* [Reagent: ClojureBridge website](web-design-basics/clojurebridge-london-website/index.md)
+## Figwheel
+
+* [Figwheel projects](figwheel-main-projects/index.md)
+    * [Simple project](figwheel-main-projects/simple.md)
+    * [Reagent project](figwheel-main-projects/reagent.md)
+
+* [Figwheel](figwheel-main/index.md)
+    * [Create Projects](figwheel-main/create-project.md)
+    * [Project Configuration](figwheel-main/project-configuration.md)
+    * [Run Figwheel](figwheel-main/check-configuration.md)
+    * [Rebel Rich UI](figwheel-main/rebel.md)
+    * [Build project](figwheel-main/build-project.md)
+    * [Emacs Cider](figwheel-main/run-figwheel-from-cider.md)
+    * [Run tests](figwheel-main/run-tests.md)
+    * [Continuous Tests](figwheel-main/continuous-testing.md)
+    * [Package project](figwheel-main/package-project.md)
+    * [Pages deploy](figwheel-main/pages-deploy.md)
+
+## HTML Content
+
+* [Hiccup syntax](hiccup-style-syntax.md)
+
+<!-- * [Selma](selma.md) -->
 
 ## Styling Web pages
 
 * [Bulma CSS](css/bulma.md)
+<!-- * [Bootstrap](css/bootstrap.md) -->
+<!-- * [Tailwind](css/tailwind.md) -->
+
+## Deployment
+
+<!-- * [Deploy ClojureScript](deploy/index.md) -->
+<!--     * [GitHub Pages](deploy/github-pages.md) -->
+<!--     * [GitLab Pages](deploy/gitlab-pages.md) -->
+
+## Reagent Projects
+
+* [ClojureBridge website](web-design-basics/clojurebridge-london-website/index.md)
     * [Create project](web-design-basics/clojurebridge-london-website/create-project.md)
     * [Add Bulma CSS](web-design-basics/clojurebridge-london-website/add-bluma-css.md)
     * [Run the project](web-design-basics/clojurebridge-london-website/run-the-project.md)
@@ -43,7 +70,7 @@
     * [Navigation bar](web-design-basics/clojurebridge-london-website/add-navigation.md)
     * [Interacting](web-design-basics/clojurebridge-london-website/interacting/index.md)
 
-* [Reagent: tic-tac-toe game](reagent-projects/tic-tac-toe/index.md)
+* [tic-tac-toe game](reagent-projects/tic-tac-toe/index.md)
     * [Create Project](reagent-projects/tic-tac-toe/create-project.md)
         * [Add Project to Git](reagent-projects/tic-tac-toe/add-project-to-git.md)
     * [Start the REPL with Figwheel](reagent-projects/tic-tac-toe/start-the-repl.md)
@@ -215,8 +242,8 @@
         * [Create Sessions Component](reagent-project-clojurex/index.md)
         * [Add Session Form](reagent-project-clojurex/index.md)
 
-    * [Re-frame](re-frame/index.md)
-        * [Re-frame ToDo MVC](re-frame/todo-mvc.md)
+    <!-- * [Re-frame](re-frame/index.md) -->
+    <!--     * [Re-frame ToDo MVC](re-frame/todo-mvc.md) -->
 
     * [Om](om/index.md)
         * [Overview](om/overview.md)
@@ -245,26 +272,10 @@
         * [Add Cursor to Local State](om-project-clojurex/add-cursor-to-local-state.md)
         * [Create Form Component](om-project-clojurex/create-form-component.md)
         * [Testing](om-project-clojurex/testing.md)
-        * [](om-project-clojurex/.md)
-        * [](om-project-clojurex/.md)
-        * [](om-project-clojurex/.md)
     * [Reference](reference/index.md)
         * [Namespaces](create-a-project/namespaces.md)
-        * [Clojars](libraries/clojars.md)
-        * [Related Libraries](related-libraries/index.md)
-        * [Projects with Leiningen](leiningen/index.md)
-            * [Create a project](leiningen/create-a-project.md)
-            * [Run the REPL](leiningen/run-the-repl.md)
-            * [Profiles overview](leiningen/profile.md)
-            * [Adding a dev profile](leiningen/adding-a-dev-profile.md)
-            * [Templates](leiningen/templates.md)
-            * [Plugins](leiningen/plugins.md)
-        * [Development Environments](development-environment/index.md)
-            * [Java](development-environment/java.md)
-            * [Leiningen](development-environment/leiningen.md)
-            * [LightTable](development-environment/lighttable.md)
-            * [Other tools](development-environment/other-tools.md)
-        * [Testing](testing/index.md)
+        <!-- * [Related Libraries](related-libraries/index.md) -->
+        <!-- * [Testing](testing/index.md) -->
         * [Clojure Syntax](clojure-syntax/index.md)
             * [Basic Syntax](clojure-syntax/basic-syntax.md)
             * [Clojure data types](clojure-syntax/data-types.md)
