@@ -10,7 +10,6 @@
     * [Reagent project](figwheel-main-projects/reagent.md)
 * [Reagent Overview](reagent/index.md)
 * [Hiccup style syntax](hiccup-style-syntax.md)
-* [Bulma CSS](css/bulma.md)
 * [Deploy ClojureScript](deploy/index.md)
     * [GitHub Pages](deploy/github-pages.md)
     * [GitLab Pages](deploy/gitlab-pages.md)
@@ -22,6 +21,10 @@
 ## ClojureScript Projects
 
 * [Reagent: ClojureBridge website](web-design-basics/clojurebridge-london-website/index.md)
+
+## Styling Web pages
+
+* [Bulma CSS](css/bulma.md)
     * [Create project](web-design-basics/clojurebridge-london-website/create-project.md)
     * [Add Bulma CSS](web-design-basics/clojurebridge-london-website/add-bluma-css.md)
     * [Run the project](web-design-basics/clojurebridge-london-website/run-the-project.md)
