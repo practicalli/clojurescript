@@ -8,6 +8,8 @@ ClojureScript is specified as a dependency in projects, which contains the langu
 
 Figwheel-main is used to provide a comprehensive tool for building ClojureScript applications and supports REPL driven development and hot-loading of changes in the browser as the code is developed.
 
+[practicalli/clojure-deps-edn](https://github.com/practicalli/clojure-deps-edn) GitHub repository contains the Clojure CLI user level configuration used in this guide and issues and pull requests can also be made there.
+
 | Requirement                                                                                   | Description                                                                                    |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [Java](https://practicalli.github.io/clojure/clojure-tools/install/java.html)                 | ClojureScript tooling is predominantly written in Java                                         |
