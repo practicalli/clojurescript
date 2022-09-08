@@ -6,20 +6,19 @@
 
 * [Install](install/index.md)
 * [Browser DevTools](install/browser-devtools.md)
-* [Reagent Overview](reagent/index.md)
     <!-- * [Java](install/java.md) -->
     <!-- * [Leiningen](install/leiningen.md) -->
     <!-- * [Figwheel](install/figwheel.md) -->
     <!-- * [Chestnut](install/chestnut.md) -->
     <!-- * [CIDER](install/cider.md) -->
 
-## Figwheel
+## Figwheel-main
 
 * [Figwheel projects](figwheel-main-projects/index.md)
     * [Simple project](figwheel-main-projects/simple.md)
     * [Reagent project](figwheel-main-projects/reagent.md)
 
-* [Figwheel](figwheel-main/index.md)
+* [Figwheel Workflow](figwheel-main/index.md)
     * [Create Projects](figwheel-main/create-project.md)
     * [Project Configuration](figwheel-main/project-configuration.md)
     * [Run Figwheel](figwheel-main/check-configuration.md)
@@ -43,7 +42,7 @@
 <!-- * [Bootstrap](css/bootstrap.md) -->
 <!-- * [Tailwind](css/tailwind.md) -->
 
-## Deployment
+<!-- ## Deployment -->
 
 <!-- * [Deploy ClojureScript](deploy/index.md) -->
 <!--     * [GitHub Pages](deploy/github-pages.md) -->
@@ -51,6 +50,7 @@
 
 ## Reagent Projects
 
+* [Reagent Overview](reagent/index.md)
 * [ClojureBridge website](web-design-basics/clojurebridge-london-website/index.md)
     * [Create project](web-design-basics/clojurebridge-london-website/create-project.md)
     * [Add Bulma CSS](web-design-basics/clojurebridge-london-website/add-bluma-css.md)
@@ -111,12 +111,11 @@
 
 
 <!-- ## Full Stack projects -->
-
-
 <!-- ## Isomorphic projects -->
 <!-- ClojureScript on backend and frontend -->
 
 ## Reference
+
 * [ClojureScript Overview](overview/index.md)
     * [Single Page Apps](overview/single-page-apps.md)
     * [Compiling to JavaScript](overview/compiling-to-javascript.md)
@@ -128,25 +127,14 @@
         * [Reagent](overview/react-reagent.md)
         * [Re-frame](overview/react-re-frame.md)
         * [React Native](why-clojurescript/react-native.md)
+
 * [Why ClojureScript](why-clojurescript/index.md)
-    * [Community](why-clojurescript/community.md)
     * [Lightweight](why-clojurescript/lightweight.md)
     * [Google Closure](why-clojurescript/google-clojure.md)
-    * [Tooling](why-clojurescript/build-tools.md)
-    * [Interactive workflow](why-clojurescript/interactive-workflow.md)
     * [Source Maps](why-clojurescript/source-maps.md)
     * [Interoperability](why-clojurescript/interoperability.md)
-    * [Immutability](why-clojurescript/immutability.md)
     * [Why not JavaScript](why-clojurescript/why-not-javascript.md)
     * [Who uses ClojureScript](why-clojurescript/who-uses-clojurescript.md)
-
-* [Self-hosted ClojureScript](self-hosted-clojurescript/index.md)
-    <!-- * [Lumo](install/lumo.md) -->
-    <!-- * [Plank](install/plank.md) -->
-* [JavaScript libraries](javascript-libraries/index.md)
-    <!-- * [Lein-NPM](install/lein-npm.md) -->
-
-
 
 * [Web Design basics](web-design-basics/index.md)
     * [Bootstrap](web-design-basics/bootstrap.md)
@@ -164,9 +152,7 @@
 <!--     * [Amazon AWS](cloud-datastores/amazon-aws/index.md) -->
 
 
-
 ## Old Material - under review
-
 
 * [Clojurescript Quickstart](quickstart/index.md)
     * [Create basic project](quickstart/create-basic-project.md)
@@ -181,11 +167,10 @@
     * [Production Build](quickstart/production-build.md)
     * [Dependencies](quickstart/dependencies.md)
     * [node.js](quickstart/nodejs.md)
-    * [Java Nashorn](quickstart/nashorn.md)
     * [Lumo](quickstart/lumo.md)
         * [Self Hosted Clojurescript](quickstart/self-hosted-clojurescript.md)
 
-* [Figwheel](figwheel/index.md)
+* [Figwheel Classic](figwheel/index.md)
     * [Features](figwheel/features.md)
     * [Flappy Birds demo](figwheel/flappy-birds-demo.md)
     * [Using Figwheel](figwheel/using-figwheel.md)
@@ -200,7 +185,7 @@
     * [Scripting with Component](figwheel/scripting-with-component.md)
     * [Re-loadable Code](figwheel/re-loadable-code.md)
 
-* [Figwheel Project](figwheel-project/index.md)
+* [Figwheel Classic Project](figwheel-project/index.md)
     * [Create Project](figwheel-project/create-project.md)
     * [ClojureScript file](figwheel-project/clojurescript-file.md)
     * [Project Build file](figwheel-project/project-build-file.md)
