@@ -21,6 +21,24 @@
 ## ClojureScript Projects
 
 * [Reagent: ClojureBridge website](web-design-basics/clojurebridge-london-website/index.md)
+## Figwheel
+
+* [Figwheel projects](figwheel-main-projects/index.md)
+    * [Simple project](figwheel-main-projects/simple.md)
+    * [Reagent project](figwheel-main-projects/reagent.md)
+
+* [Figwheel](figwheel-main/index.md)
+    * [Create Projects](figwheel-main/create-project.md)
+    * [Project Configuration](figwheel-main/project-configuration.md)
+    * [Run Figwheel](figwheel-main/check-configuration.md)
+    * [Rebel Rich UI](figwheel-main/rebel.md)
+    * [Build project](figwheel-main/build-project.md)
+    * [Emacs Cider](figwheel-main/run-figwheel-from-cider.md)
+    * [Run tests](figwheel-main/run-tests.md)
+    * [Continuous Tests](figwheel-main/continuous-testing.md)
+    * [Package project](figwheel-main/package-project.md)
+    * [Pages deploy](figwheel-main/pages-deploy.md)
+
 
 ## Styling Web pages
 
