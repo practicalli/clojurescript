@@ -12,13 +12,13 @@
     <!-- * [Chestnut](install/chestnut.md) -->
     <!-- * [CIDER](install/cider.md) -->
 
-## Figwheel
+## Figwheel-main
 
 * [Figwheel projects](figwheel-main-projects/index.md)
     * [Simple project](figwheel-main-projects/simple.md)
     * [Reagent project](figwheel-main-projects/reagent.md)
 
-* [Figwheel](figwheel-main/index.md)
+* [Figwheel Workflow](figwheel-main/index.md)
     * [Create Projects](figwheel-main/create-project.md)
     * [Project Configuration](figwheel-main/project-configuration.md)
     * [Run Figwheel](figwheel-main/check-configuration.md)
@@ -42,7 +42,7 @@
 <!-- * [Bootstrap](css/bootstrap.md) -->
 <!-- * [Tailwind](css/tailwind.md) -->
 
-## Deployment
+<!-- ## Deployment -->
 
 <!-- * [Deploy ClojureScript](deploy/index.md) -->
 <!--     * [GitHub Pages](deploy/github-pages.md) -->
@@ -111,8 +111,6 @@
 
 
 <!-- ## Full Stack projects -->
-
-
 <!-- ## Isomorphic projects -->
 <!-- ClojureScript on backend and frontend -->
 
@@ -154,9 +152,7 @@
 <!--     * [Amazon AWS](cloud-datastores/amazon-aws/index.md) -->
 
 
-
 ## Old Material - under review
-
 
 * [Clojurescript Quickstart](quickstart/index.md)
     * [Create basic project](quickstart/create-basic-project.md)
@@ -189,7 +185,7 @@
     * [Scripting with Component](figwheel/scripting-with-component.md)
     * [Re-loadable Code](figwheel/re-loadable-code.md)
 
-* [Figwheel Project](figwheel-project/index.md)
+* [Figwheel Classic Project](figwheel-project/index.md)
     * [Create Project](figwheel-project/create-project.md)
     * [ClojureScript file](figwheel-project/clojurescript-file.md)
     * [Project Build file](figwheel-project/project-build-file.md)
