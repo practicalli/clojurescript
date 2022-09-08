@@ -10,14 +10,13 @@ Figwheel-main is used to provide a comprehensive tool for building ClojureScript
 
 [practicalli/clojure-deps-edn](https://github.com/practicalli/clojure-deps-edn) GitHub repository contains the Clojure CLI user level configuration used in this guide and issues and pull requests can also be made there.
 
-| Requirement                                                                                   | Description                                                                                    |
-|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [Java](https://practicalli.github.io/clojure/clojure-tools/install/java.html)                 | ClojureScript tooling is predominantly written in Java                                         |
-| [Clojure CLI tools](https://practicalli.github.io/clojure/clojure-tools/install/clojure.html) | Tools for running and working with Clojure & ClojureScript projects                            |
-| [ClojureScript](figwheel-main-projects/)                                                      | Syntax and basic tools for the JavaScript host platform  (add library as a project dependency) |
-| [Figwheel-main](figwheel-main-projects/)                                                      | Build and hot-loading environment for ClojureScript (add library as project dependency)        |
-| [ClojureScript editor](https://practicalli.github.io/clojure/clojure-editors/)                | An editor that connects to the ClojureScript REPL and provides language support                |
-| Web Browser (Firefox, Chrome, chromium)                                                       | Host platform for JavaScript                                                                   |
+| Requirement                                                                           | Description                                                                                    |
+|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [Java](https://practicalli.github.io/clojure/clojure-cli/install/java.html)         | ClojureScript tooling is predominantly written in Java                                         |
+| [Clojure CLI](https://practicalli.github.io/clojure/clojure-cli/install/clojure.html) | Tools for running and working with Clojure & ClojureScript projects                            |
+| [Figwheel-main](figwheel-main-projects/)                                              | Build and hot-loading environment for ClojureScript (add library as project dependency)        |
+| [ClojureScript editor](https://practicalli.github.io/clojure/clojure-editors/)        | An editor that connects to the ClojureScript REPL and provides language support                |
+| Web Browser (Firefox, Chrome, chromium)                                               | Host platform for JavaScript                                                                   |
 
 > HINT: [shadow-cljs](https://github.com/thheller/shadow-cljs) can be used instead of Figwheel to manage a ClojureScript projects.  Read the [Shadow CLJS user guide](https://shadow-cljs.github.io/docs/UsersGuide.html) in detail to understand how to manage projects with this tool.
 
