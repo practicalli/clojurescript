@@ -29,8 +29,8 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" # report individual linter status
           # Validate all source when push on main, else just the git diff with live.
-          VALIDATE_ALL_CODEBASE: >-
-            ${{ github.event_name == 'push' && github.ref == 'refs/heads/main'}}
+          # VALIDATE_ALL_CODEBASE: >-
+          #   ${{ github.event_name == 'push' && github.ref == 'refs/heads/main'}}
 
           PARALLEL: true
 
@@ -41,7 +41,7 @@ jobs:
           MARKDOWN_MARKDOWNLINT_DISABLE_ERRORS: true
           MARKDOWN_MARKDOWNLINT_CONFIG_FILE: ".github/linters/.markdown-lint.yml"
           MARKDOWN_REMARK_LINT_DISABLE_ERRORS: true
-          # MARKDOWN_MARKDOWN_LINK_CHECK_DISABLE_ERRORS: true
+          MARKDOWN_MARKDOWN_LINK_CHECK_DISABLE_ERRORS: true
           # MARKDOWN_MARKDOWN_TABLE_FORMATTER_DISABLE_ERRORS: true
           #  - CLOJURE
           # CLOJURE_CLJ_KONDO_ARGUMENTS: '--lint deps.edn'
