@@ -81,12 +81,12 @@
         * [Figwheel Helper functions](reagent-projects/tic-tac-toe/figwheel-helper-functions.md)
     * [Interact with the REPL](reagent-projects/tic-tac-toe/interact-with-the-repl.md)
         * [Via the Editor](reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor.md)
-        * [Evaluate code in REPL](reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.md)
-        * [REPL in dev console](reagent-projects/tic-tac-toe/repl-in-developer-console.md)
-    * [Reagent Design](reagent-projects/tic-tac-toe/reagent-design.md)
-        * [Defining Components](reagent-projects/tic-tac-toe/reagent-design-defining-components.md)
-        * [Manage app-state](reagent-projects/tic-tac-toe/reagent-design-manage-app-state.md)
-        * [Reloading State](reagent-projects/tic-tac-toe/reagent-design-reloading-state.md)
+        * [Evaluate code in REPL](reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD)
+        <!-- * [REPL in dev console](reagent-projects/tic-tac-toe/repl-in-developer-console.md) -->
+    <!-- * [Reagent Design](reagent-projects/tic-tac-toe/reagent-design.md) -->
+        <!-- * [Defining Components](reagent-projects/tic-tac-toe/reagent-design-defining-components.md) -->
+    * [Manage app-state](reagent-projects/tic-tac-toe/reagent-design-manage-app-state.md)
+        <!-- * [Reloading State](reagent-projects/tic-tac-toe/reagent-design-reloading-state.md) -->
     * [Component: tictactoe-game](reagent-projects/tic-tac-toe/component-tictactoe-game.md)
     * [Design Game board](reagent-projects/tic-tac-toe/design-game-board.md)
     * [Component: Game board](reagent-projects/tic-tac-toe/component-game-board.md)

@@ -843,27 +843,14 @@
             
         </li>
     
-        <li class="chapter " data-level="6.3.5.2" data-path="interact-with-the-repl-evaluate-code.html">
+        <li class="chapter " data-level="6.3.5.2" data-path="interact-with-the-repl-evaluate-code.MD">
             
-                <a href="interact-with-the-repl-evaluate-code.html">
+                <span>
             
                   <!--  -->
                     Evaluate code in REPL
             
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.5.3" data-path="repl-in-developer-console.html">
-            
-                <a href="repl-in-developer-console.html">
-            
-                  <!--  -->
-                    REPL in dev console
-            
-                </a>
+                </span>
             
 
             
@@ -874,34 +861,7 @@
             
         </li>
     
-        <li class="chapter " data-level="6.3.6" data-path="reagent-design.html">
-            
-                <a href="reagent-design.html">
-            
-                  <!--  -->
-                    Reagent Design
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.6.1" data-path="reagent-design-defining-components.html">
-            
-                <a href="reagent-design-defining-components.html">
-            
-                  <!--  -->
-                    Defining Components
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.6.2" data-path="reagent-design-manage-app-state.html">
+        <li class="chapter " data-level="6.3.6" data-path="reagent-design-manage-app-state.html">
             
                 <a href="reagent-design-manage-app-state.html">
             
@@ -911,24 +871,6 @@
                 </a>
             
 
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.6.3" data-path="reagent-design-reloading-state.html">
-            
-                <a href="reagent-design-reloading-state.html">
-            
-                  <!--  -->
-                    Reloading State
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
             
         </li>
     
@@ -3169,6 +3111,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="figwheel-helper-functions">Figwheel Helper Functions</h1>
+<div class="panel panel-warning"><div class="panel-heading"><h3 class="panel-title" id="content-relates-to-the-classic-figwheel-version"><i class="fa fa-exclamation-triangle"></i> Content relates to the classic figwheel version</h3></div><div class="panel-body"><p>This approach is not require when using <code>figwheel-main</code>, only for older projects that were created using the original version of figwheel</p></div></div>
 <p>The <a href="https://github.com/bhauman/lein-figwheel" target="_blank">lein-figwheel</a> template provides several helper functions in <code>dev/user.clj</code> to start Figwheel and a Clojurescript REPL from a Clojure REPL.</p>
 <p>In a development environment a Clojure REPL will start in <code>user</code> namespace, so the functions in <code>dev/user.clj</code> are available when you run a Clojure REPl in Spacemacs - <code>SPC m &apos;</code></p>
 <pre class="language-"><code class="lang-clojure"><span class="token punctuation">(</span><span class="token keyword">ns</span> user
@@ -3196,7 +3139,7 @@
   <span class="token punctuation">[</span><span class="token punctuation">]</span>
   <span class="token punctuation">(</span><span class="token function">f/cljs-repl</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 </code></pre>
-<h2 id="emacs--clojurescript-jack-in">Emacs &amp; <code>clojurescript-jack-in</code></h2>
+<h2 id="emacs-jack-in">Emacs jack-in</h2>
 <p>You can use these Figwheel helper functions with Emacs &amp; Cider (and Spacemacs) by adding the following function in your <code>init.el</code> configuration file (or ~/.spacmacs file in the <code>dotspacemacs/user-config</code> section)</p>
 <pre class="language-"><code class="lang-elisp">(setq cider-cljs-lein-repl
   &quot;(do
@@ -3249,7 +3192,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Figwheel Helper functions","level":"6.3.4.1","depth":3,"next":{"title":"Interact with the REPL","level":"6.3.5","depth":2,"path":"reagent-projects/tic-tac-toe/interact-with-the-repl.md","ref":"reagent-projects/tic-tac-toe/interact-with-the-repl.md","articles":[{"title":"Via the Editor","level":"6.3.5.1","depth":3,"path":"reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor.md","ref":"reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor.md","articles":[]},{"title":"Evaluate code in REPL","level":"6.3.5.2","depth":3,"path":"reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.md","ref":"reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.md","articles":[]},{"title":"REPL in dev console","level":"6.3.5.3","depth":3,"path":"reagent-projects/tic-tac-toe/repl-in-developer-console.md","ref":"reagent-projects/tic-tac-toe/repl-in-developer-console.md","articles":[]}]},"previous":{"title":"Review reagent Project","level":"6.3.4","depth":2,"path":"reagent-projects/tic-tac-toe/review-reagent-project.md","ref":"reagent-projects/tic-tac-toe/review-reagent-project.md","articles":[{"title":"Figwheel Helper functions","level":"6.3.4.1","depth":3,"path":"reagent-projects/tic-tac-toe/figwheel-helper-functions.md","ref":"reagent-projects/tic-tac-toe/figwheel-helper-functions.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["anchor-headings-lambda","callouts","codeblock-disable-glossary","folding-chapters","ga","-glossary","-highlight","klipse","newtabs","prism","sectionx","simpletabs","-sharing","splitter","terminull-light","theme-jr0cket","toggle-chapters","toolbar","youtube","wide-page"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{"ignore":["eval-clojure"]},"callouts":{"showTypeInHeader":false,"star":{"alert":"warning","picto":"fa-star"}},"youtube":{},"splitter":{},"search":{},"wide-page":{},"anchor-headings-lambda":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"terminull-light":{},"simpletabs":{},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"folding-chapters":{},"sectionx":{},"ga":{"configuration":"auto","token":"UA-28030709-10"},"klipse":{"myConfigKey":"it's the default value"},"theme-jr0cket":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"toolbar":{"buttons":[{"label":"Clojurians Slack","icon":"fa fa-comments-o","url":"http://clojurians.slack.com/messages/practicalli"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/practicalli/clojurescript/issues"}]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"newtabs":{},"toggle-chapters":{}},"theme":"default","author":"Practicalli","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"P9IDeveloperGuides":"https://github.com/practicallli-john/developer-guides/raw/master/","P9IGraphicDesign":"https://github.com/practicalli/graphic-design","P9IPullRequestsUrl":"https://github.com/practicalli/clojurescript/pulls","P9IClojureDepsEdn":"https://github.com/practicalli/clojure-deps-edn","KeyDownArrow":"<kbd>↓</kbd>","KeyCtrl":"<kbd>Ctrl</kbd>","Leiningen":"https://leiningen.org/","P9IClojureThroughCode":"https://github.com/practicalli/clojure-through-code","KeyUpArrow":"<kbd>↑</kbd>","P9IClojureDepsEdnInstall":"/clojure-tools/install/community-tools.md","P9IIssuesUrl":"https://github.com/practicalli/clojurescript/issues","KeyEsc":"<kbd>Esc</kbd>","KeyEnter":"<kbd>Enter</kbd>","website":"https://practical.li/clojurescript","P9IFourClojure":"https://github.com/practicalli/four-clojure"},"title":"Practicalli Clojurescript","authorHomepage":"https://practical.li","links":{"sidebar":{"Practicalli":"https://practical.li/"}},"gitbook":">=3.2.3","description":"Building Immutable data driven web applications"},"file":{"path":"reagent-projects/tic-tac-toe/figwheel-helper-functions.md","mtime":"2022-09-09T10:52:11.330Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-09-09T10:53:41.778Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Figwheel Helper functions","level":"6.3.4.1","depth":3,"next":{"title":"Interact with the REPL","level":"6.3.5","depth":2,"path":"reagent-projects/tic-tac-toe/interact-with-the-repl.md","ref":"reagent-projects/tic-tac-toe/interact-with-the-repl.md","articles":[{"title":"Via the Editor","level":"6.3.5.1","depth":3,"path":"reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor.md","ref":"reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor.md","articles":[]},{"title":"Evaluate code in REPL","level":"6.3.5.2","depth":3,"path":"reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD","ref":"reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD","articles":[]}]},"previous":{"title":"Review reagent Project","level":"6.3.4","depth":2,"path":"reagent-projects/tic-tac-toe/review-reagent-project.md","ref":"reagent-projects/tic-tac-toe/review-reagent-project.md","articles":[{"title":"Figwheel Helper functions","level":"6.3.4.1","depth":3,"path":"reagent-projects/tic-tac-toe/figwheel-helper-functions.md","ref":"reagent-projects/tic-tac-toe/figwheel-helper-functions.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["anchor-headings-lambda","callouts","codeblock-disable-glossary","folding-chapters","ga","-glossary","-highlight","klipse","newtabs","prism","sectionx","simpletabs","-sharing","splitter","terminull-light","theme-jr0cket","toggle-chapters","toolbar","youtube","wide-page"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{"ignore":["eval-clojure"]},"callouts":{"showTypeInHeader":false,"star":{"alert":"warning","picto":"fa-star"}},"youtube":{},"splitter":{},"search":{},"wide-page":{},"anchor-headings-lambda":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"terminull-light":{},"simpletabs":{},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"folding-chapters":{},"sectionx":{},"ga":{"configuration":"auto","token":"UA-28030709-10"},"klipse":{"myConfigKey":"it's the default value"},"theme-jr0cket":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"toolbar":{"buttons":[{"label":"Clojurians Slack","icon":"fa fa-comments-o","url":"http://clojurians.slack.com/messages/practicalli"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/practicalli/clojurescript/issues"}]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"newtabs":{},"toggle-chapters":{}},"theme":"default","author":"Practicalli","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"P9IDeveloperGuides":"https://github.com/practicallli-john/developer-guides/raw/master/","P9IGraphicDesign":"https://github.com/practicalli/graphic-design","P9IPullRequestsUrl":"https://github.com/practicalli/clojurescript/pulls","P9IClojureDepsEdn":"https://github.com/practicalli/clojure-deps-edn","KeyDownArrow":"<kbd>↓</kbd>","KeyCtrl":"<kbd>Ctrl</kbd>","Leiningen":"https://leiningen.org/","P9IClojureThroughCode":"https://github.com/practicalli/clojure-through-code","KeyUpArrow":"<kbd>↑</kbd>","P9IClojureDepsEdnInstall":"/clojure-tools/install/community-tools.md","P9IIssuesUrl":"https://github.com/practicalli/clojurescript/issues","KeyEsc":"<kbd>Esc</kbd>","KeyEnter":"<kbd>Enter</kbd>","website":"https://practical.li/clojurescript","P9IFourClojure":"https://github.com/practicalli/four-clojure"},"title":"Practicalli Clojurescript","authorHomepage":"https://practical.li","links":{"sidebar":{"Practicalli":"https://practical.li/"}},"gitbook":">=3.2.3","description":"Building Immutable data driven web applications"},"file":{"path":"reagent-projects/tic-tac-toe/figwheel-helper-functions.md","mtime":"2022-09-09T19:09:50.601Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-09-09T19:11:04.225Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

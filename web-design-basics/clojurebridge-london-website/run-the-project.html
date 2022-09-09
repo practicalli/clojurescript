@@ -843,27 +843,14 @@
             
         </li>
     
-        <li class="chapter " data-level="6.3.5.2" data-path="../../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.html">
+        <li class="chapter " data-level="6.3.5.2" data-path="../../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD">
             
-                <a href="../../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.html">
+                <span>
             
                   <!--  -->
                     Evaluate code in REPL
             
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.5.3" data-path="../../reagent-projects/tic-tac-toe/repl-in-developer-console.html">
-            
-                <a href="../../reagent-projects/tic-tac-toe/repl-in-developer-console.html">
-            
-                  <!--  -->
-                    REPL in dev console
-            
-                </a>
+                </span>
             
 
             
@@ -874,34 +861,7 @@
             
         </li>
     
-        <li class="chapter " data-level="6.3.6" data-path="../../reagent-projects/tic-tac-toe/reagent-design.html">
-            
-                <a href="../../reagent-projects/tic-tac-toe/reagent-design.html">
-            
-                  <!--  -->
-                    Reagent Design
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.6.1" data-path="../../reagent-projects/tic-tac-toe/reagent-design-defining-components.html">
-            
-                <a href="../../reagent-projects/tic-tac-toe/reagent-design-defining-components.html">
-            
-                  <!--  -->
-                    Defining Components
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.6.2" data-path="../../reagent-projects/tic-tac-toe/reagent-design-manage-app-state.html">
+        <li class="chapter " data-level="6.3.6" data-path="../../reagent-projects/tic-tac-toe/reagent-design-manage-app-state.html">
             
                 <a href="../../reagent-projects/tic-tac-toe/reagent-design-manage-app-state.html">
             
@@ -911,24 +871,6 @@
                 </a>
             
 
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.6.3" data-path="../../reagent-projects/tic-tac-toe/reagent-design-reloading-state.html">
-            
-                <a href="../../reagent-projects/tic-tac-toe/reagent-design-reloading-state.html">
-            
-                  <!--  -->
-                    Reloading State
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
             
         </li>
     
@@ -3169,19 +3111,11 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="run-the-project">Run the project</h1>
-<h2 id="on-the-command-line">On the command line</h2>
-<p>Change into the directory <code>clojurebridge-landing-page</code> and run the command</p>
-<p><code>lein fig:build</code></p>
-<p>or</p>
-<p><code>clojure -M:fig:build</code></p>
-<h2 id="spacemacs">Spacemacs</h2>
-<p><code>SPC f f</code> and open the file <code>clojurebridge-landing-page/src/clojurebridge_landing_page/core.cljs</code></p>
-<p><code>, &quot;</code> or <code>, s I</code> to run the command <code>clojurescript-jack-in</code></p>
-<p>When prompted for the REPL type, select <code>figwheel-main</code></p>
-<p><img src="../../images/cljs-website-run-spacemacs-repl-type.png" alt="Spacemacs - ClojureScript REPL - prompt for REPL type"></p>
-<p>When prompted for the build, type <code>dev</code></p>
-<p><img src="../../images/cljs-website-run-spacemacs-build-dev.png" alt="Spacemacs - ClojureScript REPL - figwheel-main build name"></p>
-<p>After a few moments, your default browser will automatically open at [<a href="http://localhost:9500/" target="_blank">http://localhost:9500/</a>]</p>
+<p>On the command line, change into the directory <code>landing-page</code> and run the command to start building the project</p>
+<p><ul class="nav nav-tabs" role="tablist"><li role="presentation" class="active"><a href="#deps" aria-controls="deps" role="tab" data-toggle="tab">Clojure CLI</a></li><li role="presentation" class=""><a href="#lein" aria-controls="lein" role="tab" data-toggle="tab">Leiningnen</a></li><li role="presentation" class=""><a href="#spacemacs" aria-controls="spacemacs" role="tab" data-toggle="tab">Spacemacs</a></li></ul><div class="tab-content"><div role="tabpanel" class="tab-pane active" id="deps"><pre class="language-"><code class="lang-bash">clojure -M:fig:build</code></pre>
+</div><div role="tabpanel" class="tab-pane " id="lein"><pre class="language-"><code class="lang-bash">lein fig:build</code></pre>
+</div><div role="tabpanel" class="tab-pane " id="spacemacs"><h2 id="spacemacs-and-cider-jack-in">Spacemacs and Cider Jack-in</h2><p><code>SPC f f</code> to open the file <code>landing-page/src/clojurebridge/landing_page.cljs</code></p><p><code>, m s</code> (<code>sesman-start</code>) and select the command <code>cider-jack-in-cljs</code></p><p>When prompted for the REPL type, select <code>figwheel-main</code></p><p><img alt="Spacemacs - ClojureScript REPL - prompt for REPL type" src="../../images/cljs-website-run-spacemacs-repl-type.png"></p><p>When prompted for the build, type <code>dev</code></p><p><img alt="Spacemacs - ClojureScript REPL - figwheel-main build name" src="../../images/cljs-website-run-spacemacs-build-dev.png"></p></div></div></p>
+<p>After a few moments, the default web browser will automatically open at [<a href="http://localhost:9500/" target="_blank">http://localhost:9500/</a>] and show the running ClojureScript application.</p>
 <p><img src="../../images/cljs-website-run--webpage.png" alt="ClojureScript project - initial website"></p>
  <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
                                 
@@ -3226,7 +3160,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Run the project","level":"6.2.3","depth":2,"next":{"title":"Live reloading","level":"6.2.4","depth":2,"path":"web-design-basics/clojurebridge-london-website/live-reloading.md","ref":"web-design-basics/clojurebridge-london-website/live-reloading.md","articles":[]},"previous":{"title":"Add Bulma CSS","level":"6.2.2","depth":2,"path":"web-design-basics/clojurebridge-london-website/add-bluma-css.md","ref":"web-design-basics/clojurebridge-london-website/add-bluma-css.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-headings-lambda","callouts","codeblock-disable-glossary","folding-chapters","ga","-glossary","-highlight","klipse","newtabs","prism","sectionx","simpletabs","-sharing","splitter","terminull-light","theme-jr0cket","toggle-chapters","toolbar","youtube","wide-page"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{"ignore":["eval-clojure"]},"callouts":{"showTypeInHeader":false,"star":{"alert":"warning","picto":"fa-star"}},"youtube":{},"splitter":{},"search":{},"wide-page":{},"anchor-headings-lambda":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"terminull-light":{},"simpletabs":{},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"folding-chapters":{},"sectionx":{},"ga":{"configuration":"auto","token":"UA-28030709-10"},"klipse":{"myConfigKey":"it's the default value"},"theme-jr0cket":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"toolbar":{"buttons":[{"label":"Clojurians Slack","icon":"fa fa-comments-o","url":"http://clojurians.slack.com/messages/practicalli"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/practicalli/clojurescript/issues"}]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"newtabs":{},"toggle-chapters":{}},"theme":"default","author":"Practicalli","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"P9IDeveloperGuides":"https://github.com/practicallli-john/developer-guides/raw/master/","P9IGraphicDesign":"https://github.com/practicalli/graphic-design","P9IPullRequestsUrl":"https://github.com/practicalli/clojurescript/pulls","P9IClojureDepsEdn":"https://github.com/practicalli/clojure-deps-edn","KeyDownArrow":"<kbd>↓</kbd>","KeyCtrl":"<kbd>Ctrl</kbd>","Leiningen":"https://leiningen.org/","P9IClojureThroughCode":"https://github.com/practicalli/clojure-through-code","KeyUpArrow":"<kbd>↑</kbd>","P9IClojureDepsEdnInstall":"/clojure-tools/install/community-tools.md","P9IIssuesUrl":"https://github.com/practicalli/clojurescript/issues","KeyEsc":"<kbd>Esc</kbd>","KeyEnter":"<kbd>Enter</kbd>","website":"https://practical.li/clojurescript","P9IFourClojure":"https://github.com/practicalli/four-clojure"},"title":"Practicalli Clojurescript","authorHomepage":"https://practical.li","links":{"sidebar":{"Practicalli":"https://practical.li/"}},"gitbook":">=3.2.3","description":"Building Immutable data driven web applications"},"file":{"path":"web-design-basics/clojurebridge-london-website/run-the-project.md","mtime":"2022-09-09T10:52:11.330Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-09-09T10:53:41.778Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Run the project","level":"6.2.3","depth":2,"next":{"title":"Live reloading","level":"6.2.4","depth":2,"path":"web-design-basics/clojurebridge-london-website/live-reloading.md","ref":"web-design-basics/clojurebridge-london-website/live-reloading.md","articles":[]},"previous":{"title":"Add Bulma CSS","level":"6.2.2","depth":2,"path":"web-design-basics/clojurebridge-london-website/add-bluma-css.md","ref":"web-design-basics/clojurebridge-london-website/add-bluma-css.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-headings-lambda","callouts","codeblock-disable-glossary","folding-chapters","ga","-glossary","-highlight","klipse","newtabs","prism","sectionx","simpletabs","-sharing","splitter","terminull-light","theme-jr0cket","toggle-chapters","toolbar","youtube","wide-page"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{"ignore":["eval-clojure"]},"callouts":{"showTypeInHeader":false,"star":{"alert":"warning","picto":"fa-star"}},"youtube":{},"splitter":{},"search":{},"wide-page":{},"anchor-headings-lambda":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"terminull-light":{},"simpletabs":{},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"folding-chapters":{},"sectionx":{},"ga":{"configuration":"auto","token":"UA-28030709-10"},"klipse":{"myConfigKey":"it's the default value"},"theme-jr0cket":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"toolbar":{"buttons":[{"label":"Clojurians Slack","icon":"fa fa-comments-o","url":"http://clojurians.slack.com/messages/practicalli"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/practicalli/clojurescript/issues"}]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"newtabs":{},"toggle-chapters":{}},"theme":"default","author":"Practicalli","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"P9IDeveloperGuides":"https://github.com/practicallli-john/developer-guides/raw/master/","P9IGraphicDesign":"https://github.com/practicalli/graphic-design","P9IPullRequestsUrl":"https://github.com/practicalli/clojurescript/pulls","P9IClojureDepsEdn":"https://github.com/practicalli/clojure-deps-edn","KeyDownArrow":"<kbd>↓</kbd>","KeyCtrl":"<kbd>Ctrl</kbd>","Leiningen":"https://leiningen.org/","P9IClojureThroughCode":"https://github.com/practicalli/clojure-through-code","KeyUpArrow":"<kbd>↑</kbd>","P9IClojureDepsEdnInstall":"/clojure-tools/install/community-tools.md","P9IIssuesUrl":"https://github.com/practicalli/clojurescript/issues","KeyEsc":"<kbd>Esc</kbd>","KeyEnter":"<kbd>Enter</kbd>","website":"https://practical.li/clojurescript","P9IFourClojure":"https://github.com/practicalli/four-clojure"},"title":"Practicalli Clojurescript","authorHomepage":"https://practical.li","links":{"sidebar":{"Practicalli":"https://practical.li/"}},"gitbook":">=3.2.3","description":"Building Immutable data driven web applications"},"file":{"path":"web-design-basics/clojurebridge-london-website/run-the-project.md","mtime":"2022-09-09T19:09:50.605Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-09-09T19:11:04.225Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

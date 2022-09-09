@@ -1,5 +1,9 @@
 # Figwheel Helper Functions
 
+> #### WARNING::Content relates to the classic figwheel version
+> This approach is not require when using `figwheel-main`, only for older projects that were created using the original version of figwheel
+
+
 The [lein-figwheel](https://github.com/bhauman/lein-figwheel) template provides several helper functions in `dev/user.clj` to start Figwheel and a Clojurescript REPL from a Clojure REPL.
 
 In a development environment a Clojure REPL will start in `user` namespace, so the functions in `dev/user.clj` are available when you run a Clojure REPl in Spacemacs - `SPC m '`
@@ -33,7 +37,7 @@ In a development environment a Clojure REPL will start in `user` namespace, so t
 ```
 
 
-## Emacs & `clojurescript-jack-in`
+## Emacs jack-in
 
 You can use these Figwheel helper functions with Emacs & Cider (and Spacemacs) by adding the following function in your `init.el` configuration file (or ~/.spacmacs file in the `dotspacemacs/user-config` section)
 

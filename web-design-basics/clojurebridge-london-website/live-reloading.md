@@ -7,7 +7,7 @@ A ClojureScript logo will appear briefly in the corner of the web page to indica
 
 ## Edit the code to see live reloading
 
-Edit the file `clojurebridge-landing-page/src/clojurebridge_landing_page/core.cljs`
+Edit the file `landing-page/src/clojurebridge/landing_page.cljs`
 
 Change the heading 3 contents in the `hello-world` function
 
