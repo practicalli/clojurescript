@@ -120,7 +120,7 @@
     * [Single Page Apps](overview/single-page-apps.md)
     * [Compiling to JavaScript](overview/compiling-to-javascript.md)
     * [ClojureScript platforms](overview/clojurescript-platforms.md)
-    * [Functional Programming](overview/functional-programming.md)
+    <!-- * [Functional Programming](overview/functional-programming.md) -->
     * [Reactive apps](overview/reactive-apps.md)
         * [Facebook React](overview/react-facebook.md)
         * [Om and Om Next](overview/react-om-and-om-next.md)
