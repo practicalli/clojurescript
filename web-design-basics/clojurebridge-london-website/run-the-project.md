@@ -1,20 +1,28 @@
 # Run the project
 
-## On the command line
+On the command line, change into the directory `landing-page` and run the command to start building the project
 
-Change into the directory `clojurebridge-landing-page` and run the command
+{% tabs deps="Clojure CLI", lein="Leiningnen", spacemacs="Spacemacs"  %}
 
-`lein fig:build`
+{% content "deps" %}
 
-or
+```bash
+clojure -M:fig:build
+```
 
-`clojure -M:fig:build`
+{% content "lein" %}
 
-## Spacemacs
+```bash
+lein fig:build
+```
 
-`SPC f f` and open the file `clojurebridge-landing-page/src/clojurebridge_landing_page/core.cljs`
+{% content "spacemacs" %}
 
-`, "` or `, s I` to run the command `clojurescript-jack-in`
+## Spacemacs and Cider Jack-in
+
+`SPC f f` to open the file `landing-page/src/clojurebridge/landing_page.cljs`
+
+`, m s` (`sesman-start`) and select the command `cider-jack-in-cljs`
 
 When prompted for the REPL type, select `figwheel-main`
 
@@ -24,7 +32,10 @@ When prompted for the build, type `dev`
 
 ![Spacemacs - ClojureScript REPL - figwheel-main build name](/images/cljs-website-run-spacemacs-build-dev.png)
 
+{% endtabs %}
 
-After a few moments, your default browser will automatically open at [http://localhost:9500/]
+
+
+After a few moments, the default web browser will automatically open at [http://localhost:9500/] and show the running ClojureScript application.
 
 ![ClojureScript project - initial website](/images/cljs-website-run--webpage.png)
