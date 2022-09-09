@@ -61,14 +61,14 @@
     * [Organising the code](web-design-basics/clojurebridge-london-website/organising-the-code.md)
     * [Add welcome message](web-design-basics/clojurebridge-london-website/add-welcome-message.md)
     * [Add welcome section](web-design-basics/clojurebridge-london-website/add-welcome-section.md)
-    * [Responsive design](web-design-basics/clojurebridge-london-website/responsive-design.md)
+    <!-- * [Responsive design](web-design-basics/clojurebridge-london-website/responsive-design.md) -->
     * [App State section](web-design-basics/clojurebridge-london-website/app-state-section.md)
     * [GitHub pages deploy](web-design-basics/clojurebridge-london-website/github-pages-deploy.md)
     * [Deploy build](web-design-basics/clojurebridge-london-website/deploy-build.md)
     * [Add Content namespace](web-design-basics/clojurebridge-london-website/add-content-namespace.md)
-    * [Add more sections](web-design-basics/clojurebridge-london-website/add-more-sections.md)
     * [Navigation bar](web-design-basics/clojurebridge-london-website/add-navigation.md)
-    * [Interacting](web-design-basics/clojurebridge-london-website/interacting/index.md)
+    * [Content Suggestions](web-design-basics/clojurebridge-london-website/further-ideas.md)
+    <!-- * [Interacting](web-design-basics/clojurebridge-london-website/interacting/index.md) -->
 
 * [tic-tac-toe game](reagent-projects/tic-tac-toe/index.md)
     * [Create Project](reagent-projects/tic-tac-toe/create-project.md)

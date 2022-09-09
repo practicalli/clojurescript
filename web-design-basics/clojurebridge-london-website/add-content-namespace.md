@@ -1,12 +1,10 @@
 # Refactor content to its own namespace
 
-> #### TODO::work in progress, sorry
-
 Create a new namespace called `clojurebridge-landing-page.content` in the file `src/clojurebridge_landing_page/content.cljs`
 
 Move all function definitions, except `landing-page` from the content section to the new file for the namespace.
 
-## require the `content` namespace
+## Require the `content` namespace
 
 Edit the the file `src/clojurebridge_landing_page/core.cljs`.
 
@@ -24,9 +22,14 @@ The `content` namespace should be given the alias `content`
 
 ## Add the alias to the function calls
 
+The landing page represents the order in which content sections are organised.
+
+`level-separator` provides a named separation between each component.  The name is used by the navigation bar on the web page to jump to a specific content section on the page.
+
+> Using the name on the separator ensures the top of the content section is not displayed under the navigation bar
 
 ```clojure
-(defn main-page []
+(defn landing-page []
   [:div
    [content/navigation-top]
    [content/banner-columns]
@@ -50,3 +53,5 @@ The `content` namespace should be given the alias `content`
    ])
 
 ```
+
+The landing page should continue to work as before.  If not, ensure all files are saved and check if figwheel is showing errors on the bottom of the landing page.

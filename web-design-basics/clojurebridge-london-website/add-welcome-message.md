@@ -10,8 +10,8 @@ Add style class names to the hiccup code to use CSS styles from [Bulma](https://
 ## Simple Example
 
 ```clojure
+;; ------------------------------------------
 ;; Content components
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defn landing-page []
 

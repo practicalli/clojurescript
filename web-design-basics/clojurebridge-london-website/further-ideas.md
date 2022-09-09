@@ -1,8 +1,7 @@
-# Add a function to define each section
+# Further content ideas
 
-> #### TODO::work in progress, sorry
+The site could be developed further as an exercise by the reader. Suggested ideas for new content sections include
 
-List of section ideas
 - Registration (sign up button, date, location, etc.)
 - Current sponsor (details of the current sponsor, sponsor messaging)
 - ClojureBridge overview (description of the event)
@@ -16,17 +15,17 @@ List of section ideas
 - Past events (overview of all previous events, date, location, sponsors, etc.)
 - Models of learning (ideas on how to learn more effectively)
 
-
-
-
-Create a function for each section of the website you want to add.
+Create a function for each content section that will be developed and add call that function from the `landing-page` function.
 
 > ####HINT::Reagent examples
 > [Introduction to Reagent](https://reagent-project.github.io/) has many simple examples of functions you can include in the website
 >
 > [Guide to Reagent](https://purelyfunctional.tv/guide/reagent/) has even more examples
 
-#### Create a banner heading using Bootstrap hero style
+
+## Create a banner heading using Bootstrap hero style
+
+CSS frameworks have a `hero` or `jumbotron` class for creating a large banner area on a page, highlighting the main concept or theme of the website.
 
 ```clojure
 (defn website-title []
