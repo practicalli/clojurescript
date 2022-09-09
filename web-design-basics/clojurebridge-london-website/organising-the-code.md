@@ -30,8 +30,8 @@ And update the `mount` function to use this new function name as the main compon
 Move the `get-app-element` to the other mount / reagent functions and call that section System
 
 ```clojure
+;; ------------------------------------------
 ;; System
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defn get-app-element []
   (gdom/getElement "app"))
@@ -46,8 +46,8 @@ Move the `get-app-element` to the other mount / reagent functions and call that 
 As a quick sanity check, add a date / time stamp to the println message at the top of the file, so you can see the time figwheel reloads the page in the REPL output.
 
 ```clojure
+;; ------------------------------------------
 ;; simple debug statement for each build
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (println (js/Date.) "Reloading: src/clojurebridge_landing_page/core.cljs")
 ```
@@ -63,27 +63,27 @@ After all the changes the file should look as follows
    [goog.dom :as gdom]
    [reagent.core :as reagent :refer [atom]]))
 
+;; ------------------------------------------
 ;; simple debug statement for each build
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (println (js/Date.) "Reloading: src/clojurebridge_landing_page/core.cljs")
 
 
+;; ------------------------------------------
 ;; Application state
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; define your app data so that it doesn't get over-written on reload
 (defonce app-state (atom {:text "Hello world!"}))
 
 
+;; ------------------------------------------
 ;; Helper functions
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defn multiply [a b] (* a b))
 
 
+;; ------------------------------------------
 ;; Content components
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defn landing-page []
   [:div
@@ -91,8 +91,8 @@ After all the changes the file should look as follows
    [:h3 "Live reloading in the REPL makes web development fun!"]])
 
 
+;; ------------------------------------------
 ;; System
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defn get-app-element []
   (gdom/getElement "app"))

@@ -1,14 +1,16 @@
 # Live reloading
 
-figwheel-main provides live reloading of our application in the browser.  When we save a change to the code (JavaScript or CSS), that change is automatically pushed to the browser and the web page is updates.
+figwheel-main provides live reloading of our application in the browser.  When we save a change to the code (ClojureScript or CSS), that change is automatically pushed to the browser and the web page is updates.
 
-You may see a little ClojureScript logo appear briefly.
+A ClojureScript logo will appear briefly in the corner of the web page to indicate an update is being pushed to the JavaScript engine in the browser.
 
 
-> #### Note::Edit the code to see live reloading
-> Edit the file `clojurebridge-landing-page/src/clojurebridge_landing_page/core.cljs`
->
-> Change the heading 3 contents in the `hello-world` function
+## Edit the code to see live reloading
+
+Edit the file `clojurebridge-landing-page/src/clojurebridge_landing_page/core.cljs`
+
+Change the heading 3 contents in the `hello-world` function
+
 ```clojure
 (defn hello-world []
   [:div

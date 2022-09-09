@@ -8,7 +8,7 @@ Change into the directory `clojurebridge-landing-page` and run the command
 
 or
 
-`clojure -A:fig:build`
+`clojure -M:fig:build`
 
 ## Spacemacs
 
