@@ -1,27 +1,18 @@
 ---
-###########################
-###########################
-## Markdown Linter rules ##
-###########################
-###########################
-
-# Linter rules doc:
-# - https://github.com/DavidAnson/markdownlint
+# ------------------------------------------
+# Markdown Linter rules
+# https://github.com/DavidAnson/markdownlint
 #
-# Note:
-# To comment out a single error:
-#   <!-- markdownlint-disable -->
-#   any violations you want
-#   <!-- markdownlint-restore -->
-#
+# Used by MegaLinter GitHub Action and mega-linter-runner
 
-###############
-# Rules by id #
-###############
+# Rules by id
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+# ------------------------------------------
+
 MD001: false                  # Header increment - callouts break rule
 MD004: false                  # Unordered list style
 MD007:
-  indent: 4                   # Unordered list indentation
+  indent: 2                   # Unordered list indentation
 MD009: true                   # no trailing spaces
 MD012: false                  # no consecutive blank lines
 MD013:
@@ -32,9 +23,13 @@ MD029: false                  # Ordered list item prefix
 MD033: true                   # Allow inline HTML
 MD034: false                  # no bare urls
 MD036: false                  # Emphasis used instead of a heading
+MD038: false                  # No inline html
 MD041: false                  # first line heading should be top level heading
+MD046: false                  # Fenced code block - complains when intended
 
-#################
+
+# ------------------------------------------
 # Rules by tags #
-#################
+# ------------------------------------------
+
 blank_lines: false  # Error on blank lines
