@@ -1,3262 +1,790 @@
-
-<!DOCTYPE HTML>
-<html lang="" >
-    <head>
-        <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Web Design basics · Practicalli Clojurescript</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
-        <meta name="author" content="Practicalli">
-        
-        
-    
-    <link rel="stylesheet" href="../gitbook/style.css">
-
-    
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-callouts/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-folding-chapters/folding-chapters.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-newtabs/bootstrap.min.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-newtabs/tabs.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
-                
-            
-                
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
-                
-            
-                
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-simpletabs/tabs.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminull-light/terminull.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-wide-page/wide.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-        
-
-    
-
-    
-        
-        <link rel="stylesheet" href="../styles/website.css">
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-
-        
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="bootstrap.html" />
-    
-    
-    <link rel="prev" href="../why-clojurescript/who-uses-clojurescript.html" />
-    
-
-    </head>
-    <body>
-        
-
-
-<div class="book">
-    <div class="book-summary">
-        
-      <!-- <div class="theme-code-header">
-           <a href="" class="link">
-           <h1 class="title">Practicalli Clojurescript</h1>
-           </a>
-           </div> -->
-            
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
-            
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-    
-        
-        <li>
-            <a href="https://practical.li/" target="_blank" class="custom-link">Practicalli</a>
-        </li>
-    
-    
-
-    
-    <li class="divider"></li>
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="../">
-            
-                <a href="../">
-            
-                  <!--  -->
-                    Introduction
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Getting Started</li>
-        
-        
-    
-        <li class="chapter " data-level="2.1" data-path="../install/">
-            
-                <a href="../install/">
-            
-                  <!--  -->
-                    Install
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.2" data-path="../install/browser-devtools.html">
-            
-                <a href="../install/browser-devtools.html">
-            
-                  <!--  -->
-                    Browser DevTools
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Figwheel-main</li>
-        
-        
-    
-        <li class="chapter " data-level="3.1" data-path="../figwheel-main-projects/">
-            
-                <a href="../figwheel-main-projects/">
-            
-                  <!--  -->
-                    Figwheel projects
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="3.1.1" data-path="../figwheel-main-projects/simple.html">
-            
-                <a href="../figwheel-main-projects/simple.html">
-            
-                  <!--  -->
-                    Simple project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.1.2" data-path="../figwheel-main-projects/reagent.html">
-            
-                <a href="../figwheel-main-projects/reagent.html">
-            
-                  <!--  -->
-                    Reagent project
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2" data-path="../figwheel-main/">
-            
-                <a href="../figwheel-main/">
-            
-                  <!--  -->
-                    Figwheel Workflow
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="3.2.1" data-path="../figwheel-main/create-project.html">
-            
-                <a href="../figwheel-main/create-project.html">
-            
-                  <!--  -->
-                    Create Projects
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.2" data-path="../figwheel-main/project-configuration.html">
-            
-                <a href="../figwheel-main/project-configuration.html">
-            
-                  <!--  -->
-                    Project Configuration
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.3" data-path="../figwheel-main/check-configuration.html">
-            
-                <a href="../figwheel-main/check-configuration.html">
-            
-                  <!--  -->
-                    Run Figwheel
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.4" data-path="../figwheel-main/rebel.html">
-            
-                <a href="../figwheel-main/rebel.html">
-            
-                  <!--  -->
-                    Rebel Rich UI
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.5" data-path="../figwheel-main/build-project.html">
-            
-                <a href="../figwheel-main/build-project.html">
-            
-                  <!--  -->
-                    Build project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.6" data-path="../figwheel-main/run-figwheel-from-cider.html">
-            
-                <a href="../figwheel-main/run-figwheel-from-cider.html">
-            
-                  <!--  -->
-                    Emacs Cider
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.7" data-path="../figwheel-main/run-tests.html">
-            
-                <a href="../figwheel-main/run-tests.html">
-            
-                  <!--  -->
-                    Run tests
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.8" data-path="../figwheel-main/continuous-testing.html">
-            
-                <a href="../figwheel-main/continuous-testing.html">
-            
-                  <!--  -->
-                    Continuous Tests
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.9" data-path="../figwheel-main/package-project.html">
-            
-                <a href="../figwheel-main/package-project.html">
-            
-                  <!--  -->
-                    Package project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2.10" data-path="../figwheel-main/pages-deploy.html">
-            
-                <a href="../figwheel-main/pages-deploy.html">
-            
-                  <!--  -->
-                    Pages deploy
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-    
-        
-        <li class="header">HTML Content</li>
-        
-        
-    
-        <li class="chapter " data-level="4.1" data-path="../hiccup-style-syntax.html">
-            
-                <a href="../hiccup-style-syntax.html">
-            
-                  <!--  -->
-                    Hiccup syntax
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Styling Web pages</li>
-        
-        
-    
-        <li class="chapter " data-level="5.1" data-path="../css/bulma.html">
-            
-                <a href="../css/bulma.html">
-            
-                  <!--  -->
-                    Bulma CSS
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Reagent Projects</li>
-        
-        
-    
-        <li class="chapter " data-level="6.1" data-path="../reagent/">
-            
-                <a href="../reagent/">
-            
-                  <!--  -->
-                    Reagent Overview
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2" data-path="clojurebridge-london-website/">
-            
-                <a href="clojurebridge-london-website/">
-            
-                  <!--  -->
-                    ClojureBridge website
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.2.1" data-path="clojurebridge-london-website/create-project.html">
-            
-                <a href="clojurebridge-london-website/create-project.html">
-            
-                  <!--  -->
-                    Create project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.2" data-path="clojurebridge-london-website/add-bluma-css.html">
-            
-                <a href="clojurebridge-london-website/add-bluma-css.html">
-            
-                  <!--  -->
-                    Add Bulma CSS
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.3" data-path="clojurebridge-london-website/run-the-project.html">
-            
-                <a href="clojurebridge-london-website/run-the-project.html">
-            
-                  <!--  -->
-                    Run the project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.4" data-path="clojurebridge-london-website/live-reloading.html">
-            
-                <a href="clojurebridge-london-website/live-reloading.html">
-            
-                  <!--  -->
-                    Live reloading
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.5" data-path="clojurebridge-london-website/hiccup-for-html.html">
-            
-                <a href="clojurebridge-london-website/hiccup-for-html.html">
-            
-                  <!--  -->
-                    Hiccup for HTML
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.6" data-path="clojurebridge-london-website/repl-workflow.html">
-            
-                <a href="clojurebridge-london-website/repl-workflow.html">
-            
-                  <!--  -->
-                    REPL workflow
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.7" data-path="clojurebridge-london-website/organising-the-code.html">
-            
-                <a href="clojurebridge-london-website/organising-the-code.html">
-            
-                  <!--  -->
-                    Organising the code
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.8" data-path="clojurebridge-london-website/add-welcome-message.html">
-            
-                <a href="clojurebridge-london-website/add-welcome-message.html">
-            
-                  <!--  -->
-                    Add welcome message
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.9" data-path="clojurebridge-london-website/add-welcome-section.html">
-            
-                <a href="clojurebridge-london-website/add-welcome-section.html">
-            
-                  <!--  -->
-                    Add welcome section
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.10" data-path="clojurebridge-london-website/app-state-section.html">
-            
-                <a href="clojurebridge-london-website/app-state-section.html">
-            
-                  <!--  -->
-                    App State section
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.11" data-path="clojurebridge-london-website/github-pages-deploy.html">
-            
-                <a href="clojurebridge-london-website/github-pages-deploy.html">
-            
-                  <!--  -->
-                    GitHub pages deploy
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.12" data-path="clojurebridge-london-website/deploy-build.html">
-            
-                <a href="clojurebridge-london-website/deploy-build.html">
-            
-                  <!--  -->
-                    Deploy build
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.13" data-path="clojurebridge-london-website/add-content-namespace.html">
-            
-                <a href="clojurebridge-london-website/add-content-namespace.html">
-            
-                  <!--  -->
-                    Add Content namespace
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.14" data-path="clojurebridge-london-website/add-navigation.html">
-            
-                <a href="clojurebridge-london-website/add-navigation.html">
-            
-                  <!--  -->
-                    Navigation bar
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.2.15" data-path="clojurebridge-london-website/further-ideas.html">
-            
-                <a href="clojurebridge-london-website/further-ideas.html">
-            
-                  <!--  -->
-                    Content Suggestions
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3" data-path="../reagent-projects/tic-tac-toe/">
-            
-                <a href="../reagent-projects/tic-tac-toe/">
-            
-                  <!--  -->
-                    tic-tac-toe game
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.1" data-path="../reagent-projects/tic-tac-toe/create-project.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/create-project.html">
-            
-                  <!--  -->
-                    Create Project
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.1.1" data-path="../reagent-projects/tic-tac-toe/add-project-to-git.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/add-project-to-git.html">
-            
-                  <!--  -->
-                    Add Project to Git
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.2" data-path="../reagent-projects/tic-tac-toe/start-the-repl.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/start-the-repl.html">
-            
-                  <!--  -->
-                    Start the REPL with Figwheel
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.2.1" data-path="../reagent-projects/tic-tac-toe/test-figwheel.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/test-figwheel.html">
-            
-                  <!--  -->
-                    Test Figwheel
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.3" data-path="../reagent-projects/tic-tac-toe/chrome-devtools.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/chrome-devtools.html">
-            
-                  <!--  -->
-                    Chrome DevTools
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.3.1" data-path="../reagent-projects/tic-tac-toe/cljs-devtools-addon.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/cljs-devtools-addon.html">
-            
-                  <!--  -->
-                    Cljs DevTools addon
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.4" data-path="../reagent-projects/tic-tac-toe/review-reagent-project.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/review-reagent-project.html">
-            
-                  <!--  -->
-                    Review reagent Project
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.4.1" data-path="../reagent-projects/tic-tac-toe/figwheel-helper-functions.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/figwheel-helper-functions.html">
-            
-                  <!--  -->
-                    Figwheel Helper functions
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.5" data-path="../reagent-projects/tic-tac-toe/interact-with-the-repl.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/interact-with-the-repl.html">
-            
-                  <!--  -->
-                    Interact with the REPL
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.5.1" data-path="../reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor.html">
-            
-                  <!--  -->
-                    Via the Editor
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.5.2" data-path="../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD">
-            
-                <span>
-            
-                  <!--  -->
-                    Evaluate code in REPL
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.6" data-path="../reagent-projects/tic-tac-toe/reagent-design-manage-app-state.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/reagent-design-manage-app-state.html">
-            
-                  <!--  -->
-                    Manage app-state
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.7" data-path="../reagent-projects/tic-tac-toe/component-tictactoe-game.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/component-tictactoe-game.html">
-            
-                  <!--  -->
-                    Component: tictactoe-game
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.8" data-path="../reagent-projects/tic-tac-toe/design-game-board.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/design-game-board.html">
-            
-                  <!--  -->
-                    Design Game board
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.9" data-path="../reagent-projects/tic-tac-toe/component-game-board.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/component-game-board.html">
-            
-                  <!--  -->
-                    Component: Game board
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.9.1" data-path="../reagent-projects/tic-tac-toe/hiccup-style-syntax.md">
-            
-                <span>
-            
-                  <!--  -->
-                    Hiccup style syntax
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.9.2" data-path="../reagent-projects/tic-tac-toe/svg-overview.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/svg-overview.html">
-            
-                  <!--  -->
-                    Scalable Vector Graphics
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.9.3" data-path="../reagent-projects/tic-tac-toe/react-unique-index.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/react-unique-index.html">
-            
-                  <!--  -->
-                    React unique index
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.10" data-path="../reagent-projects/tic-tac-toe/render-game-board.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/render-game-board.html">
-            
-                  <!--  -->
-                    Render Game Board
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.11" data-path="../reagent-projects/tic-tac-toe/update-game-board.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/update-game-board.html">
-            
-                  <!--  -->
-                    Update Game Board
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.12" data-path="../reagent-projects/tic-tac-toe/refactor-into-components.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/refactor-into-components.html">
-            
-                  <!--  -->
-                    Refactor into components
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.12.1" data-path="../reagent-projects/tic-tac-toe/refactor--empty-cell.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/refactor--empty-cell.html">
-            
-                  <!--  -->
-                    Empty Cell
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.12.2" data-path="../reagent-projects/tic-tac-toe/refactor--nought-cell.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/refactor--nought-cell.html">
-            
-                  <!--  -->
-                    Nought Cell
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.12.3" data-path="../reagent-projects/tic-tac-toe/refactor--cross-cell.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/refactor--cross-cell.html">
-            
-                  <!--  -->
-                    Cross Cell
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.13" data-path="../reagent-projects/tic-tac-toe/button--start-a-new-game.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/button--start-a-new-game.html">
-            
-                  <!--  -->
-                    Button: Start a new game
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.14" data-path="../reagent-projects/tic-tac-toe/computer-moves.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/computer-moves.html">
-            
-                  <!--  -->
-                    Computer moves
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.14.1" data-path="../reagent-projects/tic-tac-toe/computer-move--basic.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/computer-move--basic.html">
-            
-                  <!--  -->
-                    Basic move
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.14.2" data-path="../reagent-projects/tic-tac-toe/computer-move--repl-experiments.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/computer-move--repl-experiments.html">
-            
-                  <!--  -->
-                    REPL experiments
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.14.3" data-path="../reagent-projects/tic-tac-toe/computer-move--random-available-cell.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/computer-move--random-available-cell.html">
-            
-                  <!--  -->
-                    Random available cell
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.15" data-path="../reagent-projects/tic-tac-toe/detecting-victory.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/detecting-victory.html">
-            
-                  <!--  -->
-                    Detecting Victory
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="6.3.15.1" data-path="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments.html">
-            
-                  <!--  -->
-                    Experiments in the REPL
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.15.2" data-path="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching.html">
-            
-                  <!--  -->
-                    Experiments in the REPL - Pattern matching
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3.15.3" data-path="../reagent-projects/tic-tac-toe/detecting-victory-function.html">
-            
-                <a href="../reagent-projects/tic-tac-toe/detecting-victory-function.html">
-            
-                  <!--  -->
-                    Victory function
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Reference</li>
-        
-        
-    
-        <li class="chapter " data-level="7.1" data-path="../overview/">
-            
-                <a href="../overview/">
-            
-                  <!--  -->
-                    ClojureScript Overview
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="7.1.1" data-path="../overview/single-page-apps.html">
-            
-                <a href="../overview/single-page-apps.html">
-            
-                  <!--  -->
-                    Single Page Apps
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.1.2" data-path="../overview/compiling-to-javascript.html">
-            
-                <a href="../overview/compiling-to-javascript.html">
-            
-                  <!--  -->
-                    Compiling to JavaScript
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.1.3" data-path="../overview/clojurescript-platforms.html">
-            
-                <a href="../overview/clojurescript-platforms.html">
-            
-                  <!--  -->
-                    ClojureScript platforms
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.1.4" data-path="../overview/reactive-apps.html">
-            
-                <a href="../overview/reactive-apps.html">
-            
-                  <!--  -->
-                    Reactive apps
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="7.1.4.1" data-path="../overview/react-facebook.html">
-            
-                <a href="../overview/react-facebook.html">
-            
-                  <!--  -->
-                    Facebook React
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.1.4.2" data-path="../overview/react-om-and-om-next.html">
-            
-                <a href="../overview/react-om-and-om-next.html">
-            
-                  <!--  -->
-                    Om and Om Next
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.1.4.3" data-path="../overview/react-reagent.html">
-            
-                <a href="../overview/react-reagent.html">
-            
-                  <!--  -->
-                    Reagent
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.1.4.4" data-path="../overview/react-re-frame.html">
-            
-                <a href="../overview/react-re-frame.html">
-            
-                  <!--  -->
-                    Re-frame
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.1.4.5" data-path="../why-clojurescript/react-native.html">
-            
-                <a href="../why-clojurescript/react-native.html">
-            
-                  <!--  -->
-                    React Native
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="7.2" data-path="../why-clojurescript/">
-            
-                <a href="../why-clojurescript/">
-            
-                  <!--  -->
-                    Why ClojureScript
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="7.2.1" data-path="../why-clojurescript/lightweight.html">
-            
-                <a href="../why-clojurescript/lightweight.html">
-            
-                  <!--  -->
-                    Lightweight
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.2.2" data-path="../why-clojurescript/google-clojure.html">
-            
-                <a href="../why-clojurescript/google-clojure.html">
-            
-                  <!--  -->
-                    Google Closure
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.2.3" data-path="../why-clojurescript/source-maps.html">
-            
-                <a href="../why-clojurescript/source-maps.html">
-            
-                  <!--  -->
-                    Source Maps
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.2.4" data-path="../why-clojurescript/interoperability.html">
-            
-                <a href="../why-clojurescript/interoperability.html">
-            
-                  <!--  -->
-                    Interoperability
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.2.5" data-path="../why-clojurescript/why-not-javascript.html">
-            
-                <a href="../why-clojurescript/why-not-javascript.html">
-            
-                  <!--  -->
-                    Why not JavaScript
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="7.2.6" data-path="../why-clojurescript/who-uses-clojurescript.html">
-            
-                <a href="../why-clojurescript/who-uses-clojurescript.html">
-            
-                  <!--  -->
-                    Who uses ClojureScript
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter active" data-level="7.3" data-path="./">
-            
-                <a href="./">
-            
-                  <!--  -->
-                    Web Design basics
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="7.3.1" data-path="bootstrap.html">
-            
-                <a href="bootstrap.html">
-            
-                  <!--  -->
-                    Bootstrap
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="7.3.1.1" data-path="bootstrap-jumbotron.html">
-            
-                <a href="bootstrap-jumbotron.html">
-            
-                  <!--  -->
-                    Jumbotron
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="7.3.2" data-path="clojurebridge-london-bootstrap-website.html">
-            
-                <a href="clojurebridge-london-bootstrap-website.html">
-            
-                  <!--  -->
-                    Bootstrap website
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Old Material - under review</li>
-        
-        
-    
-        <li class="chapter " data-level="8.1" data-path="../quickstart/">
-            
-                <a href="../quickstart/">
-            
-                  <!--  -->
-                    Clojurescript Quickstart
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.1.1" data-path="../quickstart/create-basic-project.html">
-            
-                <a href="../quickstart/create-basic-project.html">
-            
-                  <!--  -->
-                    Create basic project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.2" data-path="../quickstart/hello-world.html">
-            
-                <a href="../quickstart/hello-world.html">
-            
-                  <!--  -->
-                    Hello World
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.3" data-path="../quickstart/create-build-file.html">
-            
-                <a href="../quickstart/create-build-file.html">
-            
-                  <!--  -->
-                    Create build file
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.4" data-path="../quickstart/build-project.html">
-            
-                <a href="../quickstart/build-project.html">
-            
-                  <!--  -->
-                    Build Project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.5" data-path="../quickstart/create-a-web-page.html">
-            
-                <a href="../quickstart/create-a-web-page.html">
-            
-                  <!--  -->
-                    Create a web page
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.6" data-path="../quickstart/google-clojure.html">
-            
-                <a href="../quickstart/google-clojure.html">
-            
-                  <!--  -->
-                    Google Closure
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.7" data-path="../quickstart/reduce-boilerplate.html">
-            
-                <a href="../quickstart/reduce-boilerplate.html">
-            
-                  <!--  -->
-                    Reduce boilerplate
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.8" data-path="../quickstart/auto-building.html">
-            
-                <a href="../quickstart/auto-building.html">
-            
-                  <!--  -->
-                    Auto-building
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.9" data-path="../quickstart/browser-repl.html">
-            
-                <a href="../quickstart/browser-repl.html">
-            
-                  <!--  -->
-                    Browser REPL
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.10" data-path="../quickstart/production-build.html">
-            
-                <a href="../quickstart/production-build.html">
-            
-                  <!--  -->
-                    Production Build
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.11" data-path="../quickstart/dependencies.html">
-            
-                <a href="../quickstart/dependencies.html">
-            
-                  <!--  -->
-                    Dependencies
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.12" data-path="../quickstart/nodejs.html">
-            
-                <a href="../quickstart/nodejs.html">
-            
-                  <!--  -->
-                    node.js
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.1.13" data-path="../quickstart/lumo.html">
-            
-                <a href="../quickstart/lumo.html">
-            
-                  <!--  -->
-                    Lumo
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.1.13.1" data-path="../quickstart/self-hosted-clojurescript.html">
-            
-                <a href="../quickstart/self-hosted-clojurescript.html">
-            
-                  <!--  -->
-                    Self Hosted Clojurescript
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2" data-path="../figwheel/">
-            
-                <a href="../figwheel/">
-            
-                  <!--  -->
-                    Figwheel Classic
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.2.1" data-path="../figwheel/features.html">
-            
-                <a href="../figwheel/features.html">
-            
-                  <!--  -->
-                    Features
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.2" data-path="../figwheel/flappy-birds-demo.html">
-            
-                <a href="../figwheel/flappy-birds-demo.html">
-            
-                  <!--  -->
-                    Flappy Birds demo
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.3" data-path="../figwheel/using-figwheel.html">
-            
-                <a href="../figwheel/using-figwheel.html">
-            
-                  <!--  -->
-                    Using Figwheel
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.4" data-path="../figwheel/configure-build.html">
-            
-                <a href="../figwheel/configure-build.html">
-            
-                  <!--  -->
-                    Configure Build 
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.5" data-path="../figwheel/server-side-config.html">
-            
-                <a href="../figwheel/server-side-config.html">
-            
-                  <!--  -->
-                    Server-side Config
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.6" data-path="../figwheel/client-side-use.html">
-            
-                <a href="../figwheel/client-side-use.html">
-            
-                  <!--  -->
-                    Client-side use
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.7" data-path="../figwheel/client-side-config.html">
-            
-                <a href="../figwheel/client-side-config.html">
-            
-                  <!--  -->
-                    Client-side Config
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.8" data-path="../figwheel/file-reloads.html">
-            
-                <a href="../figwheel/file-reloads.html">
-            
-                  <!--  -->
-                    File Reloads
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.9" data-path="../figwheel/repl-control.html">
-            
-                <a href="../figwheel/repl-control.html">
-            
-                  <!--  -->
-                    REPL Control
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.10" data-path="../figwheel/editor-repls-nrepl.html">
-            
-                <a href="../figwheel/editor-repls-nrepl.html">
-            
-                  <!--  -->
-                    Editor REPLs & nREPL
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.11" data-path="../figwheel/scripting-figwheel.html">
-            
-                <a href="../figwheel/scripting-figwheel.html">
-            
-                  <!--  -->
-                    Scripting Figwheel
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.12" data-path="../figwheel/scripting-with-component.html">
-            
-                <a href="../figwheel/scripting-with-component.html">
-            
-                  <!--  -->
-                    Scripting with Component
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.2.13" data-path="../figwheel/re-loadable-code.html">
-            
-                <a href="../figwheel/re-loadable-code.html">
-            
-                  <!--  -->
-                    Re-loadable Code
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3" data-path="../figwheel-project/">
-            
-                <a href="../figwheel-project/">
-            
-                  <!--  -->
-                    Figwheel Classic Project
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.3.1" data-path="../figwheel-project/create-project.html">
-            
-                <a href="../figwheel-project/create-project.html">
-            
-                  <!--  -->
-                    Create Project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.2" data-path="../figwheel-project/clojurescript-file.html">
-            
-                <a href="../figwheel-project/clojurescript-file.html">
-            
-                  <!--  -->
-                    ClojureScript file
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.3" data-path="../figwheel-project/project-build-file.html">
-            
-                <a href="../figwheel-project/project-build-file.html">
-            
-                  <!--  -->
-                    Project Build file
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.4" data-path="../figwheel-project/run-figwheel.html">
-            
-                <a href="../figwheel-project/run-figwheel.html">
-            
-                  <!--  -->
-                    Run Figwheel
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.5" data-path="../figwheel-project/web-page.html">
-            
-                <a href="../figwheel-project/web-page.html">
-            
-                  <!--  -->
-                    Web Page
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.6" data-path="../figwheel-project/run-figwheel-again.html">
-            
-                <a href="../figwheel-project/run-figwheel-again.html">
-            
-                  <!--  -->
-                    Run Figwheel again
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.7" data-path="../figwheel-project/add-a-counter.html">
-            
-                <a href="../figwheel-project/add-a-counter.html">
-            
-                  <!--  -->
-                    Add a counter
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.8" data-path="../figwheel-project/auto-reloading.html">
-            
-                <a href="../figwheel-project/auto-reloading.html">
-            
-                  <!--  -->
-                    Auto Reloading
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.9" data-path="../figwheel-project/serving-assets.html">
-            
-                <a href="../figwheel-project/serving-assets.html">
-            
-                  <!--  -->
-                    Serving assets
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.3.10" data-path="../figwheel-project/using-the-repl.html">
-            
-                <a href="../figwheel-project/using-the-repl.html">
-            
-                  <!--  -->
-                    Using the REPL
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.4" data-path="../clojurescript-examples/">
-            
-                <a href="../clojurescript-examples/">
-            
-                  <!--  -->
-                    Clojurescript Examples
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.4.1" data-path="../clojurescript-examples/javascript-alerts.html">
-            
-                <a href="../clojurescript-examples/javascript-alerts.html">
-            
-                  <!--  -->
-                    JavaScript Alerts
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.4.2" data-path="../clojurescript-examples/writing-to-javascript-console.html">
-            
-                <a href="../clojurescript-examples/writing-to-javascript-console.html">
-            
-                  <!--  -->
-                    Writing to the JavaScript console
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.4.3" data-path="../clojurescript-examples/buttons.html">
-            
-                <a href="../clojurescript-examples/buttons.html">
-            
-                  <!--  -->
-                    Buttons
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.4.4" data-path="../clojurescript-examples/forms.html">
-            
-                <a href="../clojurescript-examples/forms.html">
-            
-                  <!--  -->
-                    Forms
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5" data-path="../functional-reactive-programming/">
-            
-                <a href="../functional-reactive-programming/">
-            
-                  <!--  -->
-                    Functional Reactive Programming
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.1" data-path="../reactjs/">
-            
-                <a href="../reactjs/">
-            
-                  <!--  -->
-                    react.js
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.1.1" data-path="../reactjs/project-calculator-introduction.html">
-            
-                <a href="../reactjs/project-calculator-introduction.html">
-            
-                  <!--  -->
-                    Project: Calculator
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.1.1.1" data-path="../reactjs/project-calculator-create-project.html">
-            
-                <a href="../reactjs/project-calculator-create-project.html">
-            
-                  <!--  -->
-                    Create Project
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.2" data-path="../reagent/">
-            
-                <a href="../reagent/">
-            
-                  <!--  -->
-                    Reagent
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Reagent Project: ClojureX
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.3.1" data-path="../reagent-project-clojurex/create-project.html">
-            
-                <a href="../reagent-project-clojurex/create-project.html">
-            
-                  <!--  -->
-                    Create Project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.2" data-path="../reagent-project-clojurex/start-the-repl.html">
-            
-                <a href="../reagent-project-clojurex/start-the-repl.html">
-            
-                  <!--  -->
-                    Start the REPL
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.3" data-path="../reagent-project-clojurex/project-so-far.html">
-            
-                <a href="../reagent-project-clojurex/project-so-far.html">
-            
-                  <!--  -->
-                    Project so far
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.4" data-path="../reagent-project-clojurex/interact-with-the-repl.md">
-            
-                <span>
-            
-                  <!--  -->
-                    Interact with the REPL
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.5" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Create Conference Title
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.6" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Designing Session Model
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.7" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Display Session in root-component
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.8" data-path="../reagent-project-clojurex/refactor-to-multi-session-model.md">
-            
-                <span>
-            
-                  <!--  -->
-                    Refactor to Multi-Session Model
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.9" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Refactor root-component for sessions
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.10" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Defining new session data
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.11" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Adding session data to State
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.12" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Include Bootstrap
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.13" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Add a Container
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.14" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Add Header Style
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.15" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Add Session Style
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.16" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Create Sessions Component
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.3.17" data-path="../reagent-project-clojurex/">
-            
-                <a href="../reagent-project-clojurex/">
-            
-                  <!--  -->
-                    Add Session Form
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.4" data-path="../om/">
-            
-                <a href="../om/">
-            
-                  <!--  -->
-                    Om
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.4.1" data-path="../om/overview.html">
-            
-                <a href="../om/overview.html">
-            
-                  <!--  -->
-                    Overview
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5" data-path="../om-project-clojurex/">
-            
-                <a href="../om-project-clojurex/">
-            
-                  <!--  -->
-                    Om Project: ClojureX
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.5.1" data-path="../om-project-clojurex/create-project.html">
-            
-                <a href="../om-project-clojurex/create-project.html">
-            
-                  <!--  -->
-                    Create Project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.2" data-path="../om-project-clojurex/start-the-repl.html">
-            
-                <a href="../om-project-clojurex/start-the-repl.html">
-            
-                  <!--  -->
-                    Start the REPL
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.3" data-path="../om-project-clojurex/interact-with-project.html">
-            
-                <a href="../om-project-clojurex/interact-with-project.html">
-            
-                  <!--  -->
-                    Interact with Project
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.4" data-path="../om-project-clojurex/create-conference-title.html">
-            
-                <a href="../om-project-clojurex/create-conference-title.html">
-            
-                  <!--  -->
-                    Create Conference Title
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.5" data-path="../om-project-clojurex/designing-session-model.html">
-            
-                <a href="../om-project-clojurex/designing-session-model.html">
-            
-                  <!--  -->
-                    Designing Session Model
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.6" data-path="../om-project-clojurex/display-session-in-root-component.html">
-            
-                <a href="../om-project-clojurex/display-session-in-root-component.html">
-            
-                  <!--  -->
-                    Display Session in root-component
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.7" data-path="../om-project-clojurex/refactor-to-multi-session-model.html">
-            
-                <a href="../om-project-clojurex/refactor-to-multi-session-model.html">
-            
-                  <!--  -->
-                    Refactor to Multi-Session Model
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.8" data-path="../om-project-clojurex/refactor-root-component-for-sessions.html">
-            
-                <a href="../om-project-clojurex/refactor-root-component-for-sessions.html">
-            
-                  <!--  -->
-                    Refactor root-component for sessions
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.9" data-path="../om-project-clojurex/defining-session-data.html">
-            
-                <a href="../om-project-clojurex/defining-session-data.html">
-            
-                  <!--  -->
-                    Defining new session data
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.10" data-path="../om-project-clojurex/adding-session-data-to-state.html">
-            
-                <a href="../om-project-clojurex/adding-session-data-to-state.html">
-            
-                  <!--  -->
-                    Adding session data to State
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.11" data-path="../om-project-clojurex/include-bootstrap.html">
-            
-                <a href="../om-project-clojurex/include-bootstrap.html">
-            
-                  <!--  -->
-                    Include Bootstrap
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.12" data-path="../om-project-clojurex/add-a-container.html">
-            
-                <a href="../om-project-clojurex/add-a-container.html">
-            
-                  <!--  -->
-                    Add a Container
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.13" data-path="../om-project-clojurex/add-header-style.html">
-            
-                <a href="../om-project-clojurex/add-header-style.html">
-            
-                  <!--  -->
-                    Add Header Style
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.14" data-path="../om-project-clojurex/add-session-style.html">
-            
-                <a href="../om-project-clojurex/add-session-style.html">
-            
-                  <!--  -->
-                    Add Session Style
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.15" data-path="../om-project-clojurex/create-sessions-component.html">
-            
-                <a href="../om-project-clojurex/create-sessions-component.html">
-            
-                  <!--  -->
-                    Create Sessions Component
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.16" data-path="../om-project-clojurex/add-session-form.html">
-            
-                <a href="../om-project-clojurex/add-session-form.html">
-            
-                  <!--  -->
-                    Add Session Form
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.17" data-path="../om-project-clojurex/om-cursors.html">
-            
-                <a href="../om-project-clojurex/om-cursors.html">
-            
-                  <!--  -->
-                    Om Cursors
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.18" data-path="../om-project-clojurex/form-click-handler.html">
-            
-                <a href="../om-project-clojurex/form-click-handler.html">
-            
-                  <!--  -->
-                    Form Click Handler
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.19" data-path="../om-project-clojurex/create-local-state-for-form.html">
-            
-                <a href="../om-project-clojurex/create-local-state-for-form.html">
-            
-                  <!--  -->
-                    Create local State for form
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.20" data-path="../om-project-clojurex/use-local-state-in-session-form.html">
-            
-                <a href="../om-project-clojurex/use-local-state-in-session-form.html">
-            
-                  <!--  -->
-                    Use local state in session form
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.21" data-path="../om-project-clojurex/connect-form-to-local-state.html">
-            
-                <a href="../om-project-clojurex/connect-form-to-local-state.html">
-            
-                  <!--  -->
-                    Connect form to local state
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.22" data-path="../om-project-clojurex/add-cursor-to-local-state.html">
-            
-                <a href="../om-project-clojurex/add-cursor-to-local-state.html">
-            
-                  <!--  -->
-                    Add Cursor to Local State
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.23" data-path="../om-project-clojurex/create-form-component.html">
-            
-                <a href="../om-project-clojurex/create-form-component.html">
-            
-                  <!--  -->
-                    Create Form Component
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.5.24" data-path="../om-project-clojurex/testing.html">
-            
-                <a href="../om-project-clojurex/testing.html">
-            
-                  <!--  -->
-                    Testing
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6" data-path="../reference/">
-            
-                <a href="../reference/">
-            
-                  <!--  -->
-                    Reference
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.6.1" data-path="../create-a-project/namespaces.html">
-            
-                <a href="../create-a-project/namespaces.html">
-            
-                  <!--  -->
-                    Namespaces
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2" data-path="../clojure-syntax/">
-            
-                <a href="../clojure-syntax/">
-            
-                  <!--  -->
-                    Clojure Syntax
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.6.2.1" data-path="../clojure-syntax/basic-syntax.html">
-            
-                <a href="../clojure-syntax/basic-syntax.html">
-            
-                  <!--  -->
-                    Basic Syntax
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.2" data-path="../clojure-syntax/data-types.html">
-            
-                <a href="../clojure-syntax/data-types.html">
-            
-                  <!--  -->
-                    Clojure data types
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.3" data-path="../clojure-syntax/strings.html">
-            
-                <a href="../clojure-syntax/strings.html">
-            
-                  <!--  -->
-                    Strings
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.4" data-path="../clojure-syntax/maths.html">
-            
-                <a href="../clojure-syntax/maths.html">
-            
-                  <!--  -->
-                    Maths
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.5" data-path="../clojure-syntax/naming-binding.html">
-            
-                <a href="../clojure-syntax/naming-binding.html">
-            
-                  <!--  -->
-                    Naming & Binding
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.6" data-path="../clojure-syntax/functions.html">
-            
-                <a href="../clojure-syntax/functions.html">
-            
-                  <!--  -->
-                    Functions
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.7" data-path="../clojure-syntax/persistent-data-structures.html">
-            
-                <a href="../clojure-syntax/persistent-data-structures.html">
-            
-                  <!--  -->
-                    Persistent Data Structures
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.6.2.7.1" data-path="../clojure-syntax/persistent-data-structures-lists.html">
-            
-                <a href="../clojure-syntax/persistent-data-structures-lists.html">
-            
-                  <!--  -->
-                    Lists
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.7.2" data-path="../clojure-syntax/persistent-data-structures-maps.html">
-            
-                <a href="../clojure-syntax/persistent-data-structures-maps.html">
-            
-                  <!--  -->
-                    Maps
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.7.3" data-path="../clojure-syntax/persistent-data-structures-vectors.html">
-            
-                <a href="../clojure-syntax/persistent-data-structures-vectors.html">
-            
-                  <!--  -->
-                    Vectors
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.7.4" data-path="../clojure-syntax/persistent-data-structures-sets.html">
-            
-                <a href="../clojure-syntax/persistent-data-structures-sets.html">
-            
-                  <!--  -->
-                    Sets
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.8" data-path="../clojure-syntax/destructuring.html">
-            
-                <a href="../clojure-syntax/destructuring.html">
-            
-                  <!--  -->
-                    Destructuring
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.9" data-path="../clojure-syntax/control-flow.html">
-            
-                <a href="../clojure-syntax/control-flow.html">
-            
-                  <!--  -->
-                    Control flow
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.2.10" data-path="../clojure-syntax/local-assignement.html">
-            
-                <a href="../clojure-syntax/local-assignement.html">
-            
-                  <!--  -->
-                    Local Assignment
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="8.5.6.3" data-path="../production/">
-            
-                <a href="../production/">
-            
-                  <!--  -->
-                    Production
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="8.5.6.3.1" data-path="../production/externs.html">
-            
-                <a href="../production/externs.html">
-            
-                  <!--  -->
-                    Externs
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://practical.li" target="_blank" class="gitbook-link">
-            Author: Practicalli
+<!--
+  Practicalli Custom blocks 
+
+  Overrides
+     - announce
+-->
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Practical guide to ClojureScript programming language and Clojure REPL driven development" name="description"/>
+<meta content="Practicalli" name="author"/>
+<link href="https://practical.li/clojurescript/web-design-basics/" rel="canonical"/>
+<link href="../figwheel-main-projects/reagent/" rel="prev"/>
+<link href="../css/bulma/" rel="next"/>
+<link href="../assets/favicon.svg" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.2" name="generator"/>
+<title>Websites with ClojureScript - Practicalli ClojureScript</title>
+<link href="../assets/stylesheets/main.7bf56d0a.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<meta content="website" property="og:type"/>
+<meta content="Websites with ClojureScript - Practicalli ClojureScript" property="og:title"/>
+<meta content="Practical guide to ClojureScript programming language and Clojure REPL driven development" property="og:description"/>
+<meta content="https://practical.li/clojurescript/assets/images/social/web-design-basics/index.png" property="og:image"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="https://practical.li/clojurescript/web-design-basics/" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Websites with ClojureScript - Practicalli ClojureScript" name="twitter:title"/>
+<meta content="Practical guide to ClojureScript programming language and Clojure REPL driven development" name="twitter:description"/>
+<meta content="https://practical.li/clojurescript/assets/images/social/web-design-basics/index.png" name="twitter:image"/>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="teal" data-md-color-primary="blue" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#websites-with-clojurescript">
+          Skip to content
         </a>
-    </li>
-</ul>
-
-
-                </nav>
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Web Design basics</a>
-    </h1>
 </div>
+<div data-md-component="announce">
+<aside class="md-banner">
+<div class="md-banner__inner md-grid md-typeset">
+<a href="https://practical.li/clojurescript">Practicalli ClojureScript</a> is converting to MkDocs and a content refactor
+so PR's are of limited value at present. Some page links &amp; images may be temporarily broken.
 
 
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                <h1 id="websites-with-clojurescript">Websites with ClojureScript</h1>
+          </div>
+</aside>
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Practicalli ClojureScript" class="md-header__button md-logo" data-md-component="logo" href=".." title="Practicalli ClojureScript">
+<img alt="logo" src="../assets/images/practicalli-logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Practicalli ClojureScript
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Websites with ClojureScript
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="teal" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="blue" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="teal" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/practicalli/clojurescript/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Practicalli ClojureScript" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Practicalli ClojureScript">
+<img alt="logo" src="../assets/images/practicalli-logo.png"/>
+</a>
+    Practicalli ClojureScript
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/practicalli/clojurescript/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="..">Introduction</a>
+<label for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+          Introduction
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../introduction/repl-workflow/">
+        REPL Workflow
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../introduction/contributing/">
+        Contributing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../introduction/hiccup-style-syntax/">
+        Hiccup
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../introduction/writing-tips/">
+        Writing Tips
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../install/">Install</a>
+<label for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Install
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../install/browser-devtools/">
+        Browser DevTools
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../figwheel/">Figwheel</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Figwheel
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../figwheel-main/">Figwheel Workflow</a>
+<label for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Figwheel Workflow
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/create-project/">
+        Create Projects
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/project-configuration/">
+        Project Configuration
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/check-configuration/">
+        Run Figwheel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/rebel/">
+        Rebel Rich UI
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/build-project/">
+        Build project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/run-figwheel-from-cider/">
+        Emacs Cider
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/run-tests/">
+        Run tests
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/continuous-testing/">
+        Continuous Tests
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/package-project/">
+        Package project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main/pages-deploy/">
+        Pages deploy
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../figwheel-main-projects/">Figwheel projects</a>
+<label for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Figwheel projects
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main-projects/simple/">
+        Simple project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../figwheel-main-projects/reagent/">
+        Reagent project
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index md-nav__link--active">
+<a href="./">Web Design basics</a>
+<label for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          Web Design basics
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../hiccup-style-syntax.md">
+        Hiccup syntax
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../css/bulma/">
+        Bulma CSS
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+          Bootstrap
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_4">
+<span class="md-nav__icon md-icon"></span>
+          Bootstrap
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="bootstrap/">
+        Bootstrap
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="bootstrap-container.md">
+        Container
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="bootstrap-jumbotron/">
+        Jumbotron
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-bootstrap-website/">
+        Bootstrap website
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../reagent/">Reagent Overview</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+          Reagent Overview
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="clojurebridge-london-website/">ClojureBridge website</a>
+<label for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+          ClojureBridge website
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/create-project/">
+        Create project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/add-bluma-css/">
+        Add Bulma CSS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/run-the-project/">
+        Run the project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/live-reloading/">
+        Live reloading
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/hiccup-for-html/">
+        Hiccup for HTML
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/repl-workflow/">
+        REPL workflow
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/organising-the-code/">
+        Organising the code
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/add-welcome-message/">
+        Add welcome message
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/add-welcome-section/">
+        Add welcome section
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/app-state-section/">
+        App State section
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/github-pages-deploy/">
+        GitHub pages deploy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/deploy-build/">
+        Deploy build
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/add-content-namespace/">
+        Add Content namespace
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/add-navigation/">
+        Navigation bar
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="clojurebridge-london-website/further-ideas/">
+        Content Suggestions
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../reagent-projects/tic-tac-toe/">tic-tac-toe game</a>
+<label for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+          tic-tac-toe game
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/create-project/">
+        Create Project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/add-project-to-git/">
+        Add Project to Git
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/start-the-repl/">
+        Start the REPL with Figwheel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/test-figwheel/">
+        Test Figwheel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/chrome-devtools/">
+        Chrome DevTools
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/cljs-devtools-addon/">
+        Cljs DevTools addon
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/review-reagent-project/">
+        Review reagent Project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/figwheel-helper-functions/">
+        Figwheel Helper functions
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/interact-with-the-repl/">
+        Interact with the REPL
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor/">
+        Via the Editor
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD">
+        Evaluate code in REPL
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/reagent-design-manage-app-state/">
+        Manage app-state
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/component-tictactoe-game/">
+        tictactoe-game
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/design-game-board/">
+        Design Game board
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/component-game-board/">
+        Game board
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/hiccup-style-syntax.md">
+        Hiccup style syntax
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/svg-overview/">
+        Scalable Vector Graphics
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/react-unique-index/">
+        React unique index
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/render-game-board/">
+        Render Game Board
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/update-game-board/">
+        Update Game Board
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor-into-components/">
+        Refactor into components
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor--empty-cell/">
+        Empty Cell
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor--nought-cell/">
+        Nought Cell
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor--cross-cell/">
+        Cross Cell
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/button--start-a-new-game/">
+        Start new game
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-moves/">
+        Computer moves
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-move--basic/">
+        Basic move
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-move--repl-experiments/">
+        REPL experiments
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-move--random-available-cell/">
+        Random available cell
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory/">
+        Detecting Victory
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments/">
+        Experiments in the REPL
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching/">
+        Experiments in the REPL - Pattern matching
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory-function/">
+        Victory function
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#web-development-and-design-basics">
+    Web development and design basics
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#example-projects">
+    Example projects
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="websites-with-clojurescript">Websites with ClojureScript<a class="headerlink" href="#websites-with-clojurescript" title="Permanent link">λ︎</a></h1>
 <p>ClojureScript is a great language for creating websites, using data structures to define document structure around content and styles.</p>
 <p>Websites with ClojureScript can use Cascading Style Sheet (CSS) frameworks such as Bootstrap and Bulma to enhance the look of a website and add responsive design.  So building websites that work across multiple display formats is straight forward.</p>
 <p>Single Page Apps can be created using reagent, a React.js style library that abstracts the complexities of react with the data centric approach of ClojureScript.</p>
-<h2 id="web-development-and-design-basics">Web development and design basics</h2>
+<h2 id="web-development-and-design-basics">Web development and design basics<a class="headerlink" href="#web-development-and-design-basics" title="Permanent link">λ︎</a></h2>
 <p>Covering basic constructs and concepts in web page development and design using ClojureScript.</p>
-<h2 id="example-projects">Example projects</h2>
+<h2 id="example-projects">Example projects<a class="headerlink" href="#example-projects" title="Permanent link">λ︎</a></h2>
 <p>Several example projects are included to insprire your own creations.</p>
 <ul>
-<li><a href="clojurebridge-london-bootstrap-website.html">ClojureBridge London website</a> - reagent and Bulma CSS library</li>
-<li><a href="../reagent-projects/tic-tac-toe/">Tic Tac Toe game</a> - reagent, Scalable Vector Graphics and Bulma CSS library</li>
+<li><a href="/web-design-basics/clojurebridge-london-bootstrap-website.md">ClojureBridge London website</a> - reagent and Bulma CSS library</li>
+<li><a href="/reagent-projects/tic-tac-toe/index.md">Tic Tac Toe game</a> - reagent, Scalable Vector Graphics and Bulma CSS library</li>
 </ul>
- <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
+<hr/>
+<div class="md-source-file">
+<small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 10, 2023</span>
+</small>
 </div>
-
-                        </div>
-                    </div>
-                
-            </div>
-
-            
-                
-                <a href="../why-clojurescript/who-uses-clojurescript.html" class="navigation navigation-prev " aria-label="Previous page: Who uses ClojureScript">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="bootstrap.html" class="navigation navigation-next " aria-label="Next page: Bootstrap">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
-        
-    </div>
-
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Web Design basics","level":"7.3","depth":1,"next":{"title":"Bootstrap","level":"7.3.1","depth":2,"path":"web-design-basics/bootstrap.md","ref":"web-design-basics/bootstrap.md","articles":[{"title":"Jumbotron","level":"7.3.1.1","depth":3,"path":"web-design-basics/bootstrap-jumbotron.md","ref":"web-design-basics/bootstrap-jumbotron.md","articles":[]}]},"previous":{"title":"Who uses ClojureScript","level":"7.2.6","depth":2,"path":"why-clojurescript/who-uses-clojurescript.md","ref":"why-clojurescript/who-uses-clojurescript.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-headings-lambda","callouts","codeblock-disable-glossary","folding-chapters","ga","-glossary","-highlight","klipse","newtabs","prism","sectionx","simpletabs","-sharing","splitter","terminull-light","theme-jr0cket","toggle-chapters","toolbar","youtube","wide-page"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{"ignore":["eval-clojure"]},"callouts":{"showTypeInHeader":false,"star":{"alert":"warning","picto":"fa-star"}},"youtube":{},"splitter":{},"search":{},"wide-page":{},"anchor-headings-lambda":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"terminull-light":{},"simpletabs":{},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"folding-chapters":{},"sectionx":{},"ga":{"configuration":"auto","token":"UA-28030709-10"},"klipse":{"myConfigKey":"it's the default value"},"theme-jr0cket":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"toolbar":{"buttons":[{"label":"Clojurians Slack","icon":"fa fa-comments-o","url":"http://clojurians.slack.com/messages/practicalli"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/practicalli/clojurescript/issues"}]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"newtabs":{},"toggle-chapters":{}},"theme":"default","author":"Practicalli","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"P9IDeveloperGuides":"https://github.com/practicallli-john/developer-guides/raw/master/","P9IGraphicDesign":"https://github.com/practicalli/graphic-design","P9IPullRequestsUrl":"https://github.com/practicalli/clojurescript/pulls","P9IClojureDepsEdn":"https://github.com/practicalli/clojure-deps-edn","KeyDownArrow":"<kbd>↓</kbd>","KeyCtrl":"<kbd>Ctrl</kbd>","Leiningen":"https://leiningen.org/","P9IClojureThroughCode":"https://github.com/practicalli/clojure-through-code","KeyUpArrow":"<kbd>↑</kbd>","P9IClojureDepsEdnInstall":"/clojure-tools/install/community-tools.md","P9IIssuesUrl":"https://github.com/practicalli/clojurescript/issues","KeyEsc":"<kbd>Esc</kbd>","KeyEnter":"<kbd>Enter</kbd>","website":"https://practical.li/clojurescript","P9IFourClojure":"https://github.com/practicalli/four-clojure"},"title":"Practicalli Clojurescript","authorHomepage":"https://practical.li","links":{"sidebar":{"Practicalli":"https://practical.li/"}},"gitbook":">=3.2.3","description":"Building Immutable data driven web applications"},"file":{"path":"web-design-basics/index.md","mtime":"2022-09-09T19:09:50.605Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-09-09T19:11:04.225Z"},"basePath":"..","book":{"language":""}});
-        });
-    </script>
+</article>
 </div>
-
-
-        
-    <script src="../gitbook/gitbook.js"></script>
-    <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-anchor-headings-lambda/anchor-style.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-codeblock-disable-glossary/disable-glossary.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-folding-chapters/folding-chapters.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-newtabs/bootstrap.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-newtabs/tabs.js"></script>
-        
-    
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
-        
-    
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-terminull-light/terminull.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-toolbar/buttons.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-
-        
-    </body>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2023  Practicali <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+</div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://www.linkedin.com/in/jr0cket/" rel="noopener" target="_blank" title="www.linkedin.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+</a>
+<a class="md-social__link" href="https://clojurians.slack.com/messages/practicalli" rel="noopener" target="_blank" title="clojurians.slack.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"></path></svg>
+</a>
+<a class="md-social__link" href="https://twitter.com/practical_li" rel="noopener" target="_blank" title="twitter.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+<a class="md-social__link" href="https://github.com/practicalli" rel="noopener" target="_blank" title="github.com">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+<a class="md-social__link" href="https://hub.docker.com/u/practicalli" rel="noopener" target="_blank" title="hub.docker.com">
+<svg viewbox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "content.code.annotate", "content.tabs.link", "navigation.instant", "navigation.tracking", "navigation.indexes"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.fc8c2696.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
-

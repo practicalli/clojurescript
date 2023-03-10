@@ -1,1 +1,0 @@
-# Basic Om-Next project
