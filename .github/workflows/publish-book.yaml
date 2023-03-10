@@ -2,7 +2,7 @@
 name: Publish Book
 on:
   # Manually trigger workflow
-  workflow_dispatch:
+  workflow_dispatch: true
 
   # Run work flow conditional on linter workflow success
   workflow_run:
