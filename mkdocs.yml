@@ -117,6 +117,7 @@ extra:
 nav:
   - Introduction:
       - index.md
+      - ClojureScript: introduction/clojurescript.md
       - REPL Workflow: introduction/repl-workflow.md
       - Contributing: introduction/contributing.md
       - Hiccup: introduction/hiccup-style-syntax.md
