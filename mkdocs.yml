@@ -118,6 +118,7 @@ nav:
   - Introduction:
       - index.md
       - ClojureScript: introduction/clojurescript.md
+      - Figwheel: introduction/figwheel.md
       - REPL Workflow: introduction/repl-workflow.md
       - Contributing: introduction/contributing.md
       - Hiccup: introduction/hiccup-style-syntax.md
@@ -150,8 +151,6 @@ nav:
       - install/index.md
       - Browser DevTools: install/browser-devtools.md
 
-  - Figwheel:
-      - figwheel/index.md
   - Figwheel Workflow:
       - figwheel-main/index.md
       - Create Projects: figwheel-main/create-project.md
