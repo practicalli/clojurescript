@@ -191,11 +191,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojurescript/figwheel/</loc>
-         <lastmod>2023-03-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://practical.li/clojurescript/figwheel/client-side-config/</loc>
          <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
@@ -452,6 +447,11 @@
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/contributing/</loc>
+         <lastmod>2023-03-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/introduction/figwheel/</loc>
          <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>

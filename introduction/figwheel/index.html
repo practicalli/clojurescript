@@ -12,32 +12,32 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Practical guide to ClojureScript programming language and Clojure REPL driven development" name="description"/>
 <meta content="Practicalli" name="author"/>
-<link href="https://practical.li/clojurescript/figwheel/" rel="canonical"/>
-<link href="../install/browser-devtools/" rel="prev"/>
-<link href="../figwheel-main/" rel="next"/>
-<link href="../assets/favicon.svg" rel="icon"/>
+<link href="https://practical.li/clojurescript/introduction/figwheel/" rel="canonical"/>
+<link href="../clojurescript/" rel="prev"/>
+<link href="../repl-workflow/" rel="next"/>
+<link href="../../assets/favicon.svg" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.2" name="generator"/>
 <title>Figwheel - Practicalli ClojureScript</title>
-<link href="../assets/stylesheets/main.7bf56d0a.min.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/main.7bf56d0a.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../assets/stylesheets/extra.css" rel="stylesheet"/>
-<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <meta content="website" property="og:type"/>
 <meta content="Figwheel - Practicalli ClojureScript" property="og:title"/>
 <meta content="Practical guide to ClojureScript programming language and Clojure REPL driven development" property="og:description"/>
-<meta content="https://practical.li/clojurescript/assets/images/social/figwheel/index.png" property="og:image"/>
+<meta content="https://practical.li/clojurescript/assets/images/social/introduction/figwheel.png" property="og:image"/>
 <meta content="image/png" property="og:image:type"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
-<meta content="https://practical.li/clojurescript/figwheel/" property="og:url"/>
+<meta content="https://practical.li/clojurescript/introduction/figwheel/" property="og:url"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Figwheel - Practicalli ClojureScript" name="twitter:title"/>
 <meta content="Practical guide to ClojureScript programming language and Clojure REPL driven development" name="twitter:description"/>
-<meta content="https://practical.li/clojurescript/assets/images/social/figwheel/index.png" name="twitter:image"/>
-<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<meta content="https://practical.li/clojurescript/assets/images/social/introduction/figwheel.png" name="twitter:image"/>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -48,7 +48,7 @@
                 body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
                 body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
                 body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-                </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="teal" data-md-color-primary="blue" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
@@ -71,8 +71,8 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </div>
 <header class="md-header md-header--shadow" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Practicalli ClojureScript" class="md-header__button md-logo" data-md-component="logo" href=".." title="Practicalli ClojureScript">
-<img alt="logo" src="../assets/images/practicalli-logo.png"/>
+<a aria-label="Practicalli ClojureScript" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Practicalli ClojureScript">
+<img alt="logo" src="../../assets/images/practicalli-logo.png"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -153,8 +153,8 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Practicalli ClojureScript" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Practicalli ClojureScript">
-<img alt="logo" src="../assets/images/practicalli-logo.png"/>
+<a aria-label="Practicalli ClojureScript" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Practicalli ClojureScript">
+<img alt="logo" src="../../assets/images/practicalli-logo.png"/>
 </a>
     Practicalli ClojureScript
   </label>
@@ -169,42 +169,105 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </a>
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="..">Introduction</a>
+<a href="../..">Introduction</a>
 <label for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
           Introduction
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../introduction/clojurescript/">
+<a class="md-nav__link" href="../clojurescript/">
         ClojureScript
       </a>
 </li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Figwheel
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Figwheel
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../introduction/repl-workflow/">
+<a class="md-nav__link" href="#live-code-reloading">
+    Live code reloading
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#heads-up-display">
+    Heads up display
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#built-in-clojurescript-repl">
+    Built-in ClojureScript REPL
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#robust-connection">
+    Robust connection
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#message-broadcast">
+    Message broadcast
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#respects-dependencies">
+    Respects dependencies
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#calculates-minimal-reload-set">
+    Calculates minimal reload set
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#nodejs-support">
+    Node.js Support
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#static-file-server">
+    Static file server
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../repl-workflow/">
         REPL Workflow
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../introduction/contributing/">
+<a class="md-nav__link" href="../contributing/">
         Contributing
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../introduction/hiccup-style-syntax/">
+<a class="md-nav__link" href="../hiccup-style-syntax/">
         Hiccup
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../introduction/writing-tips/">
+<a class="md-nav__link" href="../writing-tips/">
         Writing Tips
       </a>
 </li>
@@ -214,7 +277,7 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../install/">Install</a>
+<a href="../../install/">Install</a>
 <label for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -226,31 +289,84 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../install/browser-devtools/">
+<a class="md-nav__link" href="../../install/browser-devtools/">
         Browser DevTools
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
-<div class="md-nav__link md-nav__link--index md-nav__link--active">
-<a href="./">Figwheel</a>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../figwheel-main/">Figwheel Workflow</a>
+<label for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
 </div>
-<nav aria-expanded="true" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
-          Figwheel
+          Figwheel Workflow
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/create-project/">
+        Create Projects
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/project-configuration/">
+        Project Configuration
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/check-configuration/">
+        Run Figwheel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/rebel/">
+        Rebel Rich UI
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/build-project/">
+        Build project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/run-figwheel-from-cider/">
+        Emacs Cider
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/run-tests/">
+        Run tests
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/continuous-testing/">
+        Continuous Tests
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/package-project/">
+        Package project
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../figwheel-main/pages-deploy/">
+        Pages deploy
+      </a>
+</li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../figwheel-main/">Figwheel Workflow</a>
+<a href="../../figwheel-main-projects/">Figwheel projects</a>
 <label for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -258,57 +374,17 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
-          Figwheel Workflow
+          Figwheel projects
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/create-project/">
-        Create Projects
+<a class="md-nav__link" href="../../figwheel-main-projects/simple/">
+        Simple project
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/project-configuration/">
-        Project Configuration
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/check-configuration/">
-        Run Figwheel
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/rebel/">
-        Rebel Rich UI
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/build-project/">
-        Build project
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/run-figwheel-from-cider/">
-        Emacs Cider
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/run-tests/">
-        Run tests
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/continuous-testing/">
-        Continuous Tests
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/package-project/">
-        Package project
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main/pages-deploy/">
-        Pages deploy
+<a class="md-nav__link" href="../../figwheel-main-projects/reagent/">
+        Reagent project
       </a>
 </li>
 </ul>
@@ -317,7 +393,7 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../figwheel-main-projects/">Figwheel projects</a>
+<a href="../../web-design-basics/">Web Design basics</a>
 <label for="__nav_5">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -325,75 +401,48 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_5">
 <span class="md-nav__icon md-icon"></span>
-          Figwheel projects
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main-projects/simple/">
-        Simple project
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../figwheel-main-projects/reagent/">
-        Reagent project
-      </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
-<div class="md-nav__link md-nav__link--index">
-<a href="../web-design-basics/">Web Design basics</a>
-<label for="__nav_6">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_6">
-<span class="md-nav__icon md-icon"></span>
           Web Design basics
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../hiccup-style-syntax.md">
+<a class="md-nav__link" href="../../hiccup-style-syntax.md">
         Hiccup syntax
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../css/bulma/">
+<a class="md-nav__link" href="../../css/bulma/">
         Bulma CSS
       </a>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
           Bootstrap
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_6_4">
+<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_4">
 <span class="md-nav__icon md-icon"></span>
           Bootstrap
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/bootstrap/">
+<a class="md-nav__link" href="../../web-design-basics/bootstrap/">
         Bootstrap
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/bootstrap-container.md">
+<a class="md-nav__link" href="../../web-design-basics/bootstrap-container.md">
         Container
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/bootstrap-jumbotron/">
+<a class="md-nav__link" href="../../web-design-basics/bootstrap-jumbotron/">
         Jumbotron
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-bootstrap-website/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-bootstrap-website/">
         Bootstrap website
       </a>
 </li>
@@ -404,12 +453,12 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../reagent/">Reagent Overview</a>
+<a href="../../reagent/">Reagent Overview</a>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_7">
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
 <span class="md-nav__icon md-icon"></span>
           Reagent Overview
         </label>
@@ -418,91 +467,91 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../web-design-basics/clojurebridge-london-website/">ClojureBridge website</a>
-<label for="__nav_8">
+<a href="../../web-design-basics/clojurebridge-london-website/">ClojureBridge website</a>
+<label for="__nav_7">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_8">
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
 <span class="md-nav__icon md-icon"></span>
           ClojureBridge website
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/create-project/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/create-project/">
         Create project
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/add-bluma-css/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/add-bluma-css/">
         Add Bulma CSS
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/run-the-project/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/run-the-project/">
         Run the project
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/live-reloading/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/live-reloading/">
         Live reloading
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/hiccup-for-html/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/hiccup-for-html/">
         Hiccup for HTML
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/repl-workflow/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/repl-workflow/">
         REPL workflow
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/organising-the-code/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/organising-the-code/">
         Organising the code
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/add-welcome-message/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/add-welcome-message/">
         Add welcome message
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/add-welcome-section/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/add-welcome-section/">
         Add welcome section
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/app-state-section/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/app-state-section/">
         App State section
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/github-pages-deploy/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/github-pages-deploy/">
         GitHub pages deploy
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/deploy-build/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/deploy-build/">
         Deploy build
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/add-content-namespace/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/add-content-namespace/">
         Add Content namespace
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/add-navigation/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/add-navigation/">
         Navigation bar
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../web-design-basics/clojurebridge-london-website/further-ideas/">
+<a class="md-nav__link" href="../../web-design-basics/clojurebridge-london-website/further-ideas/">
         Content Suggestions
       </a>
 </li>
@@ -510,181 +559,181 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../reagent-projects/tic-tac-toe/">tic-tac-toe game</a>
-<label for="__nav_9">
+<a href="../../reagent-projects/tic-tac-toe/">tic-tac-toe game</a>
+<label for="__nav_8">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_9">
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
 <span class="md-nav__icon md-icon"></span>
           tic-tac-toe game
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/create-project/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/create-project/">
         Create Project
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/add-project-to-git/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/add-project-to-git/">
         Add Project to Git
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/start-the-repl/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/start-the-repl/">
         Start the REPL with Figwheel
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/test-figwheel/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/test-figwheel/">
         Test Figwheel
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/chrome-devtools/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/chrome-devtools/">
         Chrome DevTools
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/cljs-devtools-addon/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/cljs-devtools-addon/">
         Cljs DevTools addon
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/review-reagent-project/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/review-reagent-project/">
         Review reagent Project
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/figwheel-helper-functions/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/figwheel-helper-functions/">
         Figwheel Helper functions
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/interact-with-the-repl/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/interact-with-the-repl/">
         Interact with the REPL
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor/">
         Via the Editor
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD">
         Evaluate code in REPL
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/reagent-design-manage-app-state/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/reagent-design-manage-app-state/">
         Manage app-state
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/component-tictactoe-game/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/component-tictactoe-game/">
         tictactoe-game
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/design-game-board/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/design-game-board/">
         Design Game board
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/component-game-board/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/component-game-board/">
         Game board
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/hiccup-style-syntax.md">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/hiccup-style-syntax.md">
         Hiccup style syntax
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/svg-overview/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/svg-overview/">
         Scalable Vector Graphics
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/react-unique-index/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/react-unique-index/">
         React unique index
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/render-game-board/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/render-game-board/">
         Render Game Board
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/update-game-board/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/update-game-board/">
         Update Game Board
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor-into-components/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/refactor-into-components/">
         Refactor into components
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor--empty-cell/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/refactor--empty-cell/">
         Empty Cell
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor--nought-cell/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/refactor--nought-cell/">
         Nought Cell
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/refactor--cross-cell/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/refactor--cross-cell/">
         Cross Cell
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/button--start-a-new-game/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/button--start-a-new-game/">
         Start new game
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-moves/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/computer-moves/">
         Computer moves
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-move--basic/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/computer-move--basic/">
         Basic move
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-move--repl-experiments/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/computer-move--repl-experiments/">
         REPL experiments
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/computer-move--random-available-cell/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/computer-move--random-available-cell/">
         Random available cell
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/detecting-victory/">
         Detecting Victory
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments/">
         Experiments in the REPL
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching/">
         Experiments in the REPL - Pattern matching
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../reagent-projects/tic-tac-toe/detecting-victory-function/">
+<a class="md-nav__link" href="../../reagent-projects/tic-tac-toe/detecting-victory-function/">
         Victory function
       </a>
 </li>
@@ -803,7 +852,7 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 10, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 13, 2023</span>
 </small>
 </div>
 </article>
@@ -853,7 +902,7 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "content.code.annotate", "content.tabs.link", "navigation.instant", "navigation.tracking", "navigation.indexes"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../assets/javascripts/bundle.fc8c2696.min.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "content.code.annotate", "content.tabs.link", "navigation.instant", "navigation.tracking", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.fc8c2696.min.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
