@@ -22,7 +22,7 @@ Projects covered here focus on the [Figwheel-main](https://figwheel.org/) develo
 
 ## Requirements
 
-Follow the [Practicalli Clojure install instructions](http://practicalli.github.io/clojure/clojure-cli/install/) to set up a Clojure environment.  ClojureScript tools depend on Clojure and Java, although there are [self-hosted environments](/quickstart/self-hosted-clojurescript.html).
+[Practicalli Clojure install instructions](http://practicalli.github.io/clojure/clojure-cli/install/) to set up a Clojure environment.  ClojureScript tools depend on Clojure and Java, although there are [self-hosted environments](/quickstart/self-hosted-clojurescript.html).
 
 A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/) is highly recommend along with [web browser development tools](install/browser-devtools.html) to provide even greater feedback from the running application.
 
@@ -36,7 +36,7 @@ A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/)
 
 
 !!! Warning "Content being refreshed"
-    Many enhancements have happened to ClojureScript since this book was created, especially around [shadow-cljs](https://shadow-cljs.github.io/docs/UsersGuide.html) which is not yet covered.
+    , especially around [shadow-cljs](https://shadow-cljs.github.io/docs/UsersGuide.html) which is not yet covered.
 
     The most relevant content includes the [TicTacToe game with ClojureScript, Reagent and Scalable Vector Graphics](/reagent-projects/tic-tac-toe/index.html), the [Practicalli ClojureScript YouTube playlist](https://youtube.com/playlist?list=PLpr9V-R8ZxiBPv18gm9h1-eIWP1miwWh2) and [building ClojureScript websites](https://clojurebridgelondon.github.io/workshop/additional-projects/clojurebridge-website/).
 
