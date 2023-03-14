@@ -29,7 +29,7 @@ A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/)
 <!-- TODO: add Firefox dev tools to browser DevTools page -->
 
 ??? HINT "Need tight integration with npm?"
-    ![Shadow-Cljs logo](https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png){align=right loading=lazy}
+    ![Shadow-Cljs logo](https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png){align=right loading=lazy style="height:150px;width:150px"}
     [shadow-cljs](http://shadow-cljs.org/) is built with node.js and NPM and so has deep integration with JavaScript packages, an advantage if a project benefits from significant use of node.js packages.
 
     Follow the [shadow-cljs documentation](http://shadow-cljs.org/) carefully and in detail for a smooth experience.  Ensure the project runs on the command line first, before trying to run the project from an editor.  Also check the documentation for specific configuration to ensure your chosen editor will work correctly with shadow-cljs
