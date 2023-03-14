@@ -16,8 +16,8 @@ Projects covered here focus on the [Figwheel-main](https://figwheel.org/) develo
 
 ## Example websites
 
-[Practicalli Landing page](https://practicalli.github.io/){target=_blank .md-button}
-[ClojureBridgeLondon](https://clojurebridgelondon.github.io/workshop/additional-projects/clojurebridge-website/){target=_blank .md-button}
+[:fontawesome-brands-github: Practicalli Landing page](https://github.com/practicalli/practicalli.github.io){target=_blank .md-button}
+[:fontawesome-brands-github: ClojureBridgeLondon](https://github.com/ClojureBridgeLondon/clojurebridge-landing-page){target=_blank .md-button}
 
 
 ## Requirements
