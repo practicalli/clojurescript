@@ -12,7 +12,6 @@ ClojureScript is predominately used for front-end applications, although can als
     [:fontawesome-solid-book: ClojureScipt differences from Clojure](https://www.clojurescript.org/about/differences){target=_blank .md-button}
 
 
-
 ## Learning ClojureScipt
 
 As Clojure & ClojureScript language are almost identical, any good Clojure book or exercises can also help to learn ClojureScript
@@ -22,7 +21,6 @@ As Clojure & ClojureScript language are almost identical, any good Clojure book 
 [ClojureScript unraveled](http://funcool.github.io/clojurescript-unraveled/){target=_blank .md-button}
 
 [Practicalli Clojure Coding Challenges](https://practical.li/clojure/coding-challenges/){target=_blank .md-button}
-
 
 
 ## Development Tools
@@ -44,12 +42,14 @@ The main tools to support this workflow:
 
 ### Fighweel
 
+![figwheel logo name](https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg){align=right loading=lazy style="height:92;width:92px"}
+
 [Figwheel](https://figwheel.org/) is a simple approach and doesn't require node.js. ClojureScript applications can be built without JavaScript.  Figwheel does enabled use of npm packages via bundle though, should JavaScript packages be valuable to add.
 
-[figwheel-template](https://github.com/bhauman/figwheel-template){target=_blank} creates ClojureScript projects with figwheel configuration and optionally react, reagent, rum and bundle (webpack) options.
+[:fontawesome-brands-github: figwheel-template](https://github.com/bhauman/figwheel-template){target=_blank} creates ClojureScript projects with figwheel configuration and optionally react, reagent, rum and bundle (webpack) options.
 
 [Figwheel](https://figwheel.org/){target=_blank .md-button}
-[Figwheel Template](https://github.com/bhauman/figwheel-template){target=_blank .md-button}
+[:fontawesome-brands-github: Figwheel Template](https://github.com/bhauman/figwheel-template){target=_blank .md-button}
 
 ??? INFO "Figwheel-main is library to use for Figwheel"
     Fighweel-main has replaced the figwheel library (now considered deprecated) and is a large rewrite of the tooling, providing a greatly enhanced experience.
