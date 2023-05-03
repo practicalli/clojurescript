@@ -126,6 +126,7 @@ nav:
       - Figwheel: introduction/figwheel.md
       - REPL Workflow: introduction/repl-workflow.md
       - Contributing: introduction/contributing.md
+      - Reloadable Code: introduction/reloadable-code.md
       - Hiccup: introduction/hiccup-style-syntax.md
       # - Single Page Apps: overview/single-page-apps.md
       # - Compiling to JavaScript: overview/compiling-to-javascript.md
