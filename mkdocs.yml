@@ -123,11 +123,11 @@ nav:
   - Introduction:
       - index.md
       - ClojureScript: introduction/clojurescript.md
-      - Figwheel: introduction/figwheel.md
       - REPL Workflow: introduction/repl-workflow.md
-      - Contributing: introduction/contributing.md
       - Reloadable Code: introduction/reloadable-code.md
+      - Figwheel: introduction/figwheel.md
       - Hiccup: introduction/hiccup-style-syntax.md
+      - Contributing: introduction/contributing.md
       # - Single Page Apps: overview/single-page-apps.md
       # - Compiling to JavaScript: overview/compiling-to-javascript.md
       # - ClojureScript platforms: overview/clojurescript-platforms.md
