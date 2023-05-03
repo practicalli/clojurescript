@@ -2,1197 +2,1202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://practical.li/clojurescript/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/browser-devtools/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/twilight-zone/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/assets/images/social/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/basic-om-next-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/basic-om-next-project/create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/basic-syntax/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/control-flow/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/data-structures/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/data-types/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/destructuring/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/functions/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/local-assignement/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/maths/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/namespace/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/naming-binding/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/persistent-data-structures-lists/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/persistent-data-structures-maps/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/persistent-data-structures-sets/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/persistent-data-structures-vectors/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/persistent-data-structures/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojure-syntax/strings/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojurescript-code/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojurescript-examples/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojurescript-examples/buttons/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojurescript-examples/forms/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojurescript-examples/javascript-alerts/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/clojurescript-examples/writing-to-javascript-console/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/add-a-webserver-function/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/add-ring-dependency/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/coersing-types-and-java-lang/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/configure-main-namespace/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/configure-main-project-function/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/namespaces/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/create-a-project/run-webserver/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/css/bulma/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/client-side-config/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/client-side-use/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/clojurescript-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/configure-build/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/editor-repls-nrepl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/features/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/file-reloads/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/flappy-birds-demo/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/re-loadable-code/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/repl-control/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/scripting-figwheel/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/scripting-with-component/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/server-side-config/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel/using-figwheel/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/build-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/check-configuration/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/continuous-testing/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/package-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/pages-deploy/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/project-configuration/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/rebel/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/run-figwheel-from-cider/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main/run-tests/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main-projects/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main-projects/nrepl-editors/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main-projects/reagent/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-main-projects/simple/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/add-a-counter/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/auto-reloading/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/clojurescript-file/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/project-build-file/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/run-figwheel-again/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/run-figwheel/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/serving-assets/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/using-the-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/web-page/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/functional-reactive-programming/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/browser-devtools/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/chestnut/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/cider/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/clojurescript-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/leiningen/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/lighttable/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/lumo/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/install/plank/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/clojurescript/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/contributing/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/figwheel/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/hiccup-style-syntax/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/introduction/reloadable-code/</loc>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/repl-workflow/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/single-page-apps/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/introduction/writing-tips/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/lighttable/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/lighttable/configure-keyboard-mappings/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om/overview/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/add-a-container/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/add-cursor-to-local-state/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/add-header-style/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/add-session-form/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/add-session-style/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/adding-session-data-to-state/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/connect-form-to-local-state/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/create-conference-title/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/create-form-component/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/create-local-state-for-form/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/create-sessions-component/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/defining-session-data/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/designing-session-model/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/display-session-in-root-component/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/form-click-handler/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/include-bootstrap/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/interact-with-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/om-cursors/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/refactor-root-component-for-sessions/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/refactor-to-multi-session-model/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/start-the-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/testing/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/om-project-clojurex/use-local-state-in-session-form/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/clojurescript-platforms/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/compiling-to-javascript/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/data-types/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/functional-programming/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/react-facebook/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/react-om-and-om-next/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/react-re-frame/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/react-reagent/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/reactive-apps/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/overview/single-page-apps/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/production/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/production/externs/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/auto-building/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/browser-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/build-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/create-a-web-page/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/create-basic-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/create-build-file/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/dependencies/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/google-clojure/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/hello-world/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/lumo/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/nodejs/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/production-build/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/reduce-boilerplate/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/quickstart/self-hosted-clojurescript/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/re-frame/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/re-frame/todo-mvc/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reactjs/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reactjs/project-calculator-create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reactjs/project-calculator-introduction/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent/app/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent/interact-with-the-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent/wip/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-project-clojurex/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-project-clojurex/create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-project-clojurex/project-so-far/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-project-clojurex/start-the-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/add-project-to-git/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/button--start-a-new-game/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/chrome-devtools/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/clean-the-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/cljs-devtools-addon/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/code-review-initial-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/component-game-board/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/component-tictactoe-game/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/computer-move--basic/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/computer-move--random-available-cell/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/computer-move--repl-experiments/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/computer-moves/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/deploy-to-production/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/design-game-board/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/detecting-victory--rows/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/detecting-victory-function/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/detecting-victory-repl-experiments/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/detecting-victory/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/figwheel-helper-functions/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/interact-with-the-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/react-unique-index/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/reagent-design-defining-components/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/reagent-design-manage-app-state/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/reagent-design-reloading-state/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/reagent-design/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/refactor--cross-cell/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/refactor--empty-cell/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/refactor--nought-cell/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/refactor-into-components/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/render-game-board/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/repl-in-developer-console/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/review-reagent-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/start-the-repl/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/svg-overview/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/test-figwheel/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reagent-projects/tic-tac-toe/update-game-board/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/reference/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/related-libraries/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/testing/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/bootstrap-jumbotron/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/bootstrap/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-bootstrap-website/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/add-bluma-css/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/add-content-namespace/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/add-navigation/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/add-welcome-message/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/add-welcome-section/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/app-state-section/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/create-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/deploy-build/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/further-ideas/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/github-pages-deploy/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/hiccup-for-html/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/live-reloading/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/organising-the-code/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/repl-workflow/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/responsive-design/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/run-the-project/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/web-design-basics/clojurebridge-london-website/interacting/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/google-clojure/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/interoperability/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/lightweight/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/react-native/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/source-maps/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/who-uses-clojurescript/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojurescript/why-clojurescript/why-not-javascript/</loc>
-         <lastmod>2023-03-26</lastmod>
+         <lastmod>2023-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
