@@ -1997,11 +1997,10 @@ so PR's are of limited value at present. Some page links & images may be tempora
 
 
 <h1 id="install-clojurescript">Install ClojureScript<a class="headerlink" href="#install-clojurescript" title="Permanent link">λ︎</a></h1>
-<p><a href="https://practical.li/clojure/install/clojure-cli/" target="_blank">Practicalli Clojure install guide</a> provides the basis for development of ClojureScript projects.</p>
+<p><a href="https://practical.li/clojure/install/clojure-cli/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Practicalli Clojure install guide</a> provides the basis for development of ClojureScript projects.</p>
 <p>ClojureScript is specified as a dependency in projects, which contains the language and basic tools for building projects.</p>
-<p>ClojureScript uses <a href="https://developers.google.com/closure">Google Closure tools</a> to compile ClojureScript to JavaScript. <a href="https://developers.google.com/closure">Google Closure compiler</a> can remove redundant code (code paths never used) and minimise code to optimise download speed.  The compiler also checks syntax, variable references &amp; types and warns about common JavaScript pitfalls.</p>
-<p>Figwheel-main provides a comprehensive tool for building ClojureScript applications. Changes are automatically reloaded in the browser on file save for instant feedback during development.  JavaScript packages can be included via <a href="https://cljsjs.github.io/">CLJSJS</a> or <a href="https://figwheel.org/docs/npm.html">NPM</a></p>
-<p><a href="https://github.com/practicalli/clojure-deps-edn">Practicalli Clojure CLI Config</a> GitHub repository contains the Clojure CLI user level configuration used in this guide and issues and pull requests can also be made there.</p>
+<p><a href="https://developers.google.com/closure"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> Google Closure tools</a> compiles ClojureScript into JavaScript. Compilation options can remove redundant code and minimise code to optimise download speed of the resulting JavaScript.  The compiler also checks syntax, variable references &amp; types and warns about common JavaScript pitfalls.</p>
+<p><a href="/clojurescript/figwheel-main/">Figwheel-main</a> provides a comprehensive tool for building ClojureScript applications. Changes are automatically reloaded in the browser on file save for instant feedback during development.  JavaScript packages can be included via <a href="https://cljsjs.github.io/"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> CLJSJS</a> or <a href="https://figwheel.org/docs/npm.html"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> NPM</a></p>
 <table>
 <thead>
 <tr>
@@ -2019,30 +2018,28 @@ so PR's are of limited value at present. Some page links & images may be tempora
 <td>Tools for running and working with Clojure &amp; ClojureScript projects</td>
 </tr>
 <tr>
-<td><a href="/clojurescript/figwheel-main-projects/">Figwheel-main</a></td>
+<td><a href="/clojurescript/figwheel-main/">Figwheel-main</a></td>
 <td>Continuous Build tool for ClojureScript (library project dependency)</td>
 </tr>
 <tr>
-<td><a href="https://practical.li/clojure/clojure-editors/" target="_blank">ClojureScript editor</a></td>
+<td><a href="https://practical.li/clojure/clojure-editors/" target="_blank">Editor</a></td>
 <td>An editor that connects to the ClojureScript REPL and provides language support</td>
 </tr>
 <tr>
-<td><a href="/clojurescript/install/browser-devtools/">Web Browser Tools</a></td>
+<td><a href="/clojurescript/install/browser-devtools/">Browser Tools</a></td>
 <td>Browser specific development tool</td>
 </tr>
 </tbody>
 </table>
 <p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojure/clojurescript/clojurescript-concept-architecture.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="ClojureScript conceptual architecture" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojure/clojurescript/clojurescript-concept-architecture.png" /></a></p>
 <div class="admonition hint">
-<p class="admonition-title">Shadow-cljs for hybrid JavaScript development</p>
+<p class="admonition-title">Shadow-cljs for hybrid JavaScript / ClojureScript development</p>
 <p><a href="https://github.com/thheller/shadow-cljs" target="_blank">shadow-cljs</a> can be used instead of Figwheel to manage a ClojureScript projects.  Read the <a href="https://shadow-cljs.github.io/docs/UsersGuide.html" target="_blank">Shadow CLJS user guide</a> in detail to understand how to manage projects with this tool.</p>
 </div>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">λ︎</a></h2>
-<ul>
-<li><a href="https://caniuse.com/?search=JavaScript" target="_blank">Can I use JavaScript ?</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs" target="_blank">Browser support for JavaScript APIs</a></li>
-<li><a href="https://firefox-dev.tools/debugger-examples/examples/clojurescript/hello.html" target="_blank">Hello ClojureScript!</a> - example project for testing dev tool support in browser</li>
-</ul>
+<p><a class="md-button" href="https://caniuse.com/?search=JavaScript" target="_blank">Browser Support for JavaScript Features</a></p>
+<p><a class="md-button" href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs" target="_blank">Browser support for JavaScript APIs</a></p>
+<p><a class="md-button" href="https://firefox-dev.tools/debugger-examples/examples/clojurescript/hello.html" target="_blank">Hello ClojureScript! test dev tool support</a></p>
 
   <hr>
 <div class="md-source-file">
