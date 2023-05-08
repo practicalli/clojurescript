@@ -4,7 +4,7 @@
 
 The main difference of course between Clojure & ClojureScript is the host (Java or JavaScript) and the type of applications & services built with each language.
 
-ClojureScript is predominately used for front-end applications, although can also be used as full stack solutions.
+ClojureScript is predominately used for front-end applications, although can also be used as full stack solutions using node.js server.
 
 ??? INFO "Minor Language differences"
     Due to limitations of the host JavaScript platform, some language features of Clojure are not available in ClojureScipt
@@ -14,20 +14,14 @@ ClojureScript is predominately used for front-end applications, although can als
 
 ## Learning ClojureScipt
 
-As Clojure & ClojureScript language are almost identical, any good Clojure book or exercises can also help to learn ClojureScript
-
-[ClojureScript language reference](https://clojurescript.org/reference/documentation){target=_blank .md-button}
-
-[ClojureScript unraveled](http://funcool.github.io/clojurescript-unraveled/){target=_blank .md-button}
-
-[Practicalli Clojure Coding Challenges](https://practical.li/clojure/coding-challenges/){target=_blank .md-button}
+[:fontawesome-solid-book-open: Learning ClojureScript Section](/clojurescript/introduction/learn-clojurescript/){target=_blank .md-button}
 
 
 ## Development Tools
 
-There are many [Clojure aware Editors](https://practical.li/clojure/clojure-editors/) available, use an editor most familiar with to minimize the initial learning requriements.
+There are many [:fontawesome-solid-book-open: Clojure aware Editors](https://practical.li/clojure/clojure-editors/) available. Use an editor most familiar with to minimise the initial learning curve.
 
-Clojure aware editors have the same core functionality, so initial choice is not that important.  As additional features become more important, then a review of editor tooling can be done with more insight.
+Clojure aware editors have the same core functionality, so initial choice is not that important.  As experience of ClojureScript grows, additional features can become valuable and a review of editor tooling can be done with more insight and understanding.
 
 
 ## Build Automation
@@ -68,11 +62,13 @@ Read the user guide in detail to avoid common issues when starting
 
 As with any language, there are a wide range of choice for libraries to help build apps and many types of apps that can be built (UI / full-stacl / backend).
 
-[reagent](https://reagent-project.github.io/) is the most commonly used ClojureScript library for front-end apps, especially single page applications.  reagent takes a react.js like approach.
+[:fontawesome-brands-github: reagent](https://reagent-project.github.io/) is the most commonly used ClojureScript library for front-end apps, especially single page applications.  reagent takes a react.js like approach.
 
-[re-frame](http://day8.github.io/re-frame/) builds upon reagent and supports the building of more complex UIs and stateful workflows.
+[:fontawesome-brands-github: re-frame](http://day8.github.io/re-frame/) builds upon reagent and supports the building of more complex UIs and stateful workflows.
 
+[:fontawesome-brands-github: reitit-frontend](https://github.com/metosin/reitit) to define routing for URIs to support navigation within a ClojureScript app.
 
 [reagent](https://reagent-project.github.io/){target=_blank .md-button}
 [reframe](http://day8.github.io/re-frame/){target=_blank .md-button}
 [rum](https://github.com/tonsky/rum){target=_blank .md-button}
+[reitit-frontend](https://github.com/metosin/reitit){target=_blank .md-button}
