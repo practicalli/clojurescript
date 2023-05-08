@@ -152,7 +152,7 @@ nav:
       # - Single Page Apps: introduction/single-page-apps.md
       # - Isomorphic Apps: introduction/isomorphic-apps.md
       # - Full Stack Apps: introduction/full-stack-apps.md
-      - Writing Tips: introduction/writing-tips.md
+      - Book Writing Tips: introduction/writing-tips.md
 
   - Install:
       - install/index.md
