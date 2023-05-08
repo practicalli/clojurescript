@@ -122,7 +122,8 @@ extra:
 nav:
   - Introduction:
       - index.md
-      - ClojureScript: introduction/clojurescript.md
+      - ClojureScript Overview: introduction/clojurescript.md
+      - Learn ClojureScript: introduction/learn-clojurescript.md
       - REPL Workflow: introduction/repl-workflow.md
       - Reloadable Code: introduction/reloadable-code.md
       - Figwheel: introduction/figwheel.md
