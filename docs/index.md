@@ -3,63 +3,65 @@
 ![Practicalli ClojureScript book banner](https://raw.githubusercontent.com/practicalli/graphic-design/live/book-covers/practicalli-clojurescript-book-banner-alpha.png)
 
 
-[ClojureScript](https://clojurescript.org/) is an implementation of the [Clojure](https://clojure.org/) functional programming language for [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) platforms, web browser JavaScript engines and  server-side node.js.
+[:globe_with_meridians: ClojureScript](https://clojurescript.org/) is an implementation of the [:globe_with_meridians: Clojure](https://clojure.org/) functional programming language for [:globe_with_meridians: JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) platforms, web browser JavaScript engines and  server-side node.js.
 
 Discover the joy of ClojureScript for building [single page applications](https://en.wikipedia.org/wiki/Single-page_application), complex UI's, lightweight services and server side web applications.  Design approaches common to ClojureScript & React will be covered along the way.
 
-Projects covered here focus on the [Figwheel-main](https://figwheel.org/) development tool, the reagent library for react.js style applications, hiccup syntax for html content and ClojureScript code.
+[Figwheel-main](/clojurescript/introduction/figwheel/) provides an [instant feedback development workflow](/clojurescript/figwheel-main/), reagent library for react.js style applications, hiccup syntax for html content and ClojureScript code.
 
 > JavaScript npm packages can be used with Figwheel-main, however, this guide focuses on ClojureScript where ever possible
 
 ![ClojureScript REPL driven development with Figwheel-main](https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/clojurescript-repl-workflow-concept.png)
 
+[![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](https://practicalli.github.io/spacemacs/)
 
 ## Example websites
 
 [:fontawesome-brands-github: Practicalli Landing page](https://github.com/practicalli/practicalli.github.io){target=_blank .md-button}
-[:fontawesome-brands-github: ClojureBridgeLondon](https://github.com/ClojureBridgeLondon/clojurebridge-landing-page){target=_blank .md-button}
+[:fontawesome-brands-github: ClojureBridgeLondon Landing Page](https://github.com/ClojureBridgeLondon/clojurebridge-landing-page){target=_blank .md-button}
 
 
 ## Requirements
 
-[Practicalli Clojure install instructions](http://practicalli.github.io/clojure/clojure-cli/install/) to set up a Clojure environment.  ClojureScript tools depend on Clojure and Java, although there are [self-hosted environments](/quickstart/self-hosted-clojurescript.html).
+[Practicalli Clojure install guide](http://practicalli.github.io/clojure/clojure-cli/install/) provides a Clojure environment for ClojureScript development.
 
 A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/) is highly recommend along with [web browser development tools](install/browser-devtools.html) to provide even greater feedback from the running application.
 
 <!-- TODO: add Firefox dev tools to browser DevTools page -->
 
-??? HINT "Need tight integration with npm?"
+??? INFO "Hybrid JavaScript / ClojureScript develoment with npm?"
     ![Shadow-Cljs logo](https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png){align=right loading=lazy style="height:150px;width:150px"}
     [shadow-cljs](http://shadow-cljs.org/) is built with node.js and NPM and so has deep integration with JavaScript packages, an advantage if a project benefits from significant use of node.js packages.
 
     Follow the [shadow-cljs documentation](http://shadow-cljs.org/) carefully and in detail for a smooth experience.  Ensure the project runs on the command line first, before trying to run the project from an editor.  Also check the documentation for specific configuration to ensure your chosen editor will work correctly with shadow-cljs
 
+<!--
+??? INFO "ClojureScript Self Hosted environments"
+    [Clojure self-hosted environments](/quickstart/self-hosted-clojurescript.html)
+-->
 
-!!! Warning "Content being refreshed"
-    , especially around [shadow-cljs](https://shadow-cljs.github.io/docs/UsersGuide.html) which is not yet covered.
+## Navigate the book
 
-    The most relevant content includes the [TicTacToe game with ClojureScript, Reagent and Scalable Vector Graphics](/reagent-projects/tic-tac-toe/index.html), the [Practicalli ClojureScript YouTube playlist](https://youtube.com/playlist?list=PLpr9V-R8ZxiBPv18gm9h1-eIWP1miwWh2) and [building ClojureScript websites](https://clojurebridgelondon.github.io/workshop/additional-projects/clojurebridge-website/).
+Use the mouse or built-in key bindings to navigate the pages of the book
 
-## Additional Resources
+- ++p++ , ++comma++ : go to previous page
+- ++n++ , ++period++ : go to next page
 
-**Learning ClojureScript**
+Use the search box to quickly find a specific topic
 
-* [ClojureScript Unraveled](http://funcool.github.io/clojurescript-unraveled/)
-* [ClojureScript Koans](http://clojurescriptkoans.com/)
-* [Reagent Cookbook](https://github.com/reagent-project/reagent-cookbook)
+- ++f++ , ++s++ , ++slash++ : open search dialog
+- ++arrow-down++ , ++arrow-up++ : select next / previous result
+- ++esc++ , ++tab++ : close search dialog
+- ++enter++ : follow selected result
 
-**Tooling**
 
-* [figwheel-main](https://figwheel.org/) - instant feedback for ClojureScript development
-* [figwheel-main project template](https://github.com/bhauman/figwheel-main-template) - quickly create a figwheel-main based ClojureScript project
+## Sponsor Practicalli
 
-**Community**
+[![Sponsor practicalli-john](https://raw.githubusercontent.com/practicalli/graphic-design/live/buttons/practicalli-github-sponsors-button.png){align=left loading=lazy}](https://github.com/sponsors/practicalli-john/){target=_blank}
 
-* [Cljs js](http://cljsjs.github.io/) - javascript foreigner libraries for ClojureScript
+The majority of my work is now focused on the [Practicalli series of books and videos](https://practical.li/){target=_blank} and an advisory role with several communities
 
-**Commercial courses**
-
-* [Jacek Schae - Reagent, Reframe, Reitit](https://www.jacekschae.com/)
+Thank you to [Cognitect](https://www.cognitect.com/){target=_blank}, [Nubank](https://nubank.com.br/){target=_blank} and a wide range of other [sponsors](https://github.com/sponsors/practicalli-john#sponsors){target=_blank} from the Clojure community for your continued support
 
 
 ## Creative commons license
@@ -69,4 +71,3 @@ A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/)
   This work is licensed under a Creative Commons Attribution 4.0 ShareAlike License (including images & stylesheets).
 </div>
 
-[![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](https://practicalli.github.io/spacemacs/)
