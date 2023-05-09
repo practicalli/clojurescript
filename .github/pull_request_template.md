@@ -1,29 +1,23 @@
-📓 Description
+Please follow these guidelines when submitting a pull request
 
-# _Summary of the change and link to any relevant tickets. New aliases should include details of why they are valuable_
+- refer to all relevant issues, using `#` followed by the issue number (or paste full link to the issue)
+- PR should contain the smallest possible change
+- PR should contain a very specific change
+- PR should contain only a single commit (squash your commits locally if required)
+- Avoid multiple changes across multiple files (raise an issue so we can discuss)
+- Avoid a long list of spelling or grammar corrections.  These take too long to review and cherry pick.
 
-# Resolve #
-# Refer #
+## Submitting articles
 
-:octocat Type of change
+[Create an issue using the article template](https://github.com/practicalli/blog-content/issues/new?assignees=&labels=article&template=article.md&title=Suggested+article+title),
+providing as much detail as possible.
 
-_Please tick `x` relevant options, delete those not relevant_
+## Website design
 
-- [ ] New feature
-- [ ] Deprecate feature
-- [ ] Development workflow
-- [ ] Documentation
-- [ ] Continuous integration workflow
+Suggestions about website design changes are most welcome, especially in terms of usability and accessibility.
 
-:beetle How Has This Been Tested?
+Please raise an issue so we can discuss changes first, especially changes related to aesthetics.
 
-- [ ] unit test
-- [ ] linter check
-- [x] GitHub Action checkers
+## Review process
 
-:eyes Checklist
-
-- [ ] Code follows the [Practicalli cljstyle configuration](https://practical.li/clojure/clojure-cli/clojure-style/#cljstyle)
-- [ ] Add / update alias docs and README where relevant
-- [ ] Changelog entry describing notable changes
-- [ ] Request maintainers review the PR
+All pull requests are reviewed by @practicalli-john and feedback provided, usually the same day but please be patient.
