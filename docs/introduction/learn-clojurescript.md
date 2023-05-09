@@ -28,16 +28,27 @@ ClojureScript REPL website provides a ClojureScript REPL in a web page, removing
 
 ![ClojureScript REPL Online tool - no install required](https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/clojurescript-website-online-repl-replumb.png)
 
-
 [ClojureScript REPL](https://clojurescript.io/){target=_blank .md-button}
+
+
+## Exercism
+
+Over 70 exercises to solve with ClojureScript (or Clojure) using either their built-in editor or locally as a Clojure CLI project.
+
+![Exercism ClojureScript track](https://raw.githubusercontent.com/practicalli/graphic-design/live/code-challenges/exercism-clojurescript-track.png)
 
 
 ## Resources
 
-[ClojureScript REPL](https://clojurescript.io/){target=_blank .md-button}
+[ClojureScript.org Language Reference](https://clojurescript.org/reference/documentation){target=_blank .md-button}
 
-[ClojureScript language reference](https://clojurescript.org/reference/documentation){target=_blank .md-button}
+[ClojureScript Online REPL](https://clojurescript.io/){target=_blank .md-button}
+
+[ClojureScript Koans](http://clojurescriptkoans.com/){target=_blank .md-button}
 
 [ClojureScript unraveled](http://funcool.github.io/clojurescript-unraveled/){target=_blank .md-button}
 
 [Practicalli Clojure Coding Challenges](https://practical.li/clojure/coding-challenges/){target=_blank .md-button}
+
+[Reagent Cookbook](https://github.com/reagent-project/reagent-cookbook){target=_blank .md-button}
+
