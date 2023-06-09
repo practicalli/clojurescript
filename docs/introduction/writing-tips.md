@@ -335,6 +335,8 @@ Or nest the content tabs in an admonition
 
 Neat flow diagrams
 
+[Diagrams - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/diagrams/){target=_blank .md-button}
+
 ``` mermaid
 graph LR
   A[Start] --> B{Error?};
@@ -375,8 +377,7 @@ stateDiagram-v2
     State4 --> [*]
 ```
 
-
-Class diagrams - but dont need them.
+Class diagrams - not needed for Clojure
 
 Entity relationship diagrams are handy though
 
@@ -384,22 +385,12 @@ Entity relationship diagrams are handy though
 erDiagram
   CUSTOMER ||--o{ ORDER : places
   ORDER ||--|{ LINE-ITEM : contains
+  LINE-ITEM {
+    customer-name string
+    unit-price int
+  }
   CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
-
-### Other diagram types
-
-Besides the diagram types listed above, [Mermaid.js] provides support for
-[pie charts], [gantt charts], [user journeys], [git graphs] and
-[requirement diagrams], all of which are not officially supported by Material
-for MkDocs. Those diagrams should still work as advertised by [Mermaid.js], but
-we don't consider them a good choice, mostly as they don't work well on mobile.
-
-  [pie charts]: https://mermaid-js.github.io/mermaid/#/pie
-  [gantt charts]: https://mermaid-js.github.io/mermaid/#/gantt
-  [user journeys]: https://mermaid-js.github.io/mermaid/#/user-journey
-  [git graphs]: https://mermaid-js.github.io/mermaid/#/gitgraph
-  [requirement diagrams]: https://mermaid-js.github.io/mermaid/#/requirementDiagram
 
 
 ## Keyboard keys
