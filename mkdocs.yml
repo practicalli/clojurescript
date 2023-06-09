@@ -1,5 +1,5 @@
 ---
-# Practicalli Clojure
+# Practicalli ClojureScript
 site_name: Practicalli ClojureScript
 site_url: https://practical.li/clojurescript
 site_description: Practical guide to ClojureScript programming language and Clojure REPL driven development
@@ -67,7 +67,8 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      url_download: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
