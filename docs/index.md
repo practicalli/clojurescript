@@ -25,7 +25,7 @@ Discover the joy of ClojureScript for building [single page applications](https:
 
 [Practicalli Clojure install guide](http://practicalli.github.io/clojure/clojure-cli/install/) provides a Clojure environment for ClojureScript development.
 
-A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/) is highly recommend along with [web browser development tools](install/browser-devtools.html) to provide even greater feedback from the running application.
+A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/) is highly recommend along with [web browser development tools](install/browser-devtools/) to provide even greater feedback from the running application.
 
 <!-- TODO: add Firefox dev tools to browser DevTools page -->
 
