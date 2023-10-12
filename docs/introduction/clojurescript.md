@@ -1,15 +1,17 @@
 # ClojureScript Overview
 
-[ClojureScript](https://clojurescript.org/reference/documentation){target=_blank} is an implementation of the [Clojure programming language](https://clojurescript.org/reference/documentation){target=_blank} for the JavaScript platform (JavaScript browsers and node.js)
+[ClojureScript](https://clojurescript.org/reference/documentation){target=_blank} is an implementation of the [Clojure programming language](https://clojurescript.org/reference/documentation){target=_blank} for the JavaScript platform (JavaScript browser engines and node.js)
 
-The main difference of course between Clojure & ClojureScript is the host (Java or JavaScript) and the type of applications & services built with each language.
+The essentail differences between Clojure & ClojureScript are the host platform (Java or JavaScript) and the type of applications & services built with each language.
 
-ClojureScript is predominately used for front-end applications, although can also be used as full stack solutions using node.js server.
+ClojureScript is predominately used for front-end applications, although can also be used as full stack solutions using a Clojure or node.js back-end server.
 
 ??? INFO "Minor Language differences"
-    Due to limitations of the host JavaScript platform, some language features of Clojure are not available in ClojureScipt
+    Due to differences between the Java and JavaScript host platforms, a small number of differences occur between Clojure and ClojureScript development.
 
     [:fontawesome-solid-book: ClojureScipt differences from Clojure](https://www.clojurescript.org/about/differences){target=_blank .md-button}
+
+    Code which is independent of host can be written in Clojure common files, i.e. `*.cljc` file name extension.
 
 
 ## Learning ClojureScipt
