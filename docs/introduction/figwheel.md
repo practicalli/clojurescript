@@ -1,18 +1,28 @@
-# Figwheel
+# Figwheel interactive development
 
 ![figwheel logo name](https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg){align=right loading=lazy}
 
+Figwheel is a tool that provides instant feedback during the development of ClojureScript projects.
 
-Figwheel builds your ClojureScript code and hot loads it into the browser as you are coding!
+On startup, Figwheel automatically compiles ClojureScript code into JavaScript and opens the app in a web browser.
 
-* A 6 minute [flappy bird demo of figwheel](https://www.youtube.com/watch?v=KZjFVdU8VLI)
-* A more detailed 45 minute [talk on Figwheel](https://www.youtube.com/watch?v=j-kj2qwJa_E) given at ClojureWest 2015.
+Everytime ClojureScript code changes are saved to file, Figwheel compiles the new code in the background and pushes updates to the app in the web browser, providing instant feedback.
+
+Figwheel uses build configuration (EDN) files to specify build options, including optimising compilation using [Google Closure compiler](google-clojure/) for minimal sized apps for deployment.  Testing is also defined via an EDN build configuration. 
+
+
+??? INFO "Figwheel-main and figwheel"
+    Figwheel-main is the current Figwheel tool.  figwheel is the orginal project which is superseded by figwheel-main.
+
+    The term Figwheel refers to the Figwheel-main tool across the book, unless otherwise stated. 
+
+
+## Figwheel in action
+
+* 6 minute [flappy bird demo of figwheel](https://www.youtube.com/watch?v=KZjFVdU8VLI)
+* 45 minute [talk on Figwheel](https://www.youtube.com/watch?v=j-kj2qwJa_E) given at ClojureWest 2015.
 * An [introductory blog post](http://rigsomelight.com/2014/05/01/interactive-programming-flappy-bird-clojurescript.html).
 
-!!! INFO "Current version"
-    ```clojure
-    com.bhauman/figwheel-main {:mvn/version "0.2.18"}
-    ```
 
 ![Figwheel heads up example](https://s3.amazonaws.com/bhauman-blog-images/figwheel_image.png)
 
