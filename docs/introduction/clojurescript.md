@@ -26,7 +26,7 @@ ClojureScript is predominately used for front-end applications, although can als
 Clojure aware editors have the same core functionality, so initial choice is not that important.  As experience of ClojureScript grows, additional features can become valuable and a review of editor tooling can be done with more insight and understanding.
 
 
-## Build Automation
+## Build Tools
 
 ClojureScript is trans-piled (compiled) into JavaScript before running in a JavaScript browser engine or on node.js.
 
@@ -40,7 +40,11 @@ The main tools to support the ClojureScript workflow:
 
 ![figwheel logo name](https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg){align=right loading=lazy style="height:92;width:92px"}
 
-[Figwheel](https://figwheel.org/) is a simple approach and doesn't require node.js. ClojureScript applications can be built without JavaScript.  Figwheel does enabled use of npm packages via bundle though, should JavaScript packages be valuable to add.
+[Figwheel](https://figwheel.org/) is a Clojure library used with Clojure CLI or Leiningen projects. ClojureScript applications can be built without writing JavaScript.  
+
+Figwheel can be [:globe_with_meridians: used with npm](https://figwheel.org/docs/npm.html){target=_blank} to include JavaScript packages.  JavaScript bundle tools, e.g. [:globe_with_meridians: Webpack](https://webpack.js.org/){target=_blank}, are used to package up the ClojureScript app and npm packages for deployment.  
+
+Using NPM packages does add complexity to a ClojureScript project, although enables access to a large repository of libraries.
 
 [:fontawesome-brands-github: figwheel-template](https://github.com/bhauman/figwheel-template){target=_blank} creates ClojureScript projects with figwheel configuration and optionally react, reagent, rum and bundle (webpack) options.
 
@@ -53,7 +57,11 @@ The main tools to support the ClojureScript workflow:
 
 ### Shadow-cljs
 
-Shadow-cljs is effectively built on top of node.js and therefore more integrated.  Assumes that node.js is well understood and significant use of JavaScript npm packages will be used
+Shadow-cljs is installed via an npm package and designed to work directly with other node.js packages. Projects are created using `npx create-cljs-project` command.
+
+Shadow-cljs requires node.js, npm (or yarn) and a Java host (Java SDK) and is written in a mixture of ClojureScript, JavaScript and Java.
+
+Assumes that node.js is well understood and significant use of JavaScript npm packages will be used
 
 Read the user guide in detail to avoid common issues when starting
 
