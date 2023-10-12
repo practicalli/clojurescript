@@ -21,7 +21,7 @@ ClojureScript is predominately used for front-end applications, although can als
 
 ## Development Tools
 
-There are many [:fontawesome-solid-book-open: Clojure aware Editors](https://practical.li/clojure/clojure-editors/) available. Use an editor most familiar with to minimise the initial learning curve.
+[:fontawesome-solid-book-open: Clojure aware Editors](https://practical.li/clojure/clojure-editors/) also support ClojureScript. Use an editor most familiar with to minimise the initial learning curve.
 
 Clojure aware editors have the same core functionality, so initial choice is not that important.  As experience of ClojureScript grows, additional features can become valuable and a review of editor tooling can be done with more insight and understanding.
 
