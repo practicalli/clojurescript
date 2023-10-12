@@ -5,9 +5,9 @@
 
 [:globe_with_meridians: ClojureScript](https://clojurescript.org/) is an implementation of the [:globe_with_meridians: Clojure](https://clojure.org/) functional programming language for [:globe_with_meridians: JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) platforms, web browser JavaScript engines and  server-side node.js.
 
-Discover the joy of ClojureScript for building [single page applications](https://en.wikipedia.org/wiki/Single-page_application), complex UI's, lightweight services and server side web applications.  Design approaches common to ClojureScript & React will be covered along the way.
+Discover the joy of ClojureScript for building [:globe_with_meridians: single page applications](https://en.wikipedia.org/wiki/Single-page_application){target=_blank}, complex UI's, lightweight services and server side web applications.  Design approaches common to ClojureScript & React will be covered along the way.
 
-[Figwheel-main](/clojurescript/introduction/figwheel/) provides an [instant feedback development workflow](/clojurescript/figwheel-main/), reagent library for react.js style applications, hiccup syntax for html content and ClojureScript code.
+[:fontawesome-solid-book-open: Figwheel-main](/clojurescript/introduction/figwheel/) provides an [:fontawesome-solid-book-open: instant feedback development workflow](/clojurescript/figwheel-main/), reagent library for react.js style applications, hiccup syntax for html content and ClojureScript code.
 
 > JavaScript npm packages can be used with Figwheel-main, however, this guide focuses on ClojureScript where ever possible
 
@@ -23,17 +23,17 @@ Discover the joy of ClojureScript for building [single page applications](https:
 
 ## Requirements
 
-[Practicalli Clojure install guide](http://practicalli.github.io/clojure/clojure-cli/install/) provides a Clojure environment for ClojureScript development.
+[:fontawesome-solid-book-open: Practicalli Clojure install guide](http://practicalli.github.io/clojure/clojure-cli/install/) provides a Clojure environment for ClojureScript development.
 
-A [Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/) is highly recommend along with [web browser development tools](install/browser-devtools/) to provide even greater feedback from the running application.
+A [:fontawesome-solid-book-open: Clojure aware editor](https://practicalli.github.io/clojure/clojure-editors/){target=_blank} is highly recommend along with [:fontawesome-solid-book-open: web browser development tools](install/browser-devtools/) to provide even greater feedback from the running application.
 
 <!-- TODO: add Firefox dev tools to browser DevTools page -->
 
 ??? INFO "Hybrid JavaScript / ClojureScript develoment with npm?"
     ![Shadow-Cljs logo](https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png){align=right loading=lazy style="height:150px;width:150px"}
-    [shadow-cljs](http://shadow-cljs.org/) is built with node.js and NPM and so has deep integration with JavaScript packages, an advantage if a project benefits from significant use of node.js packages.
+    [:globe_with_meridians: shadow-cljs](http://shadow-cljs.org/) is built with node.js and NPM and so has deep integration with JavaScript packages, an advantage if a project benefits from significant use of node.js packages.
 
-    Follow the [shadow-cljs documentation](http://shadow-cljs.org/) carefully and in detail for a smooth experience.  Ensure the project runs on the command line first, before trying to run the project from an editor.  Also check the documentation for specific configuration to ensure your chosen editor will work correctly with shadow-cljs
+    Follow the [:globe_with_meridians: shadow-cljs user guide](http://shadow-cljs.org/) carefully and in detail for a smooth experience.  Ensure the project runs on the command line first, before trying to run the project from an editor.  Also check the documentation for specific configuration to ensure your chosen editor will work correctly with shadow-cljs
 
 <!--
 ??? INFO "ClojureScript Self Hosted environments"
