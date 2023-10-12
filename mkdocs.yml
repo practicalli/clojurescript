@@ -164,19 +164,18 @@ nav:
   - Install:
       - install/index.md
       - Browser DevTools: install/browser-devtools.md
-
   - Figwheel Workflow:
-      - figwheel-main/index.md
-      - Create Projects: figwheel-main/create-project.md
-      - Project Configuration: figwheel-main/project-configuration.md
-      - Run Figwheel: figwheel-main/check-configuration.md
-      - Rebel Rich UI: figwheel-main/rebel.md
-      - Build project: figwheel-main/build-project.md
-      - Emacs Cider: figwheel-main/run-figwheel-from-cider.md
-      - Run tests: figwheel-main/run-tests.md
-      - Continuous Tests: figwheel-main/continuous-testing.md
-      - Package project: figwheel-main/package-project.md
-      - Pages deploy: figwheel-main/pages-deploy.md
+      - figwheel-workflow/index.md
+      - Create Projects: figwheel-workflow/create-project.md
+      - Project Configuration: figwheel-workflow/project-configuration.md
+      - Run Figwheel: figwheel-workflow/check-configuration.md
+      - Rebel Rich UI: figwheel-workflow/rebel.md
+      - Build project: figwheel-workflow/build-project.md
+      - Emacs Cider: figwheel-workflow/run-figwheel-from-cider.md
+      - Run tests: figwheel-workflow/run-tests.md
+      - Continuous Tests: figwheel-workflow/continuous-testing.md
+      - Package project: figwheel-workflow/package-project.md
+      - Pages deploy: figwheel-workflow/pages-deploy.md
   - Figwheel projects:
       - figwheel-main-projects/index.md
       - Simple project: figwheel-main-projects/simple.md

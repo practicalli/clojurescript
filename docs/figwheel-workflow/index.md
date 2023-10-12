@@ -1,4 +1,6 @@
-# Figwheel
+# Figwheel-main Workflow
+
+![figwheel logo name](https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg){align=right loading=lazy}
 
 [Figwheel-main](https://figwheel.org/) build tool and [Rebel rich terminal UI](https://practical.li/clojure/clojure-cli/repl/) is a simple way to get started with ClojureScript development
 
