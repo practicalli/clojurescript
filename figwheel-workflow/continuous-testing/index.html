@@ -20,13 +20,13 @@
         <meta name="author" content="Practicalli">
       
       
-        <link rel="canonical" href="https://practical.li/clojurescript/figwheel-main/run-tests/">
+        <link rel="canonical" href="https://practical.li/clojurescript/figwheel-workflow/continuous-testing/">
       
       
-        <link rel="prev" href="../run-figwheel-from-cider/">
+        <link rel="prev" href="../run-tests/">
       
       
-        <link rel="next" href="../continuous-testing/">
+        <link rel="next" href="../package-project/">
       
       
       <link rel="icon" href="../../assets/favicon.svg">
@@ -34,7 +34,7 @@
     
     
       
-        <title>Run tests - Practicalli ClojureScript</title>
+        <title>Continuous Tests - Practicalli ClojureScript</title>
       
     
     
@@ -81,11 +81,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Run tests - Practicalli ClojureScript" >
+        <meta  property="og:title"  content="Continuous Tests - Practicalli ClojureScript" >
       
         <meta  property="og:description"  content="Practical guide to ClojureScript programming language and Clojure REPL driven development" >
       
-        <meta  property="og:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-main/run-tests.png" >
+        <meta  property="og:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-workflow/continuous-testing.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -93,15 +93,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://practical.li/clojurescript/figwheel-main/run-tests/" >
+        <meta  property="og:url"  content="https://practical.li/clojurescript/figwheel-workflow/continuous-testing/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Run tests - Practicalli ClojureScript" >
+        <meta  name="twitter:title"  content="Continuous Tests - Practicalli ClojureScript" >
       
         <meta  name="twitter:description"  content="Practical guide to ClojureScript programming language and Clojure REPL driven development" >
       
-        <meta  name="twitter:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-main/run-tests.png" >
+        <meta  name="twitter:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-workflow/continuous-testing.png" >
       
     
     
@@ -138,7 +138,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#running-tests-once" class="md-skip">
+        <a href="#continuous-testing-during-development" class="md-skip">
           Skip to content
         </a>
       
@@ -209,7 +209,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
-             Run tests 
+             Continuous Tests 
           </span>
         </div>
       </div>
@@ -897,6 +897,26 @@ so PR's are of limited value at present. Some page links & images may be tempora
                 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../run-tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Run tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -908,65 +928,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Run tests
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Run tests
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#test-configuration" class="md-nav__link">
-    Test configuration
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../continuous-testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -975,6 +937,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
 
       </a>
+      
     </li>
   
 
@@ -2617,21 +2580,6 @@ so PR's are of limited value at present. Some page links & images may be tempora
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#test-configuration" class="md-nav__link">
-    Test configuration
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2645,7 +2593,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
                   
 
   
-    <a href="https://github.com/practicalli/clojurescript/edit/main/docs/figwheel-main/run-tests.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/clojurescript/edit/main/docs/figwheel-workflow/continuous-testing.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2654,46 +2602,28 @@ so PR's are of limited value at present. Some page links & images may be tempora
     
       
     
-    <a href="https://github.com/practicalli/clojurescript/raw/main/docs/figwheel-main/run-tests.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/clojurescript/raw/main/docs/figwheel-workflow/continuous-testing.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-<h1 id="running-tests-once">Running tests once<a class="headerlink" href="#running-tests-once" title="Permanent link">λ︎</a></h1>
-<p>The <code>test</code> directory contains source code for unit tests, using a directory path matching the namespace they are testing from the <code>src</code> directory.  <code>-test</code> is added to the end of the test namespaces.  For example, if we have a source namespace of <code>practicalli.hello-world</code>, the tests would be in <code>practicalli.hello-world-test</code>.</p>
-<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-project-src-and-test-trees.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="ClojureScript - figwheel-main src and test trees" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-project-src-and-test-trees.png" /></a></p>
-<p>Use the <code>:test</code> alias with the <code>:fig</code> alias to run the Figwheel test runner</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>clojure<span class="w"> </span>-M:fig:test
+<h1 id="continuous-testing-during-development">Continuous testing during development<a class="headerlink" href="#continuous-testing-during-development" title="Permanent link">λ︎</a></h1>
+<p>Running a figwheel-main build includes continuous testing service, so you can instantly see the results of your tests once the application has started.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>clojure<span class="w"> </span>-M:fig:build
 </code></pre></div>
-<p>This will open a browser and connect to its JavaScript REPL and run the tests.</p>
-<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-test-runner-test-host-page.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel-main test runner - test host page" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-test-runner-test-host-page.png" /></a></p>
-<p>The results of the test run are printed to the terminal</p>
-<p><a class="glightbox" href="/images/figwheel-main-test-output-terminal.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel-main - test output in terminal" src="/images/figwheel-main-test-output-terminal.png" /></a></p>
-<blockquote>
-<p>Running tests this way may not be as fast as using the continuous testing approach (covered next)</p>
-</blockquote>
-<h2 id="test-configuration">Test configuration<a class="headerlink" href="#test-configuration" title="Permanent link">λ︎</a></h2>
-<p>The <code>:test</code> alias uses the <code>test.cljs.edn</code> build configuration to start the Figwheel test runner and runs all the test namespaces under the <code>test</code> directory.</p>
-<p><code>:test  {:main-opts ["-m" "figwheel.main" "-co" "test.cljs.edn" "-m" practicalli.test-runner]}</code></p>
-<p>The <code>test.cljs.edn</code> build configuration defines a separate URL to open the test host page, to avoid clashing with the URL to connect to the ClojureScript application itself.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">^</span><span class="p">{</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="c1">;; alternative landing page for the tests to avoid launching the application</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="ss">:open-url</span><span class="w"> </span><span class="s">&quot;http://[[server-hostname]]:[[server-port]]/test.html&quot;</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="c1">;; launch tests in a headless environment - update path to chrome on operating system</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="c1">;; :launch-js [&quot;/Applications/Google Chrome.app/Contents/MacOS/Google Chrome&quot; &quot;--headless&quot; &quot;--disable-gpu&quot; &quot;--repl&quot; :open-url]</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="p">}</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">{</span><span class="ss">:main</span><span class="w"> </span><span class="nv">practicalli.test-runner</span><span class="p">}</span>
-</code></pre></div>
+<p><a href="http://localhost:9500/figwheel-extra-main/auto-testing">http://localhost:9500/figwheel-extra-main/auto-testing</a> will show the live results of running the tests.</p>
+<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-tests-auto-testing-webpage.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel-main - tests - auto-testing webpage results" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-tests-auto-testing-webpage.png" /></a></p>
+<p>You may see the auto-testing host page display before showing the test results, or if the web page is reloaded (or if your tests take a long time to run or there are no tests to run)</p>
+<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-tests-auto-testing-host-page.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel-main - tests - auto-testng host page" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-tests-auto-testing-host-page.png" /></a></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 10, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 12, 2023</span>
       
     
   </small>
@@ -2729,7 +2659,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../run-figwheel-from-cider/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Emacs Cider">
+          <a href="../run-tests/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Run tests">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2739,20 +2669,20 @@ so PR's are of limited value at present. Some page links & images may be tempora
                 Previous
               </span>
               <div class="md-ellipsis">
-                Emacs Cider
+                Run tests
               </div>
             </div>
           </a>
         
         
           
-          <a href="../continuous-testing/" class="md-footer__link md-footer__link--next" aria-label="Next: Continuous Tests">
+          <a href="../package-project/" class="md-footer__link md-footer__link--next" aria-label="Next: Package project">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Continuous Tests
+                Package project
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -20,28 +20,28 @@
         <meta name="author" content="Practicalli">
       
       
-        <link rel="canonical" href="https://practical.li/clojurescript/figwheel-main/build-project/">
+        <link rel="canonical" href="https://practical.li/clojurescript/figwheel-workflow/">
       
       
-        <link rel="prev" href="../rebel/">
+        <link rel="prev" href="../install/browser-devtools/">
       
       
-        <link rel="next" href="../run-figwheel-from-cider/">
+        <link rel="next" href="create-project/">
       
       
-      <link rel="icon" href="../../assets/favicon.svg">
+      <link rel="icon" href="../assets/favicon.svg">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.5">
     
     
       
-        <title>Build project - Practicalli ClojureScript</title>
+        <title>Figwheel-main Workflow - Practicalli ClojureScript</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6a10b989.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6a10b989.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -60,9 +60,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -81,11 +81,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Build project - Practicalli ClojureScript" >
+        <meta  property="og:title"  content="Figwheel-main Workflow - Practicalli ClojureScript" >
       
         <meta  property="og:description"  content="Practical guide to ClojureScript programming language and Clojure REPL driven development" >
       
-        <meta  property="og:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-main/build-project.png" >
+        <meta  property="og:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-workflow/index.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -93,19 +93,19 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://practical.li/clojurescript/figwheel-main/build-project/" >
+        <meta  property="og:url"  content="https://practical.li/clojurescript/figwheel-workflow/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Build project - Practicalli ClojureScript" >
+        <meta  name="twitter:title"  content="Figwheel-main Workflow - Practicalli ClojureScript" >
       
         <meta  name="twitter:description"  content="Practical guide to ClojureScript programming language and Clojure REPL driven development" >
       
-        <meta  name="twitter:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-main/build-project.png" >
+        <meta  name="twitter:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-workflow/index.png" >
       
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -116,7 +116,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -138,7 +138,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#running-figwheel-and-building-the-project" class="md-skip">
+        <a href="#figwheel-main-workflow" class="md-skip">
           Skip to content
         </a>
       
@@ -191,7 +191,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
       target="_blank"
     >
       
-  <img src="../../assets/images/practicalli-logo.png" alt="logo">
+  <img src="../assets/images/practicalli-logo.png" alt="logo">
 
     </a>
 
@@ -209,7 +209,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
-             Build project 
+             Figwheel-main Workflow 
           </span>
         </div>
       </div>
@@ -361,9 +361,9 @@ so PR's are of limited value at present. Some page links & images may be tempora
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Practicalli ClojureScript" class="md-nav__button md-logo" aria-label="Practicalli ClojureScript" data-md-component="logo">
+    <a href=".." title="Practicalli ClojureScript" class="md-nav__button md-logo" aria-label="Practicalli ClojureScript" data-md-component="logo">
       
-  <img src="../../assets/images/practicalli-logo.png" alt="logo">
+  <img src="../assets/images/practicalli-logo.png" alt="logo">
 
     </a>
     Practicalli ClojureScript
@@ -425,7 +425,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../.." class="md-nav__link ">
+            <a href=".." class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -457,7 +457,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/clojurescript/" class="md-nav__link">
+      <a href="../introduction/clojurescript/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -477,7 +477,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/learn-clojurescript/" class="md-nav__link">
+      <a href="../introduction/learn-clojurescript/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -497,7 +497,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/repl-workflow/" class="md-nav__link">
+      <a href="../introduction/repl-workflow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -517,7 +517,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/reloadable-code/" class="md-nav__link">
+      <a href="../introduction/reloadable-code/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -537,7 +537,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/figwheel/" class="md-nav__link">
+      <a href="../introduction/figwheel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -557,7 +557,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/hiccup-style-syntax/" class="md-nav__link">
+      <a href="../introduction/hiccup-style-syntax/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -577,7 +577,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/contributing/" class="md-nav__link">
+      <a href="../introduction/contributing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -597,7 +597,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../introduction/writing-tips/" class="md-nav__link">
+      <a href="../introduction/writing-tips/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -646,7 +646,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../install/" class="md-nav__link ">
+            <a href="../install/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -678,7 +678,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../install/browser-devtools/" class="md-nav__link">
+      <a href="../install/browser-devtools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -747,7 +747,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   <span class="md-ellipsis">
@@ -758,7 +758,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -779,7 +779,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../create-project/" class="md-nav__link">
+      <a href="create-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -799,7 +799,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../project-configuration/" class="md-nav__link">
+      <a href="project-configuration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -819,7 +819,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../check-configuration/" class="md-nav__link">
+      <a href="check-configuration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -839,7 +839,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../rebel/" class="md-nav__link">
+      <a href="rebel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -857,18 +857,9 @@ so PR's are of limited value at present. Some page links & images may be tempora
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="build-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -877,7 +868,6 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
 
       </a>
-      
     </li>
   
 
@@ -889,7 +879,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../run-figwheel-from-cider/" class="md-nav__link">
+      <a href="run-figwheel-from-cider/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -909,7 +899,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../run-tests/" class="md-nav__link">
+      <a href="run-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -929,7 +919,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../continuous-testing/" class="md-nav__link">
+      <a href="continuous-testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -949,7 +939,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../package-project/" class="md-nav__link">
+      <a href="package-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -969,7 +959,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../pages-deploy/" class="md-nav__link">
+      <a href="pages-deploy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1020,7 +1010,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../figwheel-main-projects/" class="md-nav__link ">
+            <a href="../figwheel-main-projects/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1052,7 +1042,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../figwheel-main-projects/simple/" class="md-nav__link">
+      <a href="../figwheel-main-projects/simple/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1072,7 +1062,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../figwheel-main-projects/reagent/" class="md-nav__link">
+      <a href="../figwheel-main-projects/reagent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1125,7 +1115,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../web-design-basics/" class="md-nav__link ">
+            <a href="../web-design-basics/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1157,7 +1147,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../hiccup-style-syntax.md" class="md-nav__link">
+      <a href="../hiccup-style-syntax.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1177,7 +1167,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../css/bulma/" class="md-nav__link">
+      <a href="../css/bulma/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1243,7 +1233,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/bootstrap/" class="md-nav__link">
+      <a href="../web-design-basics/bootstrap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1263,7 +1253,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/bootstrap-container.md" class="md-nav__link">
+      <a href="../web-design-basics/bootstrap-container.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1283,7 +1273,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/bootstrap-jumbotron/" class="md-nav__link">
+      <a href="../web-design-basics/bootstrap-jumbotron/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1303,7 +1293,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-bootstrap-website/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-bootstrap-website/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1358,7 +1348,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reagent/" class="md-nav__link ">
+            <a href="../reagent/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1442,7 +1432,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../web-design-basics/clojurebridge-london-website/" class="md-nav__link ">
+            <a href="../web-design-basics/clojurebridge-london-website/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1474,7 +1464,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/create-project/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/create-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1494,7 +1484,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/add-bluma-css/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/add-bluma-css/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1514,7 +1504,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/run-the-project/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/run-the-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1534,7 +1524,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/live-reloading/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/live-reloading/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1554,7 +1544,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/hiccup-for-html/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/hiccup-for-html/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1574,7 +1564,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/repl-workflow/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/repl-workflow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1594,7 +1584,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/organising-the-code/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/organising-the-code/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1614,7 +1604,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/add-welcome-message/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/add-welcome-message/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1634,7 +1624,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/add-welcome-section/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/add-welcome-section/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1654,7 +1644,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/app-state-section/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/app-state-section/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1674,7 +1664,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/github-pages-deploy/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/github-pages-deploy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1694,7 +1684,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/deploy-build/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/deploy-build/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1714,7 +1704,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/add-content-namespace/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/add-content-namespace/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1734,7 +1724,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/add-navigation/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/add-navigation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1754,7 +1744,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../web-design-basics/clojurebridge-london-website/further-ideas/" class="md-nav__link">
+      <a href="../web-design-basics/clojurebridge-london-website/further-ideas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1867,7 +1857,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reagent-projects/tic-tac-toe/" class="md-nav__link ">
+            <a href="../reagent-projects/tic-tac-toe/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1899,7 +1889,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/create-project/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/create-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1919,7 +1909,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/add-project-to-git/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/add-project-to-git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1939,7 +1929,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/start-the-repl/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/start-the-repl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1959,7 +1949,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/test-figwheel/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/test-figwheel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1979,7 +1969,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/chrome-devtools/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/chrome-devtools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1999,7 +1989,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/cljs-devtools-addon/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/cljs-devtools-addon/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2019,7 +2009,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/review-reagent-project/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/review-reagent-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2039,7 +2029,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/figwheel-helper-functions/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/figwheel-helper-functions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2059,7 +2049,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/interact-with-the-repl/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/interact-with-the-repl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2079,7 +2069,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/interact-with-the-repl-via-editor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2099,7 +2089,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/interact-with-the-repl-evaluate-code.MD" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2119,7 +2109,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/reagent-design-manage-app-state/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/reagent-design-manage-app-state/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2139,7 +2129,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/component-tictactoe-game/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/component-tictactoe-game/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2159,7 +2149,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/design-game-board/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/design-game-board/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2179,7 +2169,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/component-game-board/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/component-game-board/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2199,7 +2189,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/hiccup-style-syntax.md" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/hiccup-style-syntax.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2219,7 +2209,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/svg-overview/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/svg-overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2239,7 +2229,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/react-unique-index/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/react-unique-index/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2259,7 +2249,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/render-game-board/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/render-game-board/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2279,7 +2269,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/update-game-board/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/update-game-board/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2299,7 +2289,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/refactor-into-components/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/refactor-into-components/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2319,7 +2309,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/refactor--empty-cell/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/refactor--empty-cell/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2339,7 +2329,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/refactor--nought-cell/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/refactor--nought-cell/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2359,7 +2349,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/refactor--cross-cell/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/refactor--cross-cell/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2379,7 +2369,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/button--start-a-new-game/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/button--start-a-new-game/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2399,7 +2389,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/computer-moves/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/computer-moves/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2419,7 +2409,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/computer-move--basic/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/computer-move--basic/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2439,7 +2429,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/computer-move--repl-experiments/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/computer-move--repl-experiments/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2459,7 +2449,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/computer-move--random-available-cell/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/computer-move--random-available-cell/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2479,7 +2469,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/detecting-victory/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/detecting-victory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2499,7 +2489,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2519,7 +2509,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/detecting-victory-repl-experiments-pattern-matching/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2539,7 +2529,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   
     <li class="md-nav__item">
-      <a href="../../reagent-projects/tic-tac-toe/detecting-victory-function/" class="md-nav__link">
+      <a href="../reagent-projects/tic-tac-toe/detecting-victory-function/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2580,6 +2570,21 @@ so PR's are of limited value at present. Some page links & images may be tempora
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2593,7 +2598,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
                   
 
   
-    <a href="https://github.com/practicalli/clojurescript/edit/main/docs/figwheel-main/build-project.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/clojurescript/edit/main/docs/figwheel-workflow/index.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2602,33 +2607,32 @@ so PR's are of limited value at present. Some page links & images may be tempora
     
       
     
-    <a href="https://github.com/practicalli/clojurescript/raw/main/docs/figwheel-main/build-project.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/clojurescript/raw/main/docs/figwheel-workflow/index.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-<h1 id="running-figwheel-and-building-the-project">Running figwheel and building the project<a class="headerlink" href="#running-figwheel-and-building-the-project" title="Permanent link">λ︎</a></h1>
-<p>Calling figwheel with a build configuration compiles the project ClojureScript code into JavaScript as figwheel starts.  The JavaScript code is sent to the JavaScript engine in the browser window that figwheel opened.</p>
-<p>Saved changes to the project ClojureScript files will automatically generate updates to the JavaScript code and send them to the JavaScript engine in the browser.</p>
-<p>The <code>:build</code> alias is used during development of a ClojureScript project</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>clojure<span class="w"> </span>-M:fig:build
-</code></pre></div>
-<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-project-hello-world-page.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel-main - project - hello world" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/figwheel-main-project-hello-world-page.png" /></a></p>
+<h1 id="figwheel-main-workflow">Figwheel-main Workflow<a class="headerlink" href="#figwheel-main-workflow" title="Permanent link">λ︎</a></h1>
+<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="right" alt="figwheel logo name" loading="lazy" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg" /></a></p>
+<p><a href="https://figwheel.org/">Figwheel-main</a> build tool and <a href="https://practical.li/clojure/clojure-cli/repl/">Rebel rich terminal UI</a> is a simple way to get started with ClojureScript development</p>
+<p>The <a href="https://github.com/bhauman/figwheel-main-template">figwheel-main template</a> creates a project with Clojure CLI configuration, providing example code and build configurations for development, testing and deployment workflows which are explored in some detail.</p>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">λ︎</a></h2>
+<p>Using Figwheel provides an simple way to develop, test and deploy ClojureScript projects, providing instant feedback as you develop to see exactly what the code does and help minimise bugs and avoid inappropriate design choices.</p>
+<p>Add aliases and build configurations customise the workflows for greater flexibility.  The configuration files are EDN, so are Clojure maps that are simple to work with and understand.</p>
+<p>There are more examples of options for figwheel-main projects on the <a href="https://figwheel.org/">https://figwheel.org/</a> website.</p>
 <blockquote>
-<p>The <code>:build</code> alias defines <code>figwheel.main</code> as the main namespace and the arguments passed to the <code>-main</code> function in that namespace.
-<code>"-b" "dev"</code> will used <code>dev.cljs.edn</code> as the configuration, <code>-r</code> option to run a REPL prompt (in this case using Rebel)</p>
-<p><code>:build {:main-opts ["-m" "figwheel.main" "-b" "dev" "-r"]}</code></p>
-<p>This configuration is the equivalent of running the command <code>clojure -M:fig -m figwheel.main -b dev -r</code></p>
+<p>lambdaisland/kaocha-cljs enables using kaocha test runner with ClojureScript project, although I am still working on an example once I've resolved <a href="https://github.com/lambdaisland/kaocha-cljs/issues/48">an issue with the configuration</a></p>
 </blockquote>
+<p><a class="glightbox" href="https://s3.amazonaws.com/bhauman-blog-images/figwheel-main/figwheel-main-demo-image.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel-main example screenshot of development" src="https://s3.amazonaws.com/bhauman-blog-images/figwheel-main/figwheel-main-demo-image.png" /></a></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 10, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 12, 2023</span>
       
     
   </small>
@@ -2664,7 +2668,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../rebel/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Rebel Rich UI">
+          <a href="../install/browser-devtools/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Browser DevTools">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2674,20 +2678,20 @@ so PR's are of limited value at present. Some page links & images may be tempora
                 Previous
               </span>
               <div class="md-ellipsis">
-                Rebel Rich UI
+                Browser DevTools
               </div>
             </div>
           </a>
         
         
           
-          <a href="../run-figwheel-from-cider/" class="md-footer__link md-footer__link--next" aria-label="Next: Emacs Cider">
+          <a href="create-project/" class="md-footer__link md-footer__link--next" aria-label="Next: Create Projects">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Emacs Cider
+                Create Projects
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -2795,10 +2799,10 @@ so PR's are of limited value at present. Some page links & images may be tempora
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

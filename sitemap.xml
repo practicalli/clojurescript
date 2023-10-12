@@ -261,61 +261,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/build-project/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/check-configuration/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/continuous-testing/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/create-project/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/package-project/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/pages-deploy/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/project-configuration/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/rebel/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/run-figwheel-from-cider/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://practical.li/clojurescript/figwheel-main/run-tests/</loc>
-         <lastmod>2023-10-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://practical.li/clojurescript/figwheel-main-projects/</loc>
          <lastmod>2023-10-12</lastmod>
          <changefreq>daily</changefreq>
@@ -387,6 +332,61 @@
     </url>
     <url>
          <loc>https://practical.li/clojurescript/figwheel-project/web-page/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/build-project/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/check-configuration/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/continuous-testing/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/create-project/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/package-project/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/pages-deploy/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/project-configuration/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/rebel/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/run-figwheel-from-cider/</loc>
+         <lastmod>2023-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojurescript/figwheel-workflow/run-tests/</loc>
          <lastmod>2023-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>

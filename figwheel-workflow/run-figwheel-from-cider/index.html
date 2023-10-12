@@ -20,13 +20,13 @@
         <meta name="author" content="Practicalli">
       
       
-        <link rel="canonical" href="https://practical.li/clojurescript/figwheel-main/rebel/">
+        <link rel="canonical" href="https://practical.li/clojurescript/figwheel-workflow/run-figwheel-from-cider/">
       
       
-        <link rel="prev" href="../check-configuration/">
+        <link rel="prev" href="../build-project/">
       
       
-        <link rel="next" href="../build-project/">
+        <link rel="next" href="../run-tests/">
       
       
       <link rel="icon" href="../../assets/favicon.svg">
@@ -34,7 +34,7 @@
     
     
       
-        <title>Rebel Rich UI - Practicalli ClojureScript</title>
+        <title>Emacs Cider - Practicalli ClojureScript</title>
       
     
     
@@ -81,11 +81,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Rebel Rich UI - Practicalli ClojureScript" >
+        <meta  property="og:title"  content="Emacs Cider - Practicalli ClojureScript" >
       
         <meta  property="og:description"  content="Practical guide to ClojureScript programming language and Clojure REPL driven development" >
       
-        <meta  property="og:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-main/rebel.png" >
+        <meta  property="og:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-workflow/run-figwheel-from-cider.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -93,15 +93,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://practical.li/clojurescript/figwheel-main/rebel/" >
+        <meta  property="og:url"  content="https://practical.li/clojurescript/figwheel-workflow/run-figwheel-from-cider/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Rebel Rich UI - Practicalli ClojureScript" >
+        <meta  name="twitter:title"  content="Emacs Cider - Practicalli ClojureScript" >
       
         <meta  name="twitter:description"  content="Practical guide to ClojureScript programming language and Clojure REPL driven development" >
       
-        <meta  name="twitter:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-main/rebel.png" >
+        <meta  name="twitter:image"  content="https://practical.li/clojurescript/assets/images/social/figwheel-workflow/run-figwheel-from-cider.png" >
       
     
     
@@ -138,7 +138,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rich-repl-ui-with-rebel" class="md-skip">
+        <a href="#run-figwheel-main-from-emacs-cider" class="md-skip">
           Skip to content
         </a>
       
@@ -209,7 +209,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
-             Rebel Rich UI 
+             Emacs Cider 
           </span>
         </div>
       </div>
@@ -837,18 +837,9 @@ so PR's are of limited value at present. Some page links & images may be tempora
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../rebel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -857,7 +848,6 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
 
       </a>
-      
     </li>
   
 
@@ -887,9 +877,18 @@ so PR's are of limited value at present. Some page links & images may be tempora
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../run-figwheel-from-cider/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -898,6 +897,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
 
       </a>
+      
     </li>
   
 
@@ -2593,7 +2593,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
                   
 
   
-    <a href="https://github.com/practicalli/clojurescript/edit/main/docs/figwheel-main/rebel.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/clojurescript/edit/main/docs/figwheel-workflow/run-figwheel-from-cider.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2602,24 +2602,24 @@ so PR's are of limited value at present. Some page links & images may be tempora
     
       
     
-    <a href="https://github.com/practicalli/clojurescript/raw/main/docs/figwheel-main/rebel.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/clojurescript/raw/main/docs/figwheel-workflow/run-figwheel-from-cider.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-<h1 id="rich-repl-ui-with-rebel">Rich REPL UI with Rebel<a class="headerlink" href="#rich-repl-ui-with-rebel" title="Permanent link">λ︎</a></h1>
-<p>Figwheel will run Rebel readline to start the REPL, as the <code>:fig</code> alias includes <code>com.bhauman/rebel-readline-cljs</code> as an extra dependency.</p>
-<p>Rebel provides syntax highlighted code, auto-completion, commands to manage the REPL and Clojure documentation help, all within its rich command line.</p>
-<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/clojure-cli-figwheel-main-without-build.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Clojure CLI tools - Figwheel-main - rebel readline" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojurescript/figwheel/clojure-cli-figwheel-main-without-build.png" /></a></p>
-<p>Typing <code>:repl/help</code> as a command at the Rebel prompt shows characters are syntax highlighted. The command provides a quick reference for Rebels capabilities.</p>
-<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojure/rebel/rebel-repl-help-menu.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel-main - repl help" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojure/rebel/rebel-repl-help-menu.png" /></a></p>
-<p>Evaluate expressions by typing them at the Rebel prompt and pressing <code>RET</code>, e.g. <code>(map inc [2 4 6 8])</code></p>
-<p>JavaScript interop code also works from the Rebel prompt, e.g. <code>(js/alert "Notification from the command line")</code> will display an alert in the browser.</p>
+<h1 id="run-figwheel-main-from-emacs-cider">Run Figwheel-main from Emacs Cider<a class="headerlink" href="#run-figwheel-main-from-emacs-cider" title="Permanent link">λ︎</a></h1>
+<p>Figwheel-main projects can be run from Emacs with CIDER using the <code>cider-jack-in-cljs</code> command.  The user is prompted for the build name to use.</p>
+<p><a href="https://practicalli.github.io/blog/posts/cider-jack-in-to-clojure-cli-projects-from-spacemacs/">Emacs CIDER Jack-in with Clojure CLI projects</a> benefits from a <code>.dir-locals.el</code> file to set the <code>:fig</code> alias (and any other aliases) and the figwheel build configuration when starting the Clojure REPL.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">((</span><span class="nv">clojure-mode</span><span class="w"> </span><span class="o">.</span><span class="w"> </span><span class="p">((</span><span class="nv">cider-preferred-build-tool</span><span class="w">          </span><span class="o">.</span><span class="w"> </span><span class="nv">clojure-cli</span><span class="p">)</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">                  </span><span class="p">(</span><span class="nv">cider-clojure-cli-aliases</span><span class="w">           </span><span class="o">.</span><span class="w"> </span><span class="s">&quot;:fig&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">                  </span><span class="p">(</span><span class="nv">cider-default-cljs-repl</span><span class="w">             </span><span class="o">.</span><span class="w"> </span><span class="nv">figwheel-main</span><span class="p">)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">                  </span><span class="p">(</span><span class="nv">cider-figwheel-main-default-options</span><span class="w"> </span><span class="o">.</span><span class="w"> </span><span class="s">&quot;dev&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">                  </span><span class="p">(</span><span class="nv">cider-repl-display-help-banner</span><span class="w">      </span><span class="o">.</span><span class="w"> </span><span class="no">nil</span><span class="p">))))</span>
+</code></pre></div>
 <blockquote>
-<p>Practicalli Clojure provides examples of <a href="https://practical.li/clojure/clojure-cli/repl/">using Rebel as a rich terminal UI for the Clojure REPL</a></p>
-<p>The <code>clojure</code> command should be used to run Rebel.  The <code>clj</code> wrapper script calls <code>rlwrap</code> which conflicts with Rebel, as they are both readline tools.</p>
+<p>Use <code>cider-connect-cljs</code> to connect Emacs to a REPL (nREPL) process that is already running, i.e. via the <code>clojure -M:fig:build</code> command in the terminal.</p>
 </blockquote>
 
   <hr>
@@ -2627,7 +2627,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 10, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 12, 2023</span>
       
     
   </small>
@@ -2663,7 +2663,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../check-configuration/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Run Figwheel">
+          <a href="../build-project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Build project">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2673,20 +2673,20 @@ so PR's are of limited value at present. Some page links & images may be tempora
                 Previous
               </span>
               <div class="md-ellipsis">
-                Run Figwheel
+                Build project
               </div>
             </div>
           </a>
         
         
           
-          <a href="../build-project/" class="md-footer__link md-footer__link--next" aria-label="Next: Build project">
+          <a href="../run-tests/" class="md-footer__link md-footer__link--next" aria-label="Next: Run tests">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Build project
+                Run tests
               </div>
             </div>
             <div class="md-footer__button md-icon">
