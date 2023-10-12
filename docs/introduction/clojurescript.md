@@ -28,12 +28,12 @@ Clojure aware editors have the same core functionality, so initial choice is not
 
 ## Build Automation
 
-ClojureScript is trans-piled into JavaScript before running in a JavaScript browser engine or on node.js.
+ClojureScript is trans-piled (compiled) into JavaScript before running in a JavaScript browser engine or on node.js.
 
-The main tools to support this workflow:
+The main tools to support the ClojureScript workflow:
 
 * Figwheel - ClojureScript focused with the ability to bundle JavaScript npm packages (typically the simplest approach)
-* Shadow-cljs - implmentation of ClojureScipt for node.js and therefore deeply integrated into the npm infrastructure (initially more complex but potential simpler if managing a large amount of npm packages and dependencies)
+* Shadow-cljs - implementation of ClojureScipt for node.js and therefore deeply integrated into the npm infrastructure (initially more complex but potential simpler when managing a significant amount of npm packages and dependencies)
 
 
 ### Fighweel
