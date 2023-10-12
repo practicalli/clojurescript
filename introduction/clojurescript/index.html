@@ -2744,25 +2744,26 @@ so PR's are of limited value at present. Some page links & images may be tempora
 
 
 <h1 id="clojurescript-overview">ClojureScript Overview<a class="headerlink" href="#clojurescript-overview" title="Permanent link">λ︎</a></h1>
-<p><a href="https://clojurescript.org/reference/documentation" target="_blank">ClojureScript</a> is an implementation of the <a href="https://clojurescript.org/reference/documentation" target="_blank">Clojure programming language</a> for the JavaScript platform (JavaScript browsers and node.js)</p>
-<p>The main difference of course between Clojure &amp; ClojureScript is the host (Java or JavaScript) and the type of applications &amp; services built with each language.</p>
-<p>ClojureScript is predominately used for front-end applications, although can also be used as full stack solutions using node.js server.</p>
+<p><a href="https://clojurescript.org/reference/documentation" target="_blank">ClojureScript</a> is an implementation of the <a href="https://clojurescript.org/reference/documentation" target="_blank">Clojure programming language</a> for the JavaScript platform (JavaScript browser engines and node.js)</p>
+<p>The essentail differences between Clojure &amp; ClojureScript are the host platform (Java or JavaScript) and the type of applications &amp; services built with each language.</p>
+<p>ClojureScript is predominately used for front-end applications, although can also be used as full stack solutions using a Clojure or node.js back-end server.</p>
 <details class="info">
 <summary>Minor Language differences</summary>
-<p>Due to limitations of the host JavaScript platform, some language features of Clojure are not available in ClojureScipt</p>
+<p>Due to differences between the Java and JavaScript host platforms, a small number of differences occur between Clojure and ClojureScript development.</p>
 <p><a class="md-button" href="https://www.clojurescript.org/about/differences" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg></span> ClojureScipt differences from Clojure</a></p>
+<p>Code which is independent of host can be written in Clojure common files, i.e. <code>*.cljc</code> file name extension.</p>
 </details>
 <h2 id="learning-clojurescipt">Learning ClojureScipt<a class="headerlink" href="#learning-clojurescipt" title="Permanent link">λ︎</a></h2>
 <p><a class="md-button" href="/clojurescript/introduction/learn-clojurescript/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Learning ClojureScript Section</a></p>
 <h2 id="development-tools">Development Tools<a class="headerlink" href="#development-tools" title="Permanent link">λ︎</a></h2>
-<p>There are many <a href="https://practical.li/clojure/clojure-editors/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Clojure aware Editors</a> available. Use an editor most familiar with to minimise the initial learning curve.</p>
+<p><a href="https://practical.li/clojure/clojure-editors/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Clojure aware Editors</a> also support ClojureScript. Use an editor most familiar with to minimise the initial learning curve.</p>
 <p>Clojure aware editors have the same core functionality, so initial choice is not that important.  As experience of ClojureScript grows, additional features can become valuable and a review of editor tooling can be done with more insight and understanding.</p>
 <h2 id="build-automation">Build Automation<a class="headerlink" href="#build-automation" title="Permanent link">λ︎</a></h2>
-<p>ClojureScript is trans-piled into JavaScript before running in a JavaScript browser engine or on node.js.</p>
-<p>The main tools to support this workflow:</p>
+<p>ClojureScript is trans-piled (compiled) into JavaScript before running in a JavaScript browser engine or on node.js.</p>
+<p>The main tools to support the ClojureScript workflow:</p>
 <ul>
 <li>Figwheel - ClojureScript focused with the ability to bundle JavaScript npm packages (typically the simplest approach)</li>
-<li>Shadow-cljs - implmentation of ClojureScipt for node.js and therefore deeply integrated into the npm infrastructure (initially more complex but potential simpler if managing a large amount of npm packages and dependencies)</li>
+<li>Shadow-cljs - implementation of ClojureScipt for node.js and therefore deeply integrated into the npm infrastructure (initially more complex but potential simpler when managing a significant amount of npm packages and dependencies)</li>
 </ul>
 <h3 id="fighweel">Fighweel<a class="headerlink" href="#fighweel" title="Permanent link">λ︎</a></h3>
 <p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="right" alt="figwheel logo name" loading="lazy" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg" style="height:92;width:92px" /></a></p>
@@ -2793,7 +2794,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 8, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 12, 2023</span>
       
     
   </small>
