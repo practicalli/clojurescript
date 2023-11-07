@@ -101,9 +101,9 @@ plugins:
       cards: !ENV [MKDOCS_SOCIAL_CARDS_GENERATE, true]
 
   # Redirect pages when moved or changed
-  # - redirects:
-  #     redirect_maps:
-  #       repl-driven-development.md: introduction/repl-workflow.md
+  - redirects:
+      redirect_maps:
+        figwheel-main/: figwheel-workflow
   #       clojure-cli/data-browsers: data-inspector/
 
 # Footer / Social Media
