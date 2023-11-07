@@ -135,6 +135,7 @@ nav:
       - Reloadable Code: introduction/reloadable-code.md
       - Figwheel: introduction/figwheel.md
       - Hiccup: introduction/hiccup-style-syntax.md
+      - Google Closure Library: docs/introduction/google-closure-library.md
       - Contributing: introduction/contributing.md
       # - Single Page Apps: overview/single-page-apps.md
       # - Compiling to JavaScript: overview/compiling-to-javascript.md
