@@ -1,9 +1,10 @@
 # Google Closure
 
-In order to abstract away JavaScript environment differences ClojureScript relies on the [Google Closure Library](https://developers.google.com/closure/library/) (GCL). GCL supplies an important facility missing from JavaScript: namespaces and a way to declare dependencies between them. In fact ClojureScript namespaces get compiled to Google Closure namespaces.
+ClojueScript uses [Google Closure Library](https://developers.google.com/closure/library/) (GCL) to abstract away JavaScript environment differences. GCL provides support for namespaces and a means to declare dependencies between them. ClojureScript namespaces are compiled to Google Closure namespaces.
 
-Loading dependencies correctly across various browser targets is a surprisingly tricky affair. GCL accomplishes this by maintaining a
-dependency graph. When you require a namespace it will write the needed script tags in dependency order for you.
+Loading dependencies correctly across various browser targets is a surprisingly tricky affair.l 
+
+GCL maintains a dependency graph of the project to manage the loading of dependencies correctly, especially across various browser targets. Require a namespace in ClojureScript and GCL writes the script tags in dependency order.
 
 So what went wrong? If you look at `out/main.js` you will see some dependency graph building calls:
 
