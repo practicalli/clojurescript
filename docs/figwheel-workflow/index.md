@@ -19,3 +19,10 @@ There are more examples of options for figwheel-main projects on the https://fig
 
 
 ![Figwheel-main example screenshot of development](https://s3.amazonaws.com/bhauman-blog-images/figwheel-main/figwheel-main-demo-image.png)
+
+
+
+??? INFO "Current version"
+    ```clojure
+    com.bhauman/figwheel-main {:mvn/version "0.2.18"}
+    ```
