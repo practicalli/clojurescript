@@ -30,7 +30,7 @@
       
       
       <link rel="icon" href="../../assets/favicon.svg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.5">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
@@ -38,7 +38,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6a10b989.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4b4a2bd9.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
@@ -138,7 +138,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#figwheel" class="md-skip">
+        <a href="#figwheel-interactive-development" class="md-skip">
           Skip to content
         </a>
       
@@ -183,10 +183,10 @@ so PR's are of limited value at present. Some page links & images may be tempora
 
     <!-- Custom: Link to Practical.li -->
     <a
-      href="https://practical.li/"
-      title="https://practical.li/"
+      href="https://practical.li"
+      title="https://practical.li"
       class="md-header__button md-logo"
-      aria-label="https://practical.li/"
+      aria-label="https://practical.li"
       data-md-component="logo"
       target="_blank"
     >
@@ -413,6 +413,8 @@ so PR's are of limited value at present. Some page links & images may be tempora
       
         
       
+        
+      
     
     
     
@@ -585,6 +587,13 @@ so PR's are of limited value at present. Some page links & images may be tempora
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#figwheel-in-action" class="md-nav__link">
+    Figwheel in action
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#live-code-reloading" class="md-nav__link">
     Live code reloading
   </a>
@@ -667,6 +676,26 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   <span class="md-ellipsis">
     Hiccup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/introduction/google-closure-library.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Closure Library
   </span>
   
 
@@ -2680,6 +2709,13 @@ so PR's are of limited value at present. Some page links & images may be tempora
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#figwheel-in-action" class="md-nav__link">
+    Figwheel in action
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#live-code-reloading" class="md-nav__link">
     Live code reloading
   </a>
@@ -2773,19 +2809,23 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
 
 
-<h1 id="figwheel">Figwheel<a class="headerlink" href="#figwheel" title="Permanent link">λ︎</a></h1>
+<h1 id="figwheel-interactive-development">Figwheel interactive development<a class="headerlink" href="#figwheel-interactive-development" title="Permanent link">λ︎</a></h1>
 <p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="right" alt="figwheel logo name" loading="lazy" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-figwheel-logo-name.svg" /></a></p>
-<p>Figwheel builds your ClojureScript code and hot loads it into the browser as you are coding!</p>
+<p>Figwheel is a tool that provides instant feedback during the development of ClojureScript projects.</p>
+<p>On startup, Figwheel automatically compiles ClojureScript code into JavaScript and opens the app in a web browser.</p>
+<p>Everytime ClojureScript code changes are saved to file, Figwheel compiles the new code in the background and pushes updates to the app in the web browser, providing instant feedback.</p>
+<p>Figwheel uses build configuration (EDN) files to specify build options, including optimising compilation using <a href="google-clojure/">Google Closure compiler</a> for minimal sized apps for deployment.  Testing is also defined via an EDN build configuration. </p>
+<details class="info">
+<summary>Figwheel-main and figwheel</summary>
+<p>Figwheel-main is the current Figwheel tool.  figwheel is the orginal project which is superseded by figwheel-main.</p>
+<p>The term Figwheel refers to the Figwheel-main tool across the book, unless otherwise stated. </p>
+</details>
+<h2 id="figwheel-in-action">Figwheel in action<a class="headerlink" href="#figwheel-in-action" title="Permanent link">λ︎</a></h2>
 <ul>
-<li>A 6 minute <a href="https://www.youtube.com/watch?v=KZjFVdU8VLI">flappy bird demo of figwheel</a></li>
-<li>A more detailed 45 minute <a href="https://www.youtube.com/watch?v=j-kj2qwJa_E">talk on Figwheel</a> given at ClojureWest 2015.</li>
+<li>6 minute <a href="https://www.youtube.com/watch?v=KZjFVdU8VLI">flappy bird demo of figwheel</a></li>
+<li>45 minute <a href="https://www.youtube.com/watch?v=j-kj2qwJa_E">talk on Figwheel</a> given at ClojureWest 2015.</li>
 <li>An <a href="http://rigsomelight.com/2014/05/01/interactive-programming-flappy-bird-clojurescript.html">introductory blog post</a>.</li>
 </ul>
-<div class="admonition info">
-<p class="admonition-title">Current version</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">com.bhauman/figwheel-main</span><span class="w"> </span><span class="p">{</span><span class="ss">:mvn/version</span><span class="w"> </span><span class="s">&quot;0.2.18&quot;</span><span class="p">}</span>
-</code></pre></div>
-</div>
 <p><a class="glightbox" href="https://s3.amazonaws.com/bhauman-blog-images/figwheel_image.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Figwheel heads up example" src="https://s3.amazonaws.com/bhauman-blog-images/figwheel_image.png" /></a></p>
 <details class="warning">
 <summary>Figwheel-main superseds Figwheel</summary>
@@ -2820,7 +2860,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 13, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 12, 2023</span>
       
     
   </small>
@@ -2990,7 +3030,7 @@ so PR's are of limited value at present. Some page links & images may be tempora
     <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

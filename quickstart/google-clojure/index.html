@@ -26,7 +26,7 @@
       
       
       <link rel="icon" href="../../assets/favicon.svg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.5">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
@@ -34,7 +34,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6a10b989.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4b4a2bd9.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
@@ -179,10 +179,10 @@ so PR's are of limited value at present. Some page links & images may be tempora
 
     <!-- Custom: Link to Practical.li -->
     <a
-      href="https://practical.li/"
-      title="https://practical.li/"
+      href="https://practical.li"
+      title="https://practical.li"
       class="md-header__button md-logo"
-      aria-label="https://practical.li/"
+      aria-label="https://practical.li"
       data-md-component="logo"
       target="_blank"
     >
@@ -407,6 +407,8 @@ so PR's are of limited value at present. Some page links & images may be tempora
       
         
       
+        
+      
     
     
     
@@ -558,6 +560,26 @@ so PR's are of limited value at present. Some page links & images may be tempora
   
   <span class="md-ellipsis">
     Hiccup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docs/introduction/google-closure-library.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Closure Library
   </span>
   
 
@@ -2594,9 +2616,9 @@ so PR's are of limited value at present. Some page links & images may be tempora
 
 
 <h1 id="google-closure">Google Closure<a class="headerlink" href="#google-closure" title="Permanent link">λ︎</a></h1>
-<p>In order to abstract away JavaScript environment differences ClojureScript relies on the <a href="https://developers.google.com/closure/library/">Google Closure Library</a> (GCL). GCL supplies an important facility missing from JavaScript: namespaces and a way to declare dependencies between them. In fact ClojureScript namespaces get compiled to Google Closure namespaces.</p>
-<p>Loading dependencies correctly across various browser targets is a surprisingly tricky affair. GCL accomplishes this by maintaining a
-dependency graph. When you require a namespace it will write the needed script tags in dependency order for you.</p>
+<p>ClojueScript uses <a href="https://developers.google.com/closure/library/">Google Closure Library</a> (GCL) to abstract away JavaScript environment differences. GCL provides support for namespaces and a means to declare dependencies between them. ClojureScript namespaces are compiled to Google Closure namespaces.</p>
+<p>Loading dependencies correctly across various browser targets is a surprisingly tricky affair.l </p>
+<p>GCL maintains a dependency graph of the project to manage the loading of dependencies correctly, especially across various browser targets. Require a namespace in ClojureScript and GCL writes the script tags in dependency order.</p>
 <p>So what went wrong? If you look at <code>out/main.js</code> you will see some dependency graph building calls:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">goog</span><span class="p">.</span><span class="nx">addDependency</span><span class="p">(</span><span class="s2">&quot;base.js&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;goog&#39;</span><span class="p">],</span><span class="w"> </span><span class="p">[]);</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nx">goog</span><span class="p">.</span><span class="nx">addDependency</span><span class="p">(</span><span class="s2">&quot;../cljs/core.js&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;cljs.core&#39;</span><span class="p">],</span><span class="w"> </span><span class="p">...);</span>
@@ -2642,7 +2664,7 @@ thanks to source mapping (some browsers like Chrome require you to first enable 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 10, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 7, 2023</span>
       
     
   </small>
@@ -2774,7 +2796,7 @@ thanks to source mapping (some browsers like Chrome require you to first enable 
     <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
