@@ -17,10 +17,19 @@ In a terminal, use the following command:
 clojure -M:project/new figwheel-main practicalli/hello-world -- --reagent
 ```
 
-> The `:project/new` alias is defined in [practicalli/clojure-deps-edn user-level configuration](https://practical.li/clojure/clojure-cli/install/community-tools.html) and supports `-M`, `-X` and `T` execution flags.
-> The `-X` and `-T` flags use a command with key value arguments
->
-> `clojure -T:project/new :template figwheel-main :name practicalli/landing-page :args '["+reagent"]'`
+??? HINT ":project/new alias"
+    The `:project/new` alias is defined in [Practicalli Clojure CLI config](https://practical.li/clojure/clojure-cli/practicalli-config/) and supports `-M`, `-X` and `T` execution flags.
+    The `-X` and `-T` flags use a command with key value arguments.  Strings and Clojure data structures (vector, hash-map) should be surrounded with single quotes
+    ```shell
+    clojure -T:project/new :template figwheel-main :name practicalli/landing-page :args '["+reagent"]'
+    ```
+
+!!! HINT "Practicalli Templates - Landing page"
+    [Practicalli Templates](https://practical.li/clojure/clojure-cli/projects/templates/practicalli/) includes a `:template/landing-page` template that creates a working landing page ClojureScript project with figwheel-main.
+    ```shell
+    clojure -T:project/create :template practicalli/landing-page :name practicalli/landing-page
+    ```
+    The `:project/create` alias is defined in [Practicalli Clojure CLI config](https://practical.li/clojure/clojure-cli/practicalli-config/)
 
 
 The `practicalli/hello-world` defines the main application namespace as `hello-world` and `practicalli` as the domain.
