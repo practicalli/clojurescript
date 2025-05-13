@@ -1,10 +1,11 @@
 # Changelog
 
 ## Unreleased
-- ci: spell lychee & repository trufflehog linters warn only (false positives) 
 
 ### Added
 ### Changed
+- ci: spell lychee & repository trufflehog linters warn only (false positives)
+- dev: ci scheduled stale issue & pr check (monthly)
 
 * 2023-03-10
 ### Added
